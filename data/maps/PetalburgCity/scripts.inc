@@ -240,6 +240,10 @@ PetalburgCity_EventScript_WallyHouseSign::
 	msgbox PetalburgCity_Text_WallyHouseSign, MSGBOX_SIGN
 	end
 
+PetalburgCity_EventScript_NormanHouseSign::
+	msgbox PetalburgCity_Text_NormanHouseSign, MSGBOX_SIGN
+	end
+
 PetalburgCity_EventScript_ShowGymToPlayer0::
 	lockall
 	setvar VAR_0x8008, 0
@@ -748,6 +752,9 @@ PetalburgCity_Text_CitySign:
 
 PetalburgCity_Text_WallyHouseSign:
 	.string "WALLY'S HOUSE$"
+
+PetalburgCity_Text_NormanHouseSign:
+	.string "NORMAN'S HOUSE$"
 
 PetalburgCity_Text_AreYouATrainer:
 	.string "Excuse me!\p"
