@@ -1,8 +1,8 @@
-.set LOCALID_WALLY, 2
-.set LOCALID_BOY, 3
-.set LOCALID_WALLYS_DAD, 5
-.set LOCALID_GYM_BOY, 8
-.set LOCALID_SCOTT, 9
+.set LOCALID_WALLY, 1
+.set LOCALID_BOY, 2
+.set LOCALID_WALLYS_DAD, 4
+.set LOCALID_GYM_BOY, 7
+.set LOCALID_SCOTT, 8
 
 PetalburgCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_OnTransition
@@ -89,10 +89,6 @@ PetalburgCity_EventScript_Boy::
 	applymovement LOCALID_BOY, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
-	end
-
-PetalburgCity_EventScript_WallysMom::
-	msgbox PetalburgCity_Text_WhereIsWally, MSGBOX_NPC
 	end
 
 PetalburgCity_Movement_WalkToWallyHousePlayer:
@@ -702,11 +698,6 @@ PetalburgCity_Movement_PlayerWatchScottExit3:
 PetalburgCity_EventScript_GymBoy::
 	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
 	end
-
-PetalburgCity_Text_WhereIsWally:
-	.string "Where has our WALLY gone?\p"
-	.string "We have to leave for VERDANTURF TOWN\n"
-	.string "very soon…$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
 	.string "Hiya! Are you maybe…\n"
