@@ -1195,7 +1195,7 @@ PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 	.string "DAD: Hm? You're… Uh… Oh, right.\n"
-	.string "You're Wally, right?$"
+	.string "Hello Wally.$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "WALLY: I'm going to go stay with my\n"
