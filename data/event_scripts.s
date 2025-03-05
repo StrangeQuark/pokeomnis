@@ -672,7 +672,7 @@ gStdScripts_End::
     .include "data/maps/PalletTown/scripts.inc"
     .include "data/maps/PetalburgCity/scripts.inc"
     .include "data/maps/PetalburgCity_Gym/scripts.inc"
-    .include "data/maps/PetalburgCity_House1/scripts.inc"
+    .include "data/maps/PetalburgCity_ParentsHouse/scripts.inc"
     .include "data/maps/PetalburgCity_House2/scripts.inc"
     .include "data/maps/PetalburgCity_Mart/scripts.inc"
     .include "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc"
