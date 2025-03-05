@@ -1,33 +1,33 @@
 .set LOCALID_RIVAL, 1
 
-LittlerootTown_BrendansHouse_2F_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_BrendansHouse_2F_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_BrendansHouse_2F_OnWarp
+LittlerootTown_PlayersHouse_2F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_PlayersHouse_2F_OnTransition
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_PlayersHouse_2F_OnWarp
 	.byte 0
 
-LittlerootTown_BrendansHouse_2F_OnTransition:
+LittlerootTown_PlayersHouse_2F_OnTransition:
 	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
 	call SecretBase_EventScript_SetDecorationFlags
 	setvar VAR_SECRET_BASE_INITIALIZED, 0
 	end
 
-LittlerootTown_BrendansHouse_2F_OnWarp:
-	map_script_2 VAR_SECRET_BASE_INITIALIZED, 0, LittlerootTown_BrendansHouse_2F_EventScript_CheckInitDecor
+LittlerootTown_PlayersHouse_2F_OnWarp:
+	map_script_2 VAR_SECRET_BASE_INITIALIZED, 0, LittlerootTown_PlayersHouse_2F_EventScript_CheckInitDecor
 	.2byte 0
 
-LittlerootTown_BrendansHouse_2F_EventScript_CheckInitDecor::
+LittlerootTown_PlayersHouse_2F_EventScript_CheckInitDecor::
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, SecretBase_EventScript_InitDecorations
 	end
 
-LittlerootTown_BrendansHouse_2F_EventScript_PC::
+LittlerootTown_PlayersHouse_2F_EventScript_PC::
 	lockall
 	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, LittlerootTown_BrendansHouse_2F_EventScript_CheckPlayersPC
-	goto_if_eq VAR_RESULT, FEMALE, LittlerootTown_BrendansHouse_2F_EventScript_CheckRivalsPC
+	goto_if_eq VAR_RESULT, MALE, LittlerootTown_PlayersHouse_2F_EventScript_CheckPlayersPC
+	goto_if_eq VAR_RESULT, FEMALE, LittlerootTown_PlayersHouse_2F_EventScript_CheckRivalsPC
 	end
 
-LittlerootTown_BrendansHouse_2F_EventScript_CheckPlayersPC::
+LittlerootTown_PlayersHouse_2F_EventScript_CheckPlayersPC::
 	setvar VAR_0x8004, PC_LOCATION_BRENDANS_HOUSE
 	special DoPCTurnOnEffect
 	playse SE_PC_ON
@@ -37,14 +37,14 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckPlayersPC::
 	releaseall
 	end
 
-LittlerootTown_BrendansHouse_2F_EventScript_TurnOffPlayerPC::
+LittlerootTown_PlayersHouse_2F_EventScript_TurnOffPlayerPC::
 	setvar VAR_0x8004, PC_LOCATION_BRENDANS_HOUSE
 	playse SE_PC_OFF
 	special DoPCTurnOffEffect
 	releaseall
 	end
 
-LittlerootTown_BrendansHouse_2F_EventScript_CheckRivalsPC::
+LittlerootTown_PlayersHouse_2F_EventScript_CheckRivalsPC::
 	msgbox gText_PokemonTrainerSchoolEmail, MSGBOX_DEFAULT
 	releaseall
 	end

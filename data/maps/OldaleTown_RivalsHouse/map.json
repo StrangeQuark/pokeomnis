@@ -1,6 +1,6 @@
 {
-  "id": "MAP_OLDALE_TOWN_HOUSE1",
-  "name": "OldaleTown_House1",
+  "id": "MAP_OLDALE_TOWN_RIVALS_HOUSE",
+  "name": "OldaleTown_RivalsHouse",
   "layout": "LAYOUT_HOUSE1",
   "music": "MUS_OLDALE",
   "region_map_section": "MAPSEC_OLDALE_TOWN",
@@ -37,7 +37,7 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OldaleTown_House1_EventScript_Rival",
+      "script": "OldaleTown_RivalsHouse_EventScript_Rival",
       "flag": "FLAG_HIDE_OLDALE_TOWN_RIVAL"
     }
   ],
