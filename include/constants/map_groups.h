@@ -65,8 +65,8 @@
 #define MAP_UNDERWATER_ROUTE125 (56 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
-#define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
-#define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F    (1 | (1 << 8))
+#define MAP_LITTLEROOT_TOWN_PLAYERS_HOUSE_1F     (0 | (1 << 8))
+#define MAP_LITTLEROOT_TOWN_PLAYERS_HOUSE_2F     (1 | (1 << 8))
 #define MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F        (2 | (1 << 8))
 #define MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F        (3 | (1 << 8))
 #define MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB (4 | (1 << 8))
