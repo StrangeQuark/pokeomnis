@@ -1,14 +1,14 @@
-PetalburgCity_House1_MapScripts::
+PetalburgCity_ParentsHouse_MapScripts::
 	.byte 0
 
-PetalburgCity_House1_EventScript_GreetMom::
+PetalburgCity_ParentsHouse_EventScript_GreetMom::
 	lock
 	faceplayer
-	msgbox PetalburgCity_House1_Text_MomGreetsPlayer, MSGBOX_DEFAULT
+	msgbox PetalburgCity_ParentsHouse_Text_MomGreetsPlayer, MSGBOX_DEFAULT
 	release
 	end
 
-PetalburgCity_House1_Text_MomGreetsPlayer:
+PetalburgCity_ParentsHouse_Text_MomGreetsPlayer:
 	.string "Oh {PLAYER}! I'm so glad to see you!\p"
 	.string "How are things going for you in\n"
 	.string "Littleroot Town?\p"
