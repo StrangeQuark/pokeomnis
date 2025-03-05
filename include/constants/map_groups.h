@@ -72,7 +72,7 @@
 #define MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB (4 | (1 << 8))
 
 // gMapGroup_IndoorOldale
-#define MAP_OLDALE_TOWN_HOUSE1            (0 | (2 << 8))
+#define MAP_OLDALE_TOWN_RIVALS_HOUSE      (0 | (2 << 8))
 #define MAP_OLDALE_TOWN_HOUSE2            (1 | (2 << 8))
 #define MAP_OLDALE_TOWN_POKEMON_CENTER_1F (2 | (2 << 8))
 #define MAP_OLDALE_TOWN_POKEMON_CENTER_2F (3 | (2 << 8))

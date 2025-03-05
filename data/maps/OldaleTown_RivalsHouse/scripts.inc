@@ -1,30 +1,30 @@
-OldaleTown_House1_MapScripts::
-	map_script MAP_SCRIPT_ON_LOAD , OldaleTown_House1_OnLoad
+OldaleTown_RivalsHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD , OldaleTown_RivalsHouse_OnLoad
 	.byte 0
 
-OldaleTown_House1_OnLoad:
+OldaleTown_RivalsHouse_OnLoad:
 	call Common_EventScript_SetupRivalGfxId
 	end
 
-OldaleTown_House1_EventScript_Rival::
+OldaleTown_RivalsHouse_EventScript_Rival::
 	lock
 	faceplayer
-	call_if_eq VAR_OLDALE_RIVAL_STATE, 2, OldaleTown_House1_EventScript_RivalState2
-	msgbox OldaleTown_House1_Text_RivalAfterRoute103Battle, MSGBOX_DEFAULT
+	call_if_eq VAR_OLDALE_RIVAL_STATE, 2, OldaleTown_RivalsHouse_EventScript_RivalState2
+	msgbox OldaleTown_RivalsHouse_Text_RivalAfterRoute103Battle, MSGBOX_DEFAULT
 	giveitem ITEM_POKE_BALL, 5
-	msgbox OldaleTown_House1_Text_RivalExplainGyms, MSGBOX_DEFAULT
+	msgbox OldaleTown_RivalsHouse_Text_RivalExplainGyms, MSGBOX_DEFAULT
 	closemessage
 	setvar VAR_OLDALE_RIVAL_STATE, 2
 	release
 	end
 
-OldaleTown_House1_EventScript_RivalState2::
-	msgbox OldaleTown_House1_Text_RivalGymMessage, MSGBOX_DEFAULT
+OldaleTown_RivalsHouse_EventScript_RivalState2::
+	msgbox OldaleTown_RivalsHouse_Text_RivalGymMessage, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-OldaleTown_House1_Text_RivalAfterRoute103Battle:
+OldaleTown_RivalsHouse_Text_RivalAfterRoute103Battle:
 	.string "{RIVAL}: Hey, {PLAYER}! Thanks for\n"
 	.string "stopping by.\p"
 	.string "That battle on Route 103 was\n"
@@ -34,10 +34,10 @@ OldaleTown_House1_Text_RivalAfterRoute103Battle:
 	.string "They’ll help you catch more\l"
 	.string "pokémon for your journey!$"
 
-OldaleTown_House1_Text_PlayerReceivedPokeballs:
+OldaleTown_RivalsHouse_Text_PlayerReceivedPokeballs:
 	.string "{PLAYER} received 5 POKé BALLS.$"
 
-OldaleTown_House1_Text_RivalExplainGyms:
+OldaleTown_RivalsHouse_Text_RivalExplainGyms:
 	.string "Oh, by the way, have you heard\n"
 	.string "about the gyms?\p"
 	.string "There are gyms in most towns,\n"
@@ -53,7 +53,7 @@ OldaleTown_House1_Text_RivalExplainGyms:
 	.string "let’s see how strong we can get!\n"
 	.string "Take care, {PLAYER}, see you around!$"
 
-OldaleTown_House1_Text_RivalGymMessage:
+OldaleTown_RivalsHouse_Text_RivalGymMessage:
 	.string "{RIVAL}: I’m heading to Petalburg\n"
 	.string "for my first GYM challenge.\p"
 	.string "Make sure you’re ready, it’s going\n"

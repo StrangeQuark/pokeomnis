@@ -631,7 +631,7 @@ gStdScripts_End::
     .include "data/maps/NewMauville_Entrance/scripts.inc"
     .include "data/maps/NewMauville_Inside/scripts.inc"
     .include "data/maps/OldaleTown/scripts.inc"
-    .include "data/maps/OldaleTown_House1/scripts.inc"
+    .include "data/maps/OldaleTown_RivalsHouse/scripts.inc"
     .include "data/maps/OldaleTown_House2/scripts.inc"
     .include "data/maps/OldaleTown_Mart/scripts.inc"
     .include "data/maps/OldaleTown_PokemonCenter_1F/scripts.inc"
