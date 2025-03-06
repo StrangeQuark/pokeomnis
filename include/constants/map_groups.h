@@ -128,7 +128,7 @@
 // gMapGroup_IndoorPetalburg
 #define MAP_PETALBURG_CITY_WALLYS_HOUSE      (0 | (8 << 8))
 #define MAP_PETALBURG_CITY_GYM               (1 | (8 << 8))
-#define MAP_PETALBURG_CITY_PARENTS_HOUSE      (2 | (8 << 8))
+#define MAP_PETALBURG_CITY_PARENTS_HOUSE     (2 | (8 << 8))
 #define MAP_PETALBURG_CITY_HOUSE2            (3 | (8 << 8))
 #define MAP_PETALBURG_CITY_POKEMON_CENTER_1F (4 | (8 << 8))
 #define MAP_PETALBURG_CITY_POKEMON_CENTER_2F (5 | (8 << 8))

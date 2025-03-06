@@ -1,10 +1,19 @@
 PetalburgCity_ParentsHouse_MapScripts::
 	.byte 0
 
-PetalburgCity_ParentsHouse_EventScript_GreetMom::
+PetalburgCity_ParentsHouse_EventScript_Mom::
 	lock
 	faceplayer
+	call_if_eq VAR_PARENTS_HOUSE_STATE, 1, PetalburgCity_ParentsHouse_EventScript_MomGoVisitFather
 	msgbox PetalburgCity_ParentsHouse_Text_MomGreetsPlayer, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_PARENTS_HOUSE_STATE, 1
+	release
+	end
+
+PetalburgCity_ParentsHouse_EventScript_MomGoVisitFather::
+	msgbox PetalburgCity_ParentsHouse_Text_MomGoVisitFather, MSGBOX_DEFAULT
+	closemessage
 	release
 	end
 
@@ -25,3 +34,8 @@ PetalburgCity_ParentsHouse_Text_MomGreetsPlayer:
     .string "doing well. Come visit any time\l"
     .string "you need a break, okay? A mother's\l"
     .string "door is always open.$"
+
+PetalburgCity_ParentsHouse_Text_MomGoVisitFather:
+	.string "{PLAYER}, you should go visit your\n"
+	.string "father in the gym next door.\p"
+	.string "I'm sure he would be happy to see you!$"
