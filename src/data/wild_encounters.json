@@ -2648,19 +2648,19 @@
                 "species": "SPECIES_TORKOAL"
               },
               {
-                "min_level": 16,
-                "max_level": 16,
-                "species": "SPECIES_TORKOAL"
-              },
-              {
                 "min_level": 14,
                 "max_level": 14,
                 "species": "SPECIES_GRIMER"
               },
               {
                 "min_level": 14,
-                "max_level": 14,
+                "max_level": 20,
                 "species": "SPECIES_GRIMER"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_TORCHIC"
               }
             ]
           }
@@ -2876,14 +2876,14 @@
                 "species": "SPECIES_SPOINK"
               },
               {
-                "min_level": 22,
-                "max_level": 22,
-                "species": "SPECIES_NUMEL"
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_TORCHIC"
               },
               {
-                "min_level": 22,
-                "max_level": 22,
-                "species": "SPECIES_SPOINK"
+                "min_level": 16,
+                "max_level": 35,
+                "species": "SPECIES_COMBUSKEN"
               }
             ]
           }
