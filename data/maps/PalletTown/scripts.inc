@@ -22,10 +22,6 @@ PalletTown_EventScript_TownSign::
 	msgbox PalletTown_Text_TownSign, MSGBOX_SIGN
 	end
 
-PalletTown_EventScript_TrainerTipsSign::
-	msgbox PalletTown_Text_TrainerTips, MSGBOX_SIGN
-	end
-
 PalletTown_Text_OakPokemonResearchLab::
     .string "OAK POKéMON RESEARCH LAB$"
 
@@ -38,7 +34,3 @@ PalletTown_Text_OaksHouse::
 PalletTown_Text_TownSign::
     .string "PALLET TOWN\n"
     .string "Shades of your journey await!$"
-
-PalletTown_Text_TrainerTips::
-	.string "TRAINER TIPS\p"
-	.string "Press START to open the MENU!$"
