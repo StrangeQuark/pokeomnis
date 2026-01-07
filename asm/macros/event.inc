@@ -1021,6 +1021,13 @@
 	.2byte \move
 	.endm
 
+	@ Checks if at least one Pokemon in the player's party is the required species. If so, VAR_RESULT is set to the
+	@ (zero-indexed) slot number of the first Pokemon that is that species. If not, VAR_RESULT is set to PARTY_SIZE.
+	.macro checkpartycontainsmon species:req
+	.byte 0xe5
+	.2byte \species
+	.endm
+
 	@ Converts STR_VAR_1, STR_VAR_2, or STR_VAR_3 to its corresponding index into sScriptStringVars (0, 1, or 2).
 	@ If given anything else it will output it directly.
 	@ Note: Because the STR_VAR_# arguments given to this macro are not part of a processed string they are not

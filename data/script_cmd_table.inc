@@ -229,6 +229,7 @@ gScriptCmdTable::
 	.4byte ScrCmd_bufferitemnameplural              @ 0xe2
 	.4byte ScrCmd_callfunc                  		@ 0xe3
 	.4byte ScrCmd_checkplayerregion                 @ 0xe4
+	.4byte ScrCmd_checkpartycontainsmon             @ 0xe5
 
 
 gScriptCmdTableEnd::
