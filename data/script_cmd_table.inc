@@ -230,6 +230,7 @@ gScriptCmdTable::
 	.4byte ScrCmd_callfunc                  		@ 0xe3
 	.4byte ScrCmd_checkplayerregion                 @ 0xe4
 	.4byte ScrCmd_checkpartycontainsmon             @ 0xe5
+	.4byte ScrCmd_removemonfromparty                @ 0xe6
 
 
 gScriptCmdTableEnd::

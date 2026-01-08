@@ -1763,6 +1763,20 @@ bool8 ScrCmd_checkpartycontainsmon(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_removemonfromparty(struct ScriptContext *ctx)
+{
+    gSpecialVar_Result = PARTY_SIZE;
+
+    if (PARTY_SIZE < 2)
+        return FALSE;
+
+    ZeroMonData(&gPlayerParty[gSpecialVar_0x8005]);
+    CompactPartySlots();
+    CalculatePlayerPartyCount();
+
+    return TRUE;
+}
+
 bool8 ScrCmd_addmoney(struct ScriptContext *ctx)
 {
     u32 amount = ScriptReadWord(ctx);
