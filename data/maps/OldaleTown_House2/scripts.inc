@@ -21,6 +21,7 @@ OldaleTown_House2_EventScript_Man::
 	specialvar VAR_RESULT, GetTradeSpecies
 	goto_if_ne VAR_RESULT, SPECIES_SEEDOT, OldaleTown_House2_EventScript_NotRequestedMon
 	removemonfromparty
+	goto_if_eq VAR_RESULT, FALSE, OldaleTown_House2_EventScript_CannotGiveAwayLastMon
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox OldaleTown_House2_Text_PlayerGaveSeedot, MSGBOX_DEFAULT
 	waitfanfare
@@ -36,18 +37,26 @@ OldaleTown_House2_EventScript_Man::
 
 OldaleTown_House2_EventScript_ManAfterSeedotTrade::
 	msgbox OldaleTown_House2_Text_AfterSeedotTrade, MSGBOX_NPC
+	release
 	end
 
 OldaleTown_House2_EventScript_DeclineSeedotTrade::
 	msgbox OldaleTown_House2_Text_DeclineSeedotTrade, MSGBOX_NPC
+	release
 	end
 
 OldaleTown_House2_EventScript_ManWantsSeedot::
 	msgbox OldaleTown_House2_Text_WantsSeedot, MSGBOX_NPC
+	release
 	end
 
 OldaleTown_House2_EventScript_NotRequestedMon::
 	msgbox OldaleTown_House2_Text_NotASeedot, MSGBOX_NPC
+	release
+	end
+
+OldaleTown_House2_EventScript_CannotGiveAwayLastMon::
+	msgbox OldaleTown_House2_Text_CannotGiveAwayLastMon, MSGBOX_NPC
 	release
 	end
 
@@ -110,3 +119,7 @@ OldaleTown_House2_Text_AfterSeedotTrade:
 	.string "If you head to Rustboro City,\n"
 	.string "don't forget to visit my brother.\l"
 	.string "He's working there as a chef.$"
+
+OldaleTown_House2_Text_CannotGiveAwayLastMon:
+	.string "You cannot give away the last pokémon\n"
+	.string "in your party!$"

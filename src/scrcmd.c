@@ -1765,14 +1765,15 @@ bool8 ScrCmd_checkpartycontainsmon(struct ScriptContext *ctx)
 
 bool8 ScrCmd_removemonfromparty(struct ScriptContext *ctx)
 {
-    gSpecialVar_Result = PARTY_SIZE;
+    gSpecialVar_Result = FALSE;
 
-    if (PARTY_SIZE < 2)
+    if (CalculatePlayerPartyCount() < 2)
         return FALSE;
 
     ZeroMonData(&gPlayerParty[gSpecialVar_0x8005]);
     CompactPartySlots();
     CalculatePlayerPartyCount();
+    gSpecialVar_Result = TRUE;
 
     return TRUE;
 }
