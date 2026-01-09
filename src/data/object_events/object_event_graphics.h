@@ -411,3 +411,4 @@ const u32 gObjectEventPic_LyraDecorating[] = INCBIN_U32("graphics/object_events/
 const u32 gObjectEventPic_LyraUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/lyra/underwater.4bpp");
 const u32 gObjectEventPic_RocketF[] = INCBIN_U32("graphics/object_events/pics/people/rocket_f.4bpp");
 const u32 gObjectEventPic_RocketM[] = INCBIN_U32("graphics/object_events/pics/people/rocket_m.4bpp");
+const u32 gObjectEventPic_Chef[] = INCBIN_U32("graphics/object_events/pics/people/chef.4bpp");

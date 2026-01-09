@@ -310,6 +310,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalLyraFi
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkLyra;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketF;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketM;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Chef;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -617,6 +618,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LINK_LYRA] =                 &gObjectEventGraphicsInfo_LinkLyra,
     [OBJ_EVENT_GFX_ROCKET_F] =                  &gObjectEventGraphicsInfo_RocketF,
     [OBJ_EVENT_GFX_ROCKET_M] =                  &gObjectEventGraphicsInfo_RocketM,
+    [OBJ_EVENT_GFX_CHEF]                     =  &gObjectEventGraphicsInfo_Chef,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
