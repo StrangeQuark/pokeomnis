@@ -808,3 +808,6 @@ $(OBJEVENTGFXDIR)/people/rocket_m.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/chef.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/pokemon/celebi.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4

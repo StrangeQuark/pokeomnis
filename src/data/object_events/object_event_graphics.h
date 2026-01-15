@@ -412,3 +412,5 @@ const u32 gObjectEventPic_LyraUnderwater[] = INCBIN_U32("graphics/object_events/
 const u32 gObjectEventPic_RocketF[] = INCBIN_U32("graphics/object_events/pics/people/rocket_f.4bpp");
 const u32 gObjectEventPic_RocketM[] = INCBIN_U32("graphics/object_events/pics/people/rocket_m.4bpp");
 const u32 gObjectEventPic_Chef[] = INCBIN_U32("graphics/object_events/pics/people/chef.4bpp");
+const u16 gObjectEventPal_Celebi[] = INCBIN_U16("graphics/object_events/palettes/celebi.gbapal");
+const u32 gObjectEventPic_Celebi[] = INCBIN_U32("graphics/object_events/pics/pokemon/celebi.4bpp");
