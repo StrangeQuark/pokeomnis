@@ -2,6 +2,7 @@
 
 GoldenrodCity_PokemonCenter_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, GoldenrodCity_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
 	.byte 0
 
 GoldenrodCity_PokemonCenter_1F_OnTransition:
