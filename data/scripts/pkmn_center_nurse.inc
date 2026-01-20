@@ -9,6 +9,17 @@ Common_EventScript_PkmnCenterNurse::
 	goto_if_eq VAR_RESULT, NO, EventScript_PkmnCenterNurse_Goodbye
 	end
 
+Common_EventScript_KantoPkmnCenterNurse::
+	lock
+	faceplayer
+	setvar VAR_0x8004, 0
+	specialvar VAR_RESULT, CountPlayerTrainerStars
+	goto_if_eq VAR_RESULT, 4, EventScript_KantoPkmnCenterNurse_GoldCard
+	msgbox gText_WouldYouLikeToRestYourPkmn, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, EventScript_KantoPkmnCenterNurse_HealPkmn
+	goto_if_eq VAR_RESULT, NO, EventScript_PkmnCenterNurse_Goodbye
+	end
+
 EventScript_PkmnCenterNurse_Goodbye::
 	message gText_WeHopeToSeeYouAgain
 	return
@@ -20,6 +31,16 @@ EventScript_PkmnCenterNurse_HealPkmn::
 	call_if_eq VAR_0x8004, 1, EventScript_PkmnCenterNurse_IllTakeYourPkmn2
 	waitmessage
 	call EventScript_PkmnCenterNurse_TakeAndHealPkmn
+	goto_if_unset FLAG_POKERUS_EXPLAINED, EventScript_PkmnCenterNurse_CheckPokerus
+	goto EventScript_PkmnCenterNurse_CheckTrainerHillAndUnionRoom
+	end
+
+EventScript_KantoPkmnCenterNurse_HealPkmn::
+	incrementgamestat GAME_STAT_USED_POKECENTER
+	call_if_eq VAR_0x8004, 0, EventScript_PkmnCenterNurse_IllTakeYourPkmn
+	call_if_eq VAR_0x8004, 1, EventScript_PkmnCenterNurse_IllTakeYourPkmn2
+	waitmessage
+	call EventScript_KantoPkmnCenterNurse_TakeAndHealPkmn
 	goto_if_unset FLAG_POKERUS_EXPLAINED, EventScript_PkmnCenterNurse_CheckPokerus
 	goto EventScript_PkmnCenterNurse_CheckTrainerHillAndUnionRoom
 	end
@@ -37,6 +58,16 @@ EventScript_PkmnCenterNurse_TakeAndHealPkmn::
 	waitmovement 0
 	dofieldeffect FLDEFF_POKECENTER_HEAL
 	waitfieldeffect FLDEFF_POKECENTER_HEAL
+	applymovement VAR_0x800B, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	special HealPlayerParty
+	return
+
+EventScript_KantoPkmnCenterNurse_TakeAndHealPkmn::
+	applymovement VAR_0x800B, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	dofieldeffect FLDEFF_KANTO_POKECENTER_HEAL
+	waitfieldeffect FLDEFF_KANTO_POKECENTER_HEAL
 	applymovement VAR_0x800B, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	special HealPlayerParty
@@ -105,15 +136,40 @@ EventScript_PkmnCenterNurse_GoldCard::
 	message gText_WeHopeToSeeYouAgain2
 	return
 
+EventScript_KantoPkmnCenterNurse_GoldCard::
+	goto_if_set FLAG_NURSE_MENTIONS_GOLD_CARD, EventScript_KantoPkmnCenterNurse_AskForUsual
+	setflag FLAG_NURSE_MENTIONS_GOLD_CARD
+	msgbox gText_WelcomeCutShort, MSGBOX_DEFAULT
+	playse SE_PIN
+	applymovement VAR_0x800B, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement VAR_0x800B, Common_Movement_Delay48
+	waitmovement 0
+	msgbox gText_NoticesGoldCard, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, EventScript_KantoPkmnCenterNurse_GoldCardHealPkmn
+	message gText_WeHopeToSeeYouAgain2
+	return
+
 EventScript_PkmnCenterNurse_AskForUsual::
 	msgbox gText_YouWantTheUsual, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, EventScript_PkmnCenterNurse_GoldCardHealPkmn
 	message gText_WeHopeToSeeYouAgain2
 	return
 
+EventScript_KantoPkmnCenterNurse_AskForUsual::
+	msgbox gText_YouWantTheUsual, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, EventScript_KantoPkmnCenterNurse_GoldCardHealPkmn
+	message gText_WeHopeToSeeYouAgain2
+	return
+
 EventScript_PkmnCenterNurse_GoldCardHealPkmn::
 	setvar VAR_0x8004, 1
 	goto EventScript_PkmnCenterNurse_HealPkmn
+	end
+
+EventScript_KantoPkmnCenterNurse_GoldCardHealPkmn::
+	setvar VAR_0x8004, 1
+	goto EventScript_KantoPkmnCenterNurse_HealPkmn
 	end
 
 Movement_PkmnCenterNurse_Bow:
