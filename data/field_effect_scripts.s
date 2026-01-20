@@ -72,6 +72,7 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_RayquazaSpotlight         @ FLDEFF_RAYQUAZA_SPOTLIGHT
 	.4byte gFieldEffectScript_DestroyDeoxysRock         @ FLDEFF_DESTROY_DEOXYS_ROCK
 	.4byte gFieldEffectScript_MoveDeoxysRock            @ FLDEFF_MOVE_DEOXYS_ROCK
+	.4byte gFieldEffectScript_KantoPokeCenterHeal       @ FLDEFF_KANTO_POKECENTER_HEAL
 
 gFieldEffectScript_ExclamationMarkIcon1::
 	field_eff_callnative FldEff_ExclamationMarkIcon
@@ -176,6 +177,11 @@ gFieldEffectScript_DeepSandFootprints::
 gFieldEffectScript_PokeCenterHeal::
 	field_eff_loadfadedpal gSpritePalette_PokeballGlow
 	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEffect0, FldEff_PokecenterHeal
+	field_eff_end
+
+gFieldEffectScript_KantoPokeCenterHeal::
+	field_eff_loadfadedpal gSpritePalette_PokeballGlow
+	field_eff_loadfadedpal_callnative gSpritePalette_KantoGeneralFieldEffect, FldEff_KantoPokecenterHeal
 	field_eff_end
 
 gFieldEffectScript_UseSecretPowerTree::
