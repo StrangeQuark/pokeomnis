@@ -19,10 +19,10 @@
   "warp_events": [
     {
       "x": 6,
-      "y": 15,
+      "y": 17,
       "elevation": 0,
       "dest_map": "MAP_VIOLET_CITY",
-      "dest_warp_id": 3
+      "dest_warp_id": "3"
     }
   ],
   "coord_events": [
