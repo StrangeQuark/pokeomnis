@@ -198,7 +198,6 @@ gStdScripts_End::
     .include "data/maps/BirthIsland_Harbor/scripts.inc"
     .include "data/maps/BlackthornCity/scripts.inc"
     .include "data/maps/BlackthornCity_Gym/scripts.inc"
-    .include "data/maps/BlackthornCity_Gym_2F/scripts.inc"
     .include "data/maps/BlackthornCity_House1/scripts.inc"
     .include "data/maps/BlackthornCity_House2/scripts.inc"
     .include "data/maps/BlackthornCity_Mart/scripts.inc"
