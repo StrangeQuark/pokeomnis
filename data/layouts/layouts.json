@@ -8764,10 +8764,10 @@
     {
       "id": "LAYOUT_GOLDENROD_CITY_GYM",
       "name": "GoldenrodCity_Gym_Layout",
-      "width": 21,
-      "height": 21,
-      "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_GoldenrodGym",
+      "width": 18,
+      "height": 28,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_DewfordGym",
       "border_filepath": "data/layouts/GoldenrodCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/GoldenrodCity_Gym/map.bin"
     },
@@ -10114,22 +10114,12 @@
     {
       "id": "LAYOUT_BLACKTHORN_CITY_GYM",
       "name": "BlackthornCity_Gym_Layout",
-      "width": 15,
-      "height": 22,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "width": 13,
+      "height": 17,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_VioletCityGym",
       "border_filepath": "data/layouts/BlackthornCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/BlackthornCity_Gym/map.bin"
-    },
-    {
-      "id": "LAYOUT_BLACKTHORN_CITY_GYM_2F",
-      "name": "BlackthornCity_Gym_2F_Layout",
-      "width": 13,
-      "height": 18,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
-      "border_filepath": "data/layouts/BlackthornCity_Gym_2F/border.bin",
-      "blockdata_filepath": "data/layouts/BlackthornCity_Gym_2F/map.bin"
     },
     {
       "id": "LAYOUT_BATTLE_TOWER_GATEHOUSE",

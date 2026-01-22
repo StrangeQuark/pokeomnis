@@ -1208,11 +1208,10 @@
 #define MAP_BLACKTHORN_CITY_HOUSE1              (4 | (80 << 8))
 #define MAP_BLACKTHORN_CITY_HOUSE2              (5 | (80 << 8))
 #define MAP_BLACKTHORN_CITY_GYM                 (6 | (80 << 8))
-#define MAP_BLACKTHORN_CITY_GYM_2F              (7 | (80 << 8))
-#define MAP_DRAGONS_DEN_ENTRANCE                (8 | (80 << 8))
-#define MAP_DRAGONS_DEN_B1F                     (9 | (80 << 8))
-#define MAP_DRAGONS_DEN_B2F                     (10 | (80 << 8))
-#define MAP_DRAGONS_DEN_HOUSE                   (11 | (80 << 8))
+#define MAP_DRAGONS_DEN_ENTRANCE                (7 | (80 << 8))
+#define MAP_DRAGONS_DEN_B1F                     (8 | (80 << 8))
+#define MAP_DRAGONS_DEN_B2F                     (9 | (80 << 8))
+#define MAP_DRAGONS_DEN_HOUSE                   (10 | (80 << 8))
 
 // gMapGroup_JohtoDungeons
 #define MAP_UNION_CAVE_1F                      (0 | (81 << 8))
