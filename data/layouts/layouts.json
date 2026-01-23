@@ -10600,6 +10600,16 @@
       "secondary_tileset": "gTileset_LavaridgeGym",
       "border_filepath": "data/layouts/MauvilleCity_Gym_B1F/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity_Gym_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY_HOUSE3",
+      "name": "ViridianCity_House3_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_KantoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/ViridianCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity_House3/map.bin"
     }
   ]
 }
