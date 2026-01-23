@@ -9924,10 +9924,10 @@
     {
       "id": "LAYOUT_CIANWOOD_CITY_GYM",
       "name": "CianwoodCity_Gym_Layout",
-      "width": 12,
-      "height": 20,
+      "width": 13,
+      "height": 16,
       "primary_tileset": "gTileset_JohtoBuilding",
-      "secondary_tileset": "gTileset_PagodaTower",
+      "secondary_tileset": "gTileset_PewterCityGym",
       "border_filepath": "data/layouts/CianwoodCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CianwoodCity_Gym/map.bin"
     },
