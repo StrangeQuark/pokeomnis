@@ -18,11 +18,11 @@
   ],
   "warp_events": [
     {
-      "x": 6,
-      "y": 18,
+      "x": 25,
+      "y": 23,
       "elevation": 0,
       "dest_map": "MAP_OLIVINE_CITY",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
