@@ -62,10 +62,10 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 36,
-      "y": 10,
+      "x": 34,
+      "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_VIRIDIAN_CITY_GYM",
+      "dest_map": "MAP_VIRIDIAN_CITY_HOUSE3",
       "dest_warp_id": "0"
     }
   ],
@@ -73,14 +73,6 @@
 
   ],
   "bg_events": [
-    {
-      "type": "sign",
-      "x": 32,
-      "y": 10,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "ViridianCity_EventScript_GymSign"
-    },
     {
       "type": "sign",
       "x": 20,
