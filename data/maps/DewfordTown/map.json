@@ -94,10 +94,10 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 8,
-      "y": 17,
+      "x": 6,
+      "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_DEWFORD_TOWN_GYM",
+      "dest_map": "MAP_DEWFORD_TOWN_HOUSE3",
       "dest_warp_id": "0"
     },
     {
@@ -112,6 +112,13 @@
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_DEWFORD_TOWN_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_DEWFORD_TOWN_MART",
       "dest_warp_id": "0"
     }
   ],
@@ -129,11 +136,11 @@
     },
     {
       "type": "sign",
-      "x": 11,
+      "x": 10,
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "DewfordTown_EventScript_GymSign"
+      "script": "Common_EventScript_ShowPokemartSign"
     },
     {
       "type": "sign",
@@ -158,6 +165,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "DewfordTown_EventScript_HallSign"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
     }
   ]
 }
