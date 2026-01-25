@@ -308,6 +308,7 @@
 #define OBJ_EVENT_GFX_ROCKET_M                    304
 #define OBJ_EVENT_GFX_CHEF                        305
 #define OBJ_EVENT_GFX_CELEBI                      306
+#define OBJ_EVENT_GFX_MEWTWO                      307
 
 // NOTE: By default, the max value for NUM_OBJ_EVENT_GFX is 239.
 //
@@ -318,7 +319,7 @@
 // object graphics that can be removed. If more graphics are needed, anything that
 // stores graphics ids will need to be increased in size. See wiki entry below:
 // https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
-#define NUM_OBJ_EVENT_GFX                         307
+#define NUM_OBJ_EVENT_GFX                         308
 
 
 // These are dynamic object gfx ids.
