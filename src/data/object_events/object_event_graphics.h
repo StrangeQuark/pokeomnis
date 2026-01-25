@@ -415,3 +415,5 @@ const u32 gObjectEventPic_RocketM[] = INCBIN_U32("graphics/object_events/pics/pe
 const u32 gObjectEventPic_Chef[] = INCBIN_U32("graphics/object_events/pics/people/chef.4bpp");
 const u16 gObjectEventPal_Celebi[] = INCBIN_U16("graphics/object_events/palettes/celebi.gbapal");
 const u32 gObjectEventPic_Celebi[] = INCBIN_U32("graphics/object_events/pics/pokemon/celebi.4bpp");
+const u16 gObjectEventPal_Mewtwo[] = INCBIN_U16("graphics/object_events/palettes/mewtwo.gbapal");
+const u32 gObjectEventPic_Mewtwo[] = INCBIN_U32("graphics/object_events/pics/pokemon/mewtwo.4bpp");
