@@ -299,3 +299,6 @@ const u32 gTrainerPalette_Gold[] = INCBIN_U32("graphics/trainers/front_pics/gold
 
 const u32 gTrainerFrontPic_Lyra[] = INCBIN_U32("graphics/trainers/front_pics/lyra.4bpp.lz");
 const u32 gTrainerPalette_Lyra[] = INCBIN_U32("graphics/trainers/front_pics/lyra.gbapal.lz");
+
+const u32 gTrainerFrontPic_Giovanni[] = INCBIN_U32("graphics/trainers/front_pics/giovanni.4bpp.lz");
+const u32 gTrainerPalette_Giovanni[] = INCBIN_U32("graphics/trainers/front_pics/giovanni.gbapal.lz");

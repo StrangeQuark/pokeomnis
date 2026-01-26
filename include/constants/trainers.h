@@ -111,6 +111,7 @@
 #define TRAINER_PIC_RS_MAY                92
 #define TRAINER_PIC_GOLD                  93
 #define TRAINER_PIC_LYRA                  94
+#define TRAINER_PIC_GIOVANNI              95
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
