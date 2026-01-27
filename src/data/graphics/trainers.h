@@ -308,3 +308,24 @@ const u32 gTrainerPalette_RocketGruntM[] = INCBIN_U32("graphics/trainers/front_p
 
 const u32 gTrainerFrontPic_RocketGruntF[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_f.4bpp.lz");
 const u32 gTrainerPalette_RocketGruntF[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_f.gbapal.lz");
+
+const u32 gTrainerFrontPic_LeaderSabrina[] = INCBIN_U32("graphics/trainers/front_pics/leader_sabrina.4bpp.lz");
+const u32 gTrainerPalette_LeaderSabrina[] = INCBIN_U32("graphics/trainers/front_pics/leader_sabrina.gbapal.lz");
+
+const u32 gTrainerFrontPic_LeaderMisty[] = INCBIN_U32("graphics/trainers/front_pics/leader_misty.4bpp.lz");
+const u32 gTrainerPalette_LeaderMisty[] = INCBIN_U32("graphics/trainers/front_pics/leader_misty.gbapal.lz");
+
+const u32 gTrainerFrontPic_LeaderLtSurge[] = INCBIN_U32("graphics/trainers/front_pics/leader_lt_surge.4bpp.lz");
+const u32 gTrainerPalette_LeaderLtSurge[] = INCBIN_U32("graphics/trainers/front_pics/leader_lt_surge.gbapal.lz");
+
+const u32 gTrainerFrontPic_LeaderKoga[] = INCBIN_U32("graphics/trainers/front_pics/leader_koga.4bpp.lz");
+const u32 gTrainerPalette_LeaderKoga[] = INCBIN_U32("graphics/trainers/front_pics/leader_koga.gbapal.lz");
+
+const u32 gTrainerFrontPic_LeaderErika[] = INCBIN_U32("graphics/trainers/front_pics/leader_erika.4bpp.lz");
+const u32 gTrainerPalette_LeaderErika[] = INCBIN_U32("graphics/trainers/front_pics/leader_erika.gbapal.lz");
+
+const u32 gTrainerFrontPic_LeaderBrock[] = INCBIN_U32("graphics/trainers/front_pics/leader_brock.4bpp.lz");
+const u32 gTrainerPalette_LeaderBrock[] = INCBIN_U32("graphics/trainers/front_pics/leader_brock.gbapal.lz");
+
+const u32 gTrainerFrontPic_LeaderBlaine[] = INCBIN_U32("graphics/trainers/front_pics/leader_blaine.4bpp.lz");
+const u32 gTrainerPalette_LeaderBlaine[] = INCBIN_U32("graphics/trainers/front_pics/leader_blaine.gbapal.lz");
