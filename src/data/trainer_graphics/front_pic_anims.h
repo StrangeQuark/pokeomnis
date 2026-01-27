@@ -390,6 +390,34 @@ static const union AnimCmd *const sAnims_RocketGruntF[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_LeaderSabrina[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LeaderMisty[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LeaderLtSurge[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LeaderKoga[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LeaderErika[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LeaderBrock[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LeaderBlaine[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -490,4 +518,11 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_GIOVANNI] = sAnims_Giovanni,
     [TRAINER_PIC_ROCKET_GRUNT_M] = sAnims_RocketGruntM,
     [TRAINER_PIC_ROCKET_GRUNT_F] = sAnims_RocketGruntF,
+    [TRAINER_PIC_LEADER_SABRINA] = sAnims_LeaderSabrina,
+    [TRAINER_PIC_LEADER_MISTY] = sAnims_LeaderMisty,
+    [TRAINER_PIC_LEADER_LT_SURGE] = sAnims_LeaderLtSurge,
+    [TRAINER_PIC_LEADER_KOGA] = sAnims_LeaderKoga,
+    [TRAINER_PIC_LEADER_ERIKA] = sAnims_LeaderErika,
+    [TRAINER_PIC_LEADER_BROCK] = sAnims_LeaderBrock,
+    [TRAINER_PIC_LEADER_BLAINE] = sAnims_LeaderBlaine,
 };
