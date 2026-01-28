@@ -477,8 +477,9 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_GOLD                    0x1127
 #define OBJ_EVENT_PAL_TAG_LYRA                    0x1128
 #define OBJ_EVENT_PAL_TAG_CELEBI                  0x1129
-#define OBJ_EVENT_PAL_TAG_MEWTWO                  0x1130
-#define OBJ_EVENT_PAL_TAG_JIRACHI                 0x1131
+#define OBJ_EVENT_PAL_TAG_MEWTWO                  0x112A
+#define OBJ_EVENT_PAL_TAG_JIRACHI                 0x112B
+#define OBJ_EVENT_PAL_TAG_NPC_GREEN               0x112C
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #include "data/object_events/object_event_graphics_info_pointers.h"
@@ -525,7 +526,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Lugia,                 OBJ_EVENT_PAL_TAG_LUGIA},
     {gObjectEventPal_RubySapphireBrendan,   OBJ_EVENT_PAL_TAG_RS_BRENDAN},
     {gObjectEventPal_RubySapphireMay,       OBJ_EVENT_PAL_TAG_RS_MAY},
-    {gObjectEventPal_ProfOak,               OBJ_EVENT_PAL_TAG_NPC_WHITE},
+    {gObjectEventPal_NpcWhite,              OBJ_EVENT_PAL_TAG_NPC_WHITE},
     {gObjectEventPal_ProfElm,               OBJ_EVENT_PAL_TAG_PROF_ELM},
     {gObjectEventPal_KantoPlayer,           OBJ_EVENT_PAL_TAG_KANTO_PLAYER},
     {gObjectEventPal_Gold,                  OBJ_EVENT_PAL_TAG_GOLD},
@@ -533,6 +534,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Celebi,                OBJ_EVENT_PAL_TAG_CELEBI},
     {gObjectEventPal_Mewtwo,                OBJ_EVENT_PAL_TAG_MEWTWO},
     {gObjectEventPal_Jirachi,               OBJ_EVENT_PAL_TAG_JIRACHI},
+    {gObjectEventPal_NpcGreen,              OBJ_EVENT_PAL_TAG_NPC_GREEN},
 #ifdef BUGFIX
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 #else
