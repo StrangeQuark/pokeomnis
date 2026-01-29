@@ -10295,155 +10295,159 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTorchic[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
+static const struct TrainerMonItemDefaultMoves sParty_Roxanne2[] = {
     {
     .iv = 255,
     .lvl = 32,
-    .species = SPECIES_GOLEM,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
+    .species = SPECIES_SANDSLASH,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 255,
     .lvl = 35,
-    .species = SPECIES_KABUTO,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
+    .species = SPECIES_MAROWAK,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 36,
+    .species = SPECIES_VIBRAVA,
+    .heldItem = ITEM_ORAN_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 31,
+    .species = SPECIES_DUGTRIO,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 255,
     .lvl = 35,
-    .species = SPECIES_ONIX,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
+    .species = SPECIES_DONPHAN,
+    .heldItem = ITEM_ORAN_BERRY
     },
     {
     .iv = 255,
     .lvl = 37,
-    .species = SPECIES_NOSEPASS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
+    .species = SPECIES_CLAYDOL,
+    .heldItem = ITEM_LEFTOVERS
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
+static const struct TrainerMonItemDefaultMoves sParty_Roxanne3[] = {
     {
     .iv = 255,
-    .lvl = 37,
-    .species = SPECIES_OMANYTE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
-    },
-    {
-    .iv = 255,
-    .lvl = 37,
-    .species = SPECIES_GOLEM,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
+    .lvl = 38,
+    .species = SPECIES_QUAGSIRE,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_KABUTOPS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
+    .species = SPECIES_RHYDON,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 41,
+    .species = SPECIES_FLYGON,
+    .heldItem = ITEM_ORAN_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 39,
+    .species = SPECIES_DUGTRIO,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_ONIX,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
+    .species = SPECIES_DONPHAN,
+    .heldItem = ITEM_ORAN_BERRY
     },
     {
     .iv = 255,
     .lvl = 42,
-    .species = SPECIES_NOSEPASS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
+    .species = SPECIES_CLAYDOL,
+    .heldItem = ITEM_LEFTOVERS
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne4[] = {
+static const struct TrainerMonItemDefaultMoves sParty_Roxanne4[] = {
     {
     .iv = 255,
-    .lvl = 42,
-    .species = SPECIES_OMASTAR,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
+    .lvl = 43,
+    .species = SPECIES_QUAGSIRE,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 255,
-    .lvl = 42,
-    .species = SPECIES_GOLEM,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
+    .lvl = 43,
+    .species = SPECIES_RHYDON,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_KABUTOPS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
+    .species = SPECIES_FLYGON,
+    .heldItem = ITEM_ORAN_BERRY
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_ONIX,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
+    .species = SPECIES_PILOSWINE,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 46,
+    .species = SPECIES_DONPHAN,
+    .heldItem = ITEM_ORAN_BERRY
     },
     {
     .iv = 255,
     .lvl = 47,
-    .species = SPECIES_NOSEPASS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
+    .species = SPECIES_CLAYDOL,
+    .heldItem = ITEM_LEFTOVERS
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne5[] = {
-    {
-    .iv = 255,
-    .lvl = 47,
-    .species = SPECIES_AERODACTYL,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_ROCK_SLIDE, MOVE_HYPER_BEAM, MOVE_SUPERSONIC, MOVE_PROTECT}
-    },
-    {
-    .iv = 255,
-    .lvl = 47,
-    .species = SPECIES_GOLEM,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_FOCUS_PUNCH, MOVE_ROLLOUT, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
-    },
-    {
-    .iv = 255,
-    .lvl = 47,
-    .species = SPECIES_OMASTAR,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
-    },
+static const struct TrainerMonItemDefaultMoves sParty_Roxanne5[] = {
     {
     .iv = 255,
     .lvl = 50,
-    .species = SPECIES_KABUTOPS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
-    },
-    {
-    .iv = 255,
-    .lvl = 50,
-    .species = SPECIES_STEELIX,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
+    .species = SPECIES_QUAGSIRE,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 255,
     .lvl = 52,
-    .species = SPECIES_NOSEPASS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
+    .species = SPECIES_RHYDON,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 55,
+    .species = SPECIES_FLYGON,
+    .heldItem = ITEM_ORAN_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 54,
+    .species = SPECIES_PILOSWINE,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 53,
+    .species = SPECIES_DONPHAN,
+    .heldItem = ITEM_ORAN_BERRY
+    },
+    {
+    .iv = 255,
+    .lvl = 55,
+    .species = SPECIES_CLAYDOL,
+    .heldItem = ITEM_LEFTOVERS
     }
 };
 

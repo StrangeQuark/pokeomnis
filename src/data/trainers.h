@@ -9214,7 +9214,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_Roxanne2),
+        .party = ITEM_DEFAULT_MOVES(sParty_Roxanne2),
     },
 
     [TRAINER_ROXANNE_3] =
@@ -9226,7 +9226,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_Roxanne3),
+        .party = ITEM_DEFAULT_MOVES(sParty_Roxanne3),
     },
 
     [TRAINER_ROXANNE_4] =
@@ -9235,10 +9235,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
         .trainerName = _("ROXANNE"),
-        .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
+        .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_Roxanne4),
+        .party = ITEM_DEFAULT_MOVES(sParty_Roxanne4),
     },
 
     [TRAINER_ROXANNE_5] =
@@ -9247,10 +9247,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
         .trainerName = _("ROXANNE"),
-        .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
+        .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sParty_Roxanne5),
+        .party = ITEM_DEFAULT_MOVES(sParty_Roxanne5),
     },
 
     [TRAINER_BRAWLY_2] =
