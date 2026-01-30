@@ -3505,34 +3505,42 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
+static const struct TrainerMonItemDefaultMoves sParty_Flannery1[] = {
     {
-    .iv = 200,
-    .lvl = 24,
-    .species = SPECIES_NUMEL,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_OVERHEAT, MOVE_TAKE_DOWN, MOVE_MAGNITUDE, MOVE_SUNNY_DAY}
-    },
-    {
-    .iv = 200,
-    .lvl = 24,
-    .species = SPECIES_SLUGMA,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_OVERHEAT, MOVE_SMOG, MOVE_LIGHT_SCREEN, MOVE_SUNNY_DAY}
+    .iv = 250,
+    .lvl = 31,
+    .species = SPECIES_CHARMELEON,
+    .heldItem = ITEM_NONE
     },
     {
     .iv = 250,
-    .lvl = 26,
-    .species = SPECIES_CAMERUPT,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_OVERHEAT, MOVE_TACKLE, MOVE_SUNNY_DAY, MOVE_ATTRACT}
+    .lvl = 33,
+    .species = SPECIES_ARCANINE,
+    .heldItem = ITEM_NONE
     },
     {
     .iv = 250,
-    .lvl = 29,
+    .lvl = 32,
+    .species = SPECIES_QUILAVA,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 31,
+    .species = SPECIES_COMBUSKEN,
+    .heldItem = ITEM_WHITE_HERB
+    },
+    {
+    .iv = 250,
+    .lvl = 34,
     .species = SPECIES_TORKOAL,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_BODY_SLAM, MOVE_ATTRACT}
+    .heldItem = ITEM_LEFTOVERS
+    },
+    {
+    .iv = 255,
+    .lvl = 36,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_ORAN_BERRY
     }
 };
 
@@ -10831,162 +10839,159 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson5[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Flannery2[] = {
+static const struct TrainerMonItemDefaultMoves sParty_Flannery2[] = {
     {
-    .iv = 255,
-    .lvl = 38,
-    .species = SPECIES_MAGCARGO,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
-    },
-    {
-    .iv = 255,
-    .lvl = 36,
-    .species = SPECIES_PONYTA,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
-    },
-    {
-    .iv = 255,
-    .lvl = 38,
-    .species = SPECIES_CAMERUPT,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
-    },
-    {
-    .iv = 255,
+    .iv = 250,
     .lvl = 40,
+    .species = SPECIES_CHARIZARD,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 41,
+    .species = SPECIES_ARCANINE,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 39,
+    .species = SPECIES_TYPHLOSION,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 38,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_WHITE_HERB
+    },
+    {
+    .iv = 250,
+    .lvl = 41,
     .species = SPECIES_TORKOAL,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Flannery3[] = {
-    {
-    .iv = 255,
-    .lvl = 41,
-    .species = SPECIES_GROWLITHE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_HELPING_HAND, MOVE_FLAMETHROWER, MOVE_ROAR, MOVE_SUNNY_DAY}
-    },
-    {
-    .iv = 255,
-    .lvl = 43,
-    .species = SPECIES_MAGCARGO,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
-    },
-    {
-    .iv = 255,
-    .lvl = 41,
-    .species = SPECIES_PONYTA,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
-    },
-    {
-    .iv = 255,
-    .lvl = 43,
-    .species = SPECIES_CAMERUPT,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
+    .heldItem = ITEM_LEFTOVERS
     },
     {
     .iv = 255,
     .lvl = 45,
-    .species = SPECIES_TORKOAL,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_ORAN_BERRY
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Flannery4[] = {
+static const struct TrainerMonItemDefaultMoves sParty_Flannery3[] = {
     {
-    .iv = 255,
-    .lvl = 46,
-    .species = SPECIES_HOUNDOUR,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_ROAR, MOVE_SOLAR_BEAM, MOVE_TAUNT, MOVE_SUNNY_DAY}
+    .iv = 250,
+    .lvl = 43,
+    .species = SPECIES_CHARIZARD,
+    .heldItem = ITEM_NONE
     },
     {
-    .iv = 255,
-    .lvl = 46,
-    .species = SPECIES_GROWLITHE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_HELPING_HAND, MOVE_FLAMETHROWER, MOVE_SUNNY_DAY, MOVE_ROAR}
-    },
-    {
-    .iv = 255,
-    .lvl = 48,
-    .species = SPECIES_MAGCARGO,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
-    },
-    {
-    .iv = 255,
-    .lvl = 46,
-    .species = SPECIES_RAPIDASH,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
-    },
-    {
-    .iv = 255,
-    .lvl = 48,
-    .species = SPECIES_CAMERUPT,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
-    },
-    {
-    .iv = 255,
-    .lvl = 50,
-    .species = SPECIES_TORKOAL,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Flannery5[] = {
-    {
-    .iv = 255,
-    .lvl = 51,
+    .iv = 250,
+    .lvl = 45,
     .species = SPECIES_ARCANINE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_HELPING_HAND, MOVE_FLAMETHROWER, MOVE_SUNNY_DAY, MOVE_ROAR}
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 44,
+    .species = SPECIES_TYPHLOSION,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 45,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_WHITE_HERB
+    },
+    {
+    .iv = 250,
+    .lvl = 46,
+    .species = SPECIES_TORKOAL,
+    .heldItem = ITEM_LEFTOVERS
     },
     {
     .iv = 255,
-    .lvl = 53,
-    .species = SPECIES_MAGCARGO,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
-    },
+    .lvl = 49,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_ORAN_BERRY
+    }
+};
+
+static const struct TrainerMonItemDefaultMoves sParty_Flannery4[] = {
     {
     .iv = 255,
-    .lvl = 51,
+    .lvl = 46,
     .species = SPECIES_HOUNDOOM,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_ROAR, MOVE_SOLAR_BEAM, MOVE_TAUNT, MOVE_SUNNY_DAY}
     },
     {
-    .iv = 255,
+    .iv = 250,
+    .lvl = 49,
+    .species = SPECIES_CHARIZARD,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 49,
+    .species = SPECIES_TYPHLOSION,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 50,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_WHITE_HERB
+    },
+    {
+    .iv = 250,
     .lvl = 51,
-    .species = SPECIES_RAPIDASH,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
+    .species = SPECIES_TORKOAL,
+    .heldItem = ITEM_LEFTOVERS
     },
     {
     .iv = 255,
-    .lvl = 53,
-    .species = SPECIES_CAMERUPT,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
-    },
+    .lvl = 54,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_ORAN_BERRY
+    }
+};
+
+static const struct TrainerMonItemDefaultMoves sParty_Flannery5[] = {
     {
     .iv = 255,
     .lvl = 55,
+    .species = SPECIES_HOUNDOOM,
+    .heldItem = ITEM_NONE,
+    },
+    {
+    .iv = 250,
+    .lvl = 57,
+    .species = SPECIES_CHARIZARD,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 58,
+    .species = SPECIES_TYPHLOSION,
+    .heldItem = ITEM_NONE
+    },
+    {
+    .iv = 250,
+    .lvl = 58,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_WHITE_HERB
+    },
+    {
+    .iv = 250,
+    .lvl = 60,
     .species = SPECIES_TORKOAL,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
+    .heldItem = ITEM_LEFTOVERS
+    },
+    {
+    .iv = 255,
+    .lvl = 62,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_ORAN_BERRY
     }
 };
 
