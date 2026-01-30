@@ -2407,10 +2407,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
         .trainerName = _("COLE"),
-        .items = {},
+        .items = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Cole),
+        .party = ITEM_DEFAULT_MOVES(sParty_Cole),
     },
 
     [TRAINER_JEFF] =
@@ -2419,10 +2419,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
         .trainerName = _("JEFF"),
-        .items = {},
+        .items = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Jeff),
+        .party = ITEM_DEFAULT_MOVES(sParty_Jeff),
     },
 
     [TRAINER_AXLE] =
@@ -2431,10 +2431,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
         .trainerName = _("AXLE"),
-        .items = {},
+        .items = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Axle),
+        .party = ITEM_DEFAULT_MOVES(sParty_Axle),
     },
 
     [TRAINER_JACE] =
@@ -2443,10 +2443,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
         .trainerName = _("JACE"),
-        .items = {},
+        .items = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Jace),
+        .party = ITEM_DEFAULT_MOVES(sParty_Jace),
     },
 
     [TRAINER_KEEGAN] =
@@ -2455,10 +2455,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
         .trainerName = _("KEEGAN"),
-        .items = {},
+        .items = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Keegan),
+        .party = ITEM_DEFAULT_MOVES(sParty_Keegan),
     },
 
     [TRAINER_BERNIE_1] =
@@ -6007,10 +6007,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("ELI"),
-        .items = {},
+        .items = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Eli),
+        .party = ITEM_DEFAULT_MOVES(sParty_Eli),
     },
 
     [TRAINER_ANNIKA] =
@@ -7747,10 +7747,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .trainerName = _("GERALD"),
-        .items = {ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+        .items = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_Gerald),
+        .party = ITEM_DEFAULT_MOVES(sParty_Gerald),
     },
 
     [TRAINER_VIVIAN] =
@@ -7771,10 +7771,10 @@ const struct Trainer gTrainers[] = {
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BATTLE_GIRL,
         .trainerName = _("DANIELLE"),
-        .items = {},
+        .items = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_Danielle),
+        .party = ITEM_DEFAULT_MOVES(sParty_Danielle),
     },
 
     [TRAINER_HIDEO] =
