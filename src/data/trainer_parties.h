@@ -3693,32 +3693,46 @@ static const struct TrainerMonItemDefaultMoves sParty_Flannery1[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
-    .iv = 200,
-    .lvl = 27,
-    .species = SPECIES_SPINDA,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_TEETER_DANCE, MOVE_PSYBEAM, MOVE_FACADE, MOVE_ENCORE}
+    .iv = 255,
+    .lvl = 43,
+    .species = SPECIES_URSARING,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_THRASH, MOVE_REST, MOVE_SNORE, MOVE_SLASH}
     },
     {
-    .iv = 200,
-    .lvl = 27,
-    .species = SPECIES_VIGOROTH,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SLASH, MOVE_FACADE, MOVE_ENCORE, MOVE_FAINT_ATTACK}
+    .iv = 255,
+    .lvl = 42,
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_SING, MOVE_DEFENSE_CURL, MOVE_EGG_BOMB, MOVE_DOUBLE_EDGE}
     },
     {
-    .iv = 200,
-    .lvl = 29,
-    .species = SPECIES_LINOONE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SLASH, MOVE_BELLY_DRUM, MOVE_FACADE, MOVE_HEADBUTT}
+    .iv = 255,
+    .lvl = 42,
+    .species = SPECIES_STANTLER,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_PSYCHIC, MOVE_SOLAR_BEAM, MOVE_TAKE_DOWN, MOVE_PROTECT}
     },
     {
-    .iv = 250,
-    .lvl = 31,
+    .iv = 255,
+    .lvl = 43,
+    .species = SPECIES_PORYGON2,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_ZAP_CANNON, MOVE_TRI_ATTACK, MOVE_BLIZZARD, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 255,
+    .lvl = 45,
+    .species = SPECIES_SNORLAX,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_HYPER_BEAM, MOVE_REST, MOVE_ROLLOUT, MOVE_SLEEP_TALK
+    },
+    {
+    .iv = 255,
+    .lvl = 46,
     .species = SPECIES_SLAKING,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_COUNTER, MOVE_YAWN, MOVE_FACADE, MOVE_FAINT_ATTACK}
+    .moves = {MOVE_HYPER_BEAM, MOVE_SLACK_OFF, MOVE_FOCUS_PUNCH, MOVE_COUNTER}
     }
 };
 
