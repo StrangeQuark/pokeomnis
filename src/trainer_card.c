@@ -839,7 +839,7 @@ static void SetDataFromTrainerCard(void)
     if (sData->trainerCard.battleTowerWins || sData->trainerCard.battleTowerStraightWins)
         sData->hasBattleTowerWins++;
 
-    for (i = 0, badgeFlag = FLAG_BADGE01_GET; badgeFlag < FLAG_BADGE01_GET + NUM_BADGES; badgeFlag++, i++)
+    for (i = 0, badgeFlag = FLAG_KANTO_BADGE01_GET; badgeFlag < FLAG_KANTO_BADGE01_GET + NUM_BADGES; badgeFlag++, i++)
     {
         if (FlagGet(badgeFlag))
             sData->badgeCount[i]++;
@@ -1499,23 +1499,30 @@ static void DrawCardFrontOrBack(u16 *ptr)
 static void DrawStarsAndBadgesOnCard(void)
 {
     static const u8 yOffsets[] = {7, 7};
+    static const u8 rowBaseX[] = { 9, 2, 16 };
+    static const u8 rowBaseY[] = { 14, 16, 16 };
 
-    s16 i, x;
+    s16 i, x, y;
     u16 tileNum = 192;
     u8 palNum = 3;
 
     FillBgTilemapBufferRect(3, 143, 15, yOffsets[sData->isHoenn], sData->trainerCard.stars, 1, 4);
     if (!sData->isLink)
     {
-        x = 4;
         for (i = 0; i < NUM_BADGES; i++, tileNum += 2, x += 3)
         {
+            u8 row = i / 6;
+            u8 col = i % 6;
+
+            x = rowBaseX[row] + (col * 2);
+            y = rowBaseY[row];
+
             if (sData->badgeCount[i])
             {
-                FillBgTilemapBufferRect(3, tileNum, x, 15, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 1, x + 1, 15, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 16, x, 16, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 16, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum, x, y, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 1, x + 1, y, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 16, x, y + 1, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, y + 1, 1, 1, palNum);
             }
         }
     }

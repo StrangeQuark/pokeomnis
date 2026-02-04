@@ -1351,64 +1351,62 @@
 #define FLAG_UNLOCKED_TRENDY_SAYINGS                 (SYSTEM_FLAGS + 0x6)
 
 // Badges
-#define FLAG_BADGE01_GET                             (SYSTEM_FLAGS + 0x7)
-#define FLAG_BADGE02_GET                             (SYSTEM_FLAGS + 0x8)
-#define FLAG_BADGE03_GET                             (SYSTEM_FLAGS + 0x9)
-#define FLAG_BADGE04_GET                             (SYSTEM_FLAGS + 0xA)
-#define FLAG_BADGE05_GET                             (SYSTEM_FLAGS + 0xB)
-#define FLAG_BADGE06_GET                             (SYSTEM_FLAGS + 0xC)
-#define FLAG_BADGE07_GET                             (SYSTEM_FLAGS + 0xD)
-#define FLAG_BADGE08_GET                             (SYSTEM_FLAGS + 0xE)
-#define NUM_BADGES                                   (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
+#define FLAG_KANTO_BADGE01_GET                       (SYSTEM_FLAGS + 0x7)
+#define FLAG_KANTO_BADGE02_GET                       (SYSTEM_FLAGS + 0x8)
+#define FLAG_KANTO_BADGE03_GET                       (SYSTEM_FLAGS + 0x9)
+#define FLAG_KANTO_BADGE04_GET                       (SYSTEM_FLAGS + 0xA)
+#define FLAG_KANTO_BADGE05_GET                       (SYSTEM_FLAGS + 0xB)
+#define FLAG_KANTO_BADGE06_GET                       (SYSTEM_FLAGS + 0xC)
+#define FLAG_JOHTO_BADGE01_GET                       (SYSTEM_FLAGS + 0xD)
+#define FLAG_JOHTO_BADGE02_GET                       (SYSTEM_FLAGS + 0xE)
+#define FLAG_JOHTO_BADGE03_GET                       (SYSTEM_FLAGS + 0xF)
+#define FLAG_JOHTO_BADGE04_GET                       (SYSTEM_FLAGS + 0x10)
+#define FLAG_JOHTO_BADGE05_GET                       (SYSTEM_FLAGS + 0x11)
+#define FLAG_JOHTO_BADGE06_GET                       (SYSTEM_FLAGS + 0x12)
+#define FLAG_HOENN_BADGE01_GET                       (SYSTEM_FLAGS + 0x13)
+#define FLAG_HOENN_BADGE02_GET                       (SYSTEM_FLAGS + 0x14)
+#define FLAG_HOENN_BADGE03_GET                       (SYSTEM_FLAGS + 0x15)
+#define FLAG_HOENN_BADGE04_GET                       (SYSTEM_FLAGS + 0x16)
+#define FLAG_HOENN_BADGE05_GET                       (SYSTEM_FLAGS + 0x17)
+#define FLAG_HOENN_BADGE06_GET                       (SYSTEM_FLAGS + 0x18)
+#define NUM_BADGES                                   (1 + FLAG_HOENN_BADGE06_GET - FLAG_KANTO_BADGE01_GET)
 
 // Towns and Cities
-#define FLAG_VISITED_LITTLEROOT_TOWN                (SYSTEM_FLAGS + 0xF)
-#define FLAG_VISITED_OLDALE_TOWN                    (SYSTEM_FLAGS + 0x10)
-#define FLAG_VISITED_DEWFORD_TOWN                   (SYSTEM_FLAGS + 0x11)
-#define FLAG_VISITED_LAVARIDGE_TOWN                 (SYSTEM_FLAGS + 0x12)
-#define FLAG_VISITED_FALLARBOR_TOWN                 (SYSTEM_FLAGS + 0x13)
-#define FLAG_VISITED_VERDANTURF_TOWN                (SYSTEM_FLAGS + 0x14)
-#define FLAG_VISITED_PACIFIDLOG_TOWN                (SYSTEM_FLAGS + 0x15)
-#define FLAG_VISITED_PETALBURG_CITY                 (SYSTEM_FLAGS + 0x16)
-#define FLAG_VISITED_SLATEPORT_CITY                 (SYSTEM_FLAGS + 0x17)
-#define FLAG_VISITED_MAUVILLE_CITY                  (SYSTEM_FLAGS + 0x18)
-#define FLAG_VISITED_RUSTBORO_CITY                  (SYSTEM_FLAGS + 0x19)
-#define FLAG_VISITED_FORTREE_CITY                   (SYSTEM_FLAGS + 0x1A)
-#define FLAG_VISITED_LILYCOVE_CITY                  (SYSTEM_FLAGS + 0x1B)
-#define FLAG_VISITED_MOSSDEEP_CITY                  (SYSTEM_FLAGS + 0x1C)
-#define FLAG_VISITED_SOOTOPOLIS_CITY                (SYSTEM_FLAGS + 0x1D)
-#define FLAG_VISITED_EVER_GRANDE_CITY               (SYSTEM_FLAGS + 0x1E)
+#define FLAG_VISITED_LITTLEROOT_TOWN                (SYSTEM_FLAGS + 0x19)
+#define FLAG_VISITED_OLDALE_TOWN                    (SYSTEM_FLAGS + 0x1A)
+#define FLAG_VISITED_DEWFORD_TOWN                   (SYSTEM_FLAGS + 0x1B)
+#define FLAG_VISITED_LAVARIDGE_TOWN                 (SYSTEM_FLAGS + 0x1C)
+#define FLAG_VISITED_FALLARBOR_TOWN                 (SYSTEM_FLAGS + 0x1D)
+#define FLAG_VISITED_VERDANTURF_TOWN                (SYSTEM_FLAGS + 0x1E)
+#define FLAG_VISITED_PACIFIDLOG_TOWN                (SYSTEM_FLAGS + 0x1F)
+#define FLAG_VISITED_PETALBURG_CITY                 (SYSTEM_FLAGS + 0x20)
+#define FLAG_VISITED_SLATEPORT_CITY                 (SYSTEM_FLAGS + 0x21)
+#define FLAG_VISITED_MAUVILLE_CITY                  (SYSTEM_FLAGS + 0x22)
+#define FLAG_VISITED_RUSTBORO_CITY                  (SYSTEM_FLAGS + 0x23)
+#define FLAG_VISITED_FORTREE_CITY                   (SYSTEM_FLAGS + 0x24)
+#define FLAG_VISITED_LILYCOVE_CITY                  (SYSTEM_FLAGS + 0x25)
+#define FLAG_VISITED_MOSSDEEP_CITY                  (SYSTEM_FLAGS + 0x26)
+#define FLAG_VISITED_SOOTOPOLIS_CITY                (SYSTEM_FLAGS + 0x27)
+#define FLAG_VISITED_EVER_GRANDE_CITY               (SYSTEM_FLAGS + 0x28)
 
-#define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x1F) // Seems to be related to linking.
-#define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
+#define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x29) // Seems to be related to linking.
+#define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x2A)
 
-#define FLAG_UNUSED_0x881                           (SYSTEM_FLAGS + 0x21) // Unused Flag
-#define FLAG_UNUSED_0x882                           (SYSTEM_FLAGS + 0x22) // Unused Flag
-#define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // Unused Flag
-#define FLAG_UNUSED_0x884                           (SYSTEM_FLAGS + 0x24) // Unused Flag
-#define FLAG_UNUSED_0x885                           (SYSTEM_FLAGS + 0x25) // Unused Flag
-#define FLAG_UNUSED_0x886                           (SYSTEM_FLAGS + 0x26) // Unused Flag
-#define FLAG_UNUSED_0x887                           (SYSTEM_FLAGS + 0x27) // Unused Flag
+#define FLAG_SYS_USE_FLASH                          (SYSTEM_FLAGS + 0x2B)
+#define FLAG_SYS_USE_STRENGTH                       (SYSTEM_FLAGS + 0x2C)
+#define FLAG_SYS_WEATHER_CTRL                       (SYSTEM_FLAGS + 0x2D)
+#define FLAG_SYS_CYCLING_ROAD                       (SYSTEM_FLAGS + 0x2E)
+#define FLAG_SYS_SAFARI_MODE                        (SYSTEM_FLAGS + 0x2F)
+#define FLAG_SYS_CRUISE_MODE                        (SYSTEM_FLAGS + 0x30)
 
-#define FLAG_SYS_USE_FLASH                          (SYSTEM_FLAGS + 0x28)
-#define FLAG_SYS_USE_STRENGTH                       (SYSTEM_FLAGS + 0x29)
-#define FLAG_SYS_WEATHER_CTRL                       (SYSTEM_FLAGS + 0x2A)
-#define FLAG_SYS_CYCLING_ROAD                       (SYSTEM_FLAGS + 0x2B)
-#define FLAG_SYS_SAFARI_MODE                        (SYSTEM_FLAGS + 0x2C)
-#define FLAG_SYS_CRUISE_MODE                        (SYSTEM_FLAGS + 0x2D)
-
-#define FLAG_UNUSED_0x88E                           (SYSTEM_FLAGS + 0x2E) // Unused Flag
-#define FLAG_UNUSED_0x88F                           (SYSTEM_FLAGS + 0x2F) // Unused Flag
-
-#define FLAG_SYS_TV_HOME                            (SYSTEM_FLAGS + 0x30)
-#define FLAG_SYS_TV_WATCH                           (SYSTEM_FLAGS + 0x31)
-#define FLAG_SYS_TV_START                           (SYSTEM_FLAGS + 0x32)
-#define FLAG_SYS_CHANGED_DEWFORD_TREND              (SYSTEM_FLAGS + 0x33)
-#define FLAG_SYS_MIX_RECORD                         (SYSTEM_FLAGS + 0x34)
-#define FLAG_SYS_CLOCK_SET                          (SYSTEM_FLAGS + 0x35)
-#define FLAG_SYS_NATIONAL_DEX                       (SYSTEM_FLAGS + 0x36)
-#define FLAG_SYS_CAVE_SHIP                          (SYSTEM_FLAGS + 0x37) // Unused Flag, leftover from R/S debug, presumably used by Emerald's debug too
-#define FLAG_SYS_CAVE_WONDER                        (SYSTEM_FLAGS + 0x38) // Unused Flag, same as above
+#define FLAG_SYS_TV_HOME                            (SYSTEM_FLAGS + 0x31)
+#define FLAG_SYS_TV_WATCH                           (SYSTEM_FLAGS + 0x32)
+#define FLAG_SYS_TV_START                           (SYSTEM_FLAGS + 0x33)
+#define FLAG_SYS_CHANGED_DEWFORD_TREND              (SYSTEM_FLAGS + 0x34)
+#define FLAG_SYS_MIX_RECORD                         (SYSTEM_FLAGS + 0x35)
+#define FLAG_SYS_CLOCK_SET                          (SYSTEM_FLAGS + 0x36)
+#define FLAG_SYS_NATIONAL_DEX                       (SYSTEM_FLAGS + 0x37)
+#define FLAG_SYS_CAVE_SHIP                          (SYSTEM_FLAGS + 0x38) // Unused Flag, leftover from R/S debug, presumably used by Emerald's debug too
 #define FLAG_SYS_CAVE_BATTLE                        (SYSTEM_FLAGS + 0x39) // Unused Flag, same as above
 #define FLAG_SYS_SHOAL_TIDE                         (SYSTEM_FLAGS + 0x3A)
 #define FLAG_SYS_RIBBON_GET                         (SYSTEM_FLAGS + 0x3B)

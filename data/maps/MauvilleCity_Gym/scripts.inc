@@ -70,7 +70,7 @@ MauvilleCity_Gym_EventScript_FlanneryDefeated::
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox MauvilleCity_Gym_Text_ExplainFireBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
-	setflag FLAG_BADGE04_GET
+	setflag FLAG_HOENN_BADGE02_GET
 	addvar VAR_PETALBURG_GYM_STATE, 1
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 4
@@ -171,13 +171,13 @@ MauvilleCity_Gym_EventScript_GymGuidePostVictory::
 
 MauvilleCity_Gym_EventScript_LeftGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE04_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_HOENN_BADGE02_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
 	goto MauvilleCity_Gym_EventScript_GymStatue
 	end
 
 MauvilleCity_Gym_EventScript_RightGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE04_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_HOENN_BADGE02_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
 	goto MauvilleCity_Gym_EventScript_GymStatue
 	end
 
