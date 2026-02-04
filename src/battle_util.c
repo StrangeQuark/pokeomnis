@@ -3918,10 +3918,10 @@ u8 IsMonDisobedient(void)
             return 0;
         if (!IsOtherTrainer(gBattleMons[gBattlerAttacker].otId, gBattleMons[gBattlerAttacker].otName))
             return 0;
-        if (FlagGet(FLAG_BADGE08_GET))
-            return 0;
+        // if (FlagGet(FLAG_HOENN_BADGE06_GET)) Uncomment for obedience checks
+        //     return 0;
 
-        obedienceLevel = 10;
+        obedienceLevel = 0; // Changed to 0, originally is 10
 
         // Uncomment to check obedience based on badges
         // if (FlagGet(FLAG_BADGE02_GET)) 

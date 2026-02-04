@@ -1844,7 +1844,7 @@ void TryPutTodaysRivalTrainerOnAir(void)
         show = &gSaveBlock1Ptr->tvShows[sCurTVShowSlot];
         show->rivalTrainer.kind = TVSHOW_TODAYS_RIVAL_TRAINER;
         show->rivalTrainer.active = FALSE; // NOTE: Show is not active until passed via Record Mix.
-        for (i = FLAG_BADGE01_GET, nBadges = 0; i < FLAG_BADGE01_GET + NUM_BADGES; i++)
+        for (i = FLAG_KANTO_BADGE01_GET, nBadges = 0; i < FLAG_KANTO_BADGE01_GET + NUM_BADGES; i++)
         {
             if (FlagGet(i))
                 nBadges++;
