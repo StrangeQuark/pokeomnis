@@ -11,10 +11,10 @@ RustboroCity_Gym_EventScript_Roxanne::
 	end
 
 RustboroCity_Gym_EventScript_RoxanneDefeated::
-	message RustboroCity_Gym_Text_ReceivedStoneBadge
+	message RustboroCity_Gym_Text_ReceivedGroundBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
-	msgbox RustboroCity_Gym_Text_StoneBadgeInfoTakeThis, MSGBOX_DEFAULT
+	msgbox RustboroCity_Gym_Text_GroundBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_RUSTBORO_GYM
 	setflag FLAG_HOENN_BADGE01_GET
 	setvar VAR_RUSTBORO_CITY_STATE, 1
@@ -196,13 +196,11 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "Please accept the official Pokémon\n"
 	.string "League Ground Badge.$"
 
-RustboroCity_Gym_Text_ReceivedStoneBadge:
+RustboroCity_Gym_Text_ReceivedGroundBadge:
 	.string "{PLAYER} received the Ground Badge\n"
 	.string "from Roxanne.$"
 
-RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
-	.string "The Ground Badge heightens the attack\n"
-	.string "power of your pokémon.\p"
+RustboroCity_Gym_Text_GroundBadgeInfoTakeThis:
 	.string "Please take this with you, too.$"
 
 RustboroCity_Gym_Text_ExplainEarthquake:
