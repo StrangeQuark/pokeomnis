@@ -571,6 +571,10 @@
 #define METATILE_SaffronCity_SilphCo           0x2C9
 #define METATILE_SaffronCity_SilphCo_Elevator  0x37A
 
+// gTileset_SaffronCityGym
+#define METATILE_SaffronCityGym_WarpLocked    0x226
+#define METATILE_SaffronCityGym_WarpUnlocked  0x213
+
 // gTileset_SecretBase
 #define METATILE_SecretBase_AttractMat_BottomLeft       0x313
 #define METATILE_SecretBase_AttractMat_BottomMid        0x314
