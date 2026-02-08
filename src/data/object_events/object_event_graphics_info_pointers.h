@@ -322,6 +322,12 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Koga;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LtSurge;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Misty;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sabrina;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clair;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Falkner;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Chuck;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jasmine;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Morty;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bugsy;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -641,6 +647,12 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LT_SURGE] =                  &gObjectEventGraphicsInfo_LtSurge,
     [OBJ_EVENT_GFX_MISTY] =                     &gObjectEventGraphicsInfo_Misty,
     [OBJ_EVENT_GFX_SABRINA] =                   &gObjectEventGraphicsInfo_Sabrina,
+    [OBJ_EVENT_GFX_CLAIR] =                     &gObjectEventGraphicsInfo_Clair,
+    [OBJ_EVENT_GFX_FALKNER] =                   &gObjectEventGraphicsInfo_Falkner,
+    [OBJ_EVENT_GFX_CHUCK] =                     &gObjectEventGraphicsInfo_Chuck,
+    [OBJ_EVENT_GFX_JASMINE] =                   &gObjectEventGraphicsInfo_Jasmine,
+    [OBJ_EVENT_GFX_MORTY] =                     &gObjectEventGraphicsInfo_Morty,
+    [OBJ_EVENT_GFX_BUGSY] =                     &gObjectEventGraphicsInfo_Bugsy,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
