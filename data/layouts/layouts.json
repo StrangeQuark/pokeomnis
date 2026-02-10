@@ -9674,7 +9674,7 @@
     {
       "id": "LAYOUT_ECRUTEAK_CITY_GYM",
       "name": "EcruteakCity_Gym_Layout",
-      "width": 12,
+      "width": 11,
       "height": 20,
       "primary_tileset": "gTileset_JohtoBuilding",
       "secondary_tileset": "gTileset_PagodaTower",
