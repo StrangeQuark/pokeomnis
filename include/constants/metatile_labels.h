@@ -157,6 +157,10 @@
 // gTileset_CinnabarIsland
 #define METATILE_CinnabarIsland_Door  0x22D
 
+// gTileset_CinnabarIslandGym
+#define METATILE_CinnabarIslandGym_NormalFloor         0x201
+#define METATILE_CinnabarIslandGym_SlantedShadowFloor  0x202
+
 // gTileset_Contest
 #define METATILE_Contest_CounterFlap_Bottom  0x2D9
 #define METATILE_Contest_CounterFlap_Top     0x2D1
