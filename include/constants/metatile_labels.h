@@ -958,6 +958,12 @@
 // gTileset_VioletCity
 #define METATILE_VioletCity_Door  0x298
 
+// gTileset_VioletCityGym
+#define METATILE_VioletCityGym_RegularFloor         0x284
+#define METATILE_VioletCityGym_StatueEyesGlowing_1  0x34D
+#define METATILE_VioletCityGym_StatueEyesGlowing_2  0x34E
+#define METATILE_VioletCityGym_StatueEyesGlowing_3  0x34F
+
 // gTileset_ViridianCity
 #define METATILE_ViridianCity_Door  0x221
 
