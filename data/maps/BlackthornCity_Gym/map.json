@@ -35,7 +35,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BlackthornCity_Gym_EventScript_Switch3"
     },
     {
       "type": "sign",
@@ -43,7 +43,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BlackthornCity_Gym_EventScript_Switch2"
     },
     {
       "type": "sign",
@@ -51,7 +51,7 @@
       "y": 23,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BlackthornCity_Gym_EventScript_Switch1"
     },
     {
       "type": "sign",
