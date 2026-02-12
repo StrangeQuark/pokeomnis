@@ -10114,8 +10114,8 @@
     {
       "id": "LAYOUT_BLACKTHORN_CITY_GYM",
       "name": "BlackthornCity_Gym_Layout",
-      "width": 13,
-      "height": 17,
+      "width": 27,
+      "height": 37,
       "primary_tileset": "gTileset_JohtoBuilding",
       "secondary_tileset": "gTileset_VioletCityGym",
       "border_filepath": "data/layouts/BlackthornCity_Gym/border.bin",
