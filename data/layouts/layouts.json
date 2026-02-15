@@ -5814,7 +5814,7 @@
     {
       "id": "LAYOUT_INDIGO_PLATEAU_POKEMON_CENTER_1F",
       "name": "IndigoPlateau_PokemonCenter_1F_Layout",
-      "width": 25,
+      "width": 30,
       "height": 18,
       "primary_tileset": "gTileset_KantoBuilding",
       "secondary_tileset": "gTileset_KantoPokeCenter",
