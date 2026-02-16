@@ -10640,6 +10640,16 @@
       "secondary_tileset": "gTileset_KantoBuilding2",
       "border_filepath": "data/layouts/MahoganyTown_House2/border.bin",
       "blockdata_filepath": "data/layouts/MahoganyTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN_HOUSE1",
+      "name": "AzaleaTown_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/AzaleaTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown_House1/map.bin"
     }
   ]
 }
