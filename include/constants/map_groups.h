@@ -1103,6 +1103,7 @@
 #define MAP_SLOWPOKE_WELL_B1F             (6 | (74 << 8))
 #define MAP_SLOWPOKE_WELL_B2F             (7 | (74 << 8))
 #define MAP_AZALEA_GATEHOUSE              (8 | (74 << 8))
+#define MAP_AZALEA_TOWN_HOUSE1            (9 | (74 << 8))
 
 // gMapGroup_GoldenrodCity
 #define MAP_GOLDENROD_CITY_UNDERGROUND_NORTH_ENTRANCE (0 | (75 << 8))

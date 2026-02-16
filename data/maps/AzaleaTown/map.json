@@ -66,10 +66,10 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 19,
+      "x": 21,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_AZALEA_TOWN_GYM",
+      "dest_map": "MAP_AZALEA_TOWN_HOUSE1",
       "dest_warp_id": "0"
     }
   ],

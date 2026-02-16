@@ -1701,3 +1701,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/DewfordTown_House3/scripts.inc"
 	.include "data/maps/DewfordTown_Mart/scripts.inc"
 	.include "data/maps/MahoganyTown_House2/scripts.inc"
+
+	.include "data/maps/AzaleaTown_House1/scripts.inc"
