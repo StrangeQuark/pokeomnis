@@ -1203,6 +1203,7 @@
 #define MAP_MAHOGANY_TOWN_POKEMON_CENTER_2F  (6 | (79 << 8))
 #define MAP_MAHOGANY_TOWN_GYM                (7 | (79 << 8))
 #define MAP_MAHOGANY_TOWN_HOUSE              (8 | (79 << 8))
+#define MAP_MAHOGANY_TOWN_HOUSE2             (9 | (79 << 8))
 
 // gMapGroup_BlackthornCity
 #define MAP_BLACKTHORN_CITY_POKEMON_CENTER_1F   (0 | (80 << 8))

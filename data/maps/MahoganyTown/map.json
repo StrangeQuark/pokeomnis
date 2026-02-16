@@ -65,7 +65,7 @@
       "x": 7,
       "y": 21,
       "elevation": 0,
-      "dest_map": "MAP_MAHOGANY_TOWN_GYM",
+      "dest_map": "MAP_MAHOGANY_TOWN_HOUSE2",
       "dest_warp_id": "0"
     },
     {
@@ -95,14 +95,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "MahoganyTown_EventScript_MartSign"
-    },
-    {
-      "type": "sign",
-      "x": 3,
-      "y": 21,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "MahoganyTown_EventScript_GymSign"
     }
   ]
 }

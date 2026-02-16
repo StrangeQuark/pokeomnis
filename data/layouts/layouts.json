@@ -10630,6 +10630,16 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/DewfordTown_Mart/border.bin",
       "blockdata_filepath": "data/layouts/DewfordTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAHOGANY_TOWN_HOUSE2",
+      "name": "MahoganyTown_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/MahoganyTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/MahoganyTown_House2/map.bin"
     }
   ]
 }

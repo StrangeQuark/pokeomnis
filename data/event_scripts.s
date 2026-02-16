@@ -1698,7 +1698,6 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/birch_speech.inc"
 	.include "data/maps/MauvilleCity_Gym_B1F/scripts.inc"
 	.include "data/maps/ViridianCity_House3/scripts.inc"
-
 	.include "data/maps/DewfordTown_House3/scripts.inc"
-
 	.include "data/maps/DewfordTown_Mart/scripts.inc"
+	.include "data/maps/MahoganyTown_House2/scripts.inc"
