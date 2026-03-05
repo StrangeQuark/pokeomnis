@@ -512,7 +512,7 @@
 #define FLAG_DEFEATED_HO_OH                  0x1DC
 #define FLAG_DEFEATED_LUGIA                  0x1DD
 
-#define FLAG_UNUSED_0x1DE                    0x1DE // Unused Flag
+#define FLAG_CAUGHT_OR_DEFEATED_CELEBI       0x1DE
 #define FLAG_UNUSED_0x1DF                    0x1DF // Unused Flag
 #define FLAG_UNUSED_0x1E0                    0x1E0 // Unused Flag
 #define FLAG_UNUSED_0x1E1                    0x1E1 // Unused Flag
@@ -767,7 +767,7 @@
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1
 #define FLAG_HIDE_OLDALE_TOWN_MAYS_HOUSE_RIVAL_BEDROOM              0x2D2
 #define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3
-#define FLAG_UNUSED_0x2D4                                           0x2D4
+#define FLAG_HIDE_ILEX_FOREST_CELEBI                                0x2D4
 #define FLAG_UNUSED_0x2D5                                           0x2D5
 #define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
