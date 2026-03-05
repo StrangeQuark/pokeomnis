@@ -269,5 +269,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_OAKS_LAB_PROF_OAK
 	setflag FLAG_HIDE_ELMS_LAB_PROF_ELM
 	setflag FLAG_HIDE_ELMS_LAB_RIVAL
+	setflag FLAG_HIDE_ILEX_FOREST_CELEBI
 	call EventScript_ResetAllBerries
 	end
