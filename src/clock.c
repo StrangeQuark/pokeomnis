@@ -14,6 +14,7 @@
 
 static void UpdatePerDay(struct Time *localTime);
 static void UpdatePerMinute(struct Time *localTime);
+static MainCallback sWallClockReturnCallback;
 
 static void InitTimeBasedEvents(void)
 {
@@ -76,11 +77,18 @@ static void UpdatePerMinute(struct Time *localTime)
 static void ReturnFromStartWallClock(void)
 {
     InitTimeBasedEvents();
-    SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+    FlagSet(FLAG_SET_WALL_CLOCK);
+    SetMainCallback2(sWallClockReturnCallback);
+}
+
+void StartWallClockWithCallback(MainCallback callback)
+{
+    sWallClockReturnCallback = callback;
+    SetMainCallback2(CB2_StartWallClock);
+    gMain.savedCallback = ReturnFromStartWallClock;
 }
 
 void StartWallClock(void)
 {
-    SetMainCallback2(CB2_StartWallClock);
-    gMain.savedCallback = ReturnFromStartWallClock;
+    StartWallClockWithCallback(CB2_ReturnToFieldContinueScriptPlayMapMusic);
 }

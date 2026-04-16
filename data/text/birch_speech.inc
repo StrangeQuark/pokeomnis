@@ -49,6 +49,7 @@ gText_Birch_YourePlayer::
 	.string "Ah, okay!\p"
 	.string "You're {PLAYER}{KUN},\n"
 	.string "I get it now!\p"
+	.string "First, let's get your clock set.\p"
 	.string "$"
 
 gText_Birch_AreYouReady::
