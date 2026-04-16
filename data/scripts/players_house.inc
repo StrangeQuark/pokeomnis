@@ -2,7 +2,9 @@
 .set LOCALID_MOM, 1
 .set LOCALID_DAD, 5
 
-PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet::
+PlayersHouse_2F_EventScript_RoomChecked::
+	setflag FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_1
+	setflag FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_2
 	setvar VAR_INTRO_STATE, 5
 	return
 
@@ -11,7 +13,7 @@ PlayersHouse_1F_EventScript_EnterHouseMovingIn::
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
-	msgbox PlayersHouse_1F_Text_MoversPokemonGoSetClock, MSGBOX_DEFAULT
+	msgbox PlayersHouse_1F_Text_MoversPokemonGoUpstairs, MSGBOX_DEFAULT
 	closemessage
 	setvar VAR_INTRO_STATE, 4
 	applymovement OBJ_EVENT_ID_PLAYER, PlayersHouse_1F_Movement_PlayerWalkIn
@@ -25,7 +27,7 @@ PlayersHouse_1F_Movement_PlayerWalkIn:
 	step_end
 
 PlayersHouse_1F_EventScript_MomGoSeeRoom::
-	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
+	msgbox PlayersHouse_1F_Text_GoCheckRoom, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_0x8004, Common_Movement_WalkInPlaceFasterUp
 	applymovement OBJ_EVENT_ID_PLAYER, PlayersHouse_1F_Movement_MovePlayerAwayFromDoor
@@ -34,30 +36,12 @@ PlayersHouse_1F_EventScript_MomGoSeeRoom::
 	end
 
 PlayersHouse_2F_EventScript_WallClock::
-	goto_if_set FLAG_SET_WALL_CLOCK, PlayersHouse_2F_EventScript_CheckWallClock
-	msgbox PlayersHouse_2F_Text_ClockIsStopped, MSGBOX_DEFAULT
-	call PlayersHouse_2F_EventScript_SetWallClock
-	delay 30
-	setvar VAR_INTRO_STATE, 6
-	setflag FLAG_SET_WALL_CLOCK
-	setflag FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_1
-	setflag FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_2
-	releaseall
-	end
-
-PlayersHouse_2F_EventScript_CheckWallClock::
 	incrementgamestat GAME_STAT_CHECKED_CLOCK
 	fadescreen FADE_TO_BLACK
 	special Special_ViewWallClock
 	waitstate
 	releaseall
 	end
-
-PlayersHouse_2F_EventScript_SetWallClock::
-	fadescreen FADE_TO_BLACK
-	special StartWallClock
-	waitstate
-	return
 
 PlayersHouse_1F_EventScript_MomNoticeGymBroadcast::
 	playse SE_PIN
@@ -437,19 +421,17 @@ EventScript_RunningShoesManual::
 	msgbox PlayersHouse_1F_Text_RunningShoesManual, MSGBOX_SIGN
 	end
 
-PlayersHouse_1F_Text_MoversPokemonGoSetClock:
+PlayersHouse_1F_Text_MoversPokemonGoUpstairs:
 	.string "The mover's pokémon do all the work\n"
 	.string "of moving you in and cleaning up after.\l"
 	.string "This is so convenient!\p"
-	.string "{PLAYER}, Dad bought you a new clock\n"
-	.string "as a housewarming gift, it's in your\l"
-	.string "room upstairs!\p"
-	.string "Go check it out, honey, and don't\n"
-	.string "forget to set it!$"
+	.string "{PLAYER}, please head upstairs and make\n"
+	.string "sure they got all of your things in place!$"
 
-PlayersHouse_1F_Text_GoSetTheClock:
+PlayersHouse_1F_Text_GoCheckRoom:
 	.string "MOM: {PLAYER}.\p"
-	.string "Go set the clock in your room, honey.$"
+	.string "Go make sure everything is set up\n" 
+	.string "in your room, honey.$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
 	.string "MOM: Oh! {PLAYER}, {PLAYER}!\n"

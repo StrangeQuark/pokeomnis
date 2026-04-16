@@ -11,14 +11,8 @@ PalletTown_PlayersHouse_1F_OnLoad:
 
 PalletTown_PlayersHouse_1F_OnTransition:
 	call_if_eq VAR_INTRO_STATE, 3, PalletTown_PlayersHouse_1F_EventScript_MoveMomToDoor
-	call_if_eq VAR_INTRO_STATE, 5, PalletTown_PlayersHouse_1F_EventScript_MoveMomToStairs
-	call_if_eq VAR_INTRO_STATE, 6, PalletTown_PlayersHouse_1F_EventScript_MoveMomToTV
+	call_if_eq VAR_INTRO_STATE, 5, PalletTown_PlayersHouse_1F_EventScript_MoveMomToTV
 	end
-
-PalletTown_PlayersHouse_1F_EventScript_MoveMomToStairs::
-	setobjectxyperm LOCALID_MOM, 8, 2
-	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_RIGHT
-	return
 
 PalletTown_PlayersHouse_1F_EventScript_MoveMomToTV::
 	setobjectxyperm LOCALID_MOM, 5, 2
@@ -34,25 +28,8 @@ PalletTown_PlayersHouse_1F_EventScript_MoveMomToDoor::
 @ The below SS Ticket script uses Mays house state by accident(?), but theyre both set identically after the intro
 PalletTown_PlayersHouse_1F_OnFrame:
 	map_script_2 VAR_INTRO_STATE, 3, PalletTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn
-	map_script_2 VAR_INTRO_STATE, 5, PalletTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock
-	map_script_2 VAR_INTRO_STATE, 6, PalletTown_PlayersHouse_1F_EventScript_GymReport
+	map_script_2 VAR_INTRO_STATE, 5, PalletTown_PlayersHouse_1F_EventScript_GymReport
 	.2byte 0
-
-PalletTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock::
-	lockall
-	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
-	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_PlayersHouse_1F_Movement_PushTowardStairs
-	applymovement LOCALID_MOM, PalletTown_PlayersHouse_1F_Movement_PushTowardStairs
-	waitmovement 0
-	warp MAP_PALLET_TOWN_PLAYERS_HOUSE_2F, 9, 2
-	waitstate
-	releaseall
-	end
-
-PalletTown_PlayersHouse_1F_Movement_PushTowardStairs:
-	walk_right
-	step_end
 
 PalletTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn::
 	lockall

@@ -11,14 +11,8 @@ NewBarkTown_PlayersHouse_1F_OnLoad:
 
 NewBarkTown_PlayersHouse_1F_OnTransition:
 	call_if_eq VAR_INTRO_STATE, 3, NewBarkTown_PlayersHouse_1F_EventScript_MoveMomToDoor
-	call_if_eq VAR_INTRO_STATE, 5, NewBarkTown_PlayersHouse_1F_EventScript_MoveMomToStairs
-	call_if_eq VAR_INTRO_STATE, 6, NewBarkTown_PlayersHouse_1F_EventScript_MoveMomToTV
+	call_if_eq VAR_INTRO_STATE, 5, NewBarkTown_PlayersHouse_1F_EventScript_MoveMomToTV
 	end
-
-NewBarkTown_PlayersHouse_1F_EventScript_MoveMomToStairs::
-	setobjectxyperm LOCALID_MOM, 8, 2
-	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_RIGHT
-	return
 
 NewBarkTown_PlayersHouse_1F_EventScript_MoveMomToTV::
 	setobjectxyperm LOCALID_MOM, 6, 2
@@ -34,25 +28,8 @@ NewBarkTown_PlayersHouse_1F_EventScript_MoveMomToDoor::
 @ The below SS Ticket script uses Mays house state by accident(?), but theyre both set identically after the intro
 NewBarkTown_PlayersHouse_1F_OnFrame:
 	map_script_2 VAR_INTRO_STATE, 3, NewBarkTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn
-	map_script_2 VAR_INTRO_STATE, 5, NewBarkTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock
-	map_script_2 VAR_INTRO_STATE, 6, NewBarkTown_PlayersHouse_1F_EventScript_GymReport
+	map_script_2 VAR_INTRO_STATE, 5, NewBarkTown_PlayersHouse_1F_EventScript_GymReport
 	.2byte 0
-
-NewBarkTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock::
-	lockall
-	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
-	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, NewBarkTown_PlayersHouse_1F_Movement_PushTowardStairs
-	applymovement LOCALID_MOM, NewBarkTown_PlayersHouse_1F_Movement_PushTowardStairs
-	waitmovement 0
-	warp MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_2F, 9, 2
-	waitstate
-	releaseall
-	end
-
-NewBarkTown_PlayersHouse_1F_Movement_PushTowardStairs:
-	walk_right
-	step_end
 
 NewBarkTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn::
 	lockall

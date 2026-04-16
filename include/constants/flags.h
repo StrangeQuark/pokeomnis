@@ -93,7 +93,7 @@
 
 // Scripts
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL  0x50
-#define FLAG_SET_WALL_CLOCK                      0x51
+#define FLAG_UNUSED_0X51                         0x51 // Unused - was FLAG_SET_WALL_CLOCK
 #define FLAG_UNUSED_0x52                         0x52
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
 

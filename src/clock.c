@@ -77,7 +77,6 @@ static void UpdatePerMinute(struct Time *localTime)
 static void ReturnFromStartWallClock(void)
 {
     InitTimeBasedEvents();
-    FlagSet(FLAG_SET_WALL_CLOCK);
     SetMainCallback2(sWallClockReturnCallback);
 }
 
