@@ -3,5 +3,16 @@ PalletTown_PlayersHouse_2F_MapScripts::
 	.byte 0
 
 PalletTown_PlayersHouse_2F_OnTransition:
-	call_if_eq VAR_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
+	call_if_eq VAR_INTRO_STATE, 4, PlayersHouse_2F_EventScript_RoomChecked
+	call SecretBase_EventScript_SetDecorationFlags
+	setvar VAR_SECRET_BASE_INITIALIZED, 0
+	end
+
+PalletTown_PlayersHouse_2F_OnWarp:
+	map_script_2 VAR_SECRET_BASE_INITIALIZED, 0, PalletTown_PlayersHouse_2F_EventScript_CheckInitDecor
+	.2byte 0
+
+PalletTown_PlayersHouse_2F_EventScript_CheckInitDecor::
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, SecretBase_EventScript_InitDecorations
 	end

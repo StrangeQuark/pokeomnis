@@ -7,7 +7,7 @@ LittlerootTown_PlayersHouse_1F_MapScripts::
 	.byte 0
 
 LittlerootTown_PlayersHouse_1F_OnLoad:
-	call_if_lt VAR_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_SetMovingBoxes
+	call_if_lt VAR_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_SetMovingBoxes
 	end
 
 LittlerootTown_PlayersHouse_1F_EventScript_SetMovingBoxes::
@@ -17,14 +17,8 @@ LittlerootTown_PlayersHouse_1F_EventScript_SetMovingBoxes::
 
 LittlerootTown_PlayersHouse_1F_OnTransition:
 	call_if_eq VAR_INTRO_STATE, 3, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToDoor
-	call_if_eq VAR_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToStairs
-	call_if_eq VAR_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToTV
+	call_if_eq VAR_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToTV
 	end
-
-LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToStairs::
-	setobjectxyperm LOCALID_MOM, 8, 4
-	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
-	return
 
 LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToTV::
 	setobjectxyperm LOCALID_MOM, 4, 5
@@ -40,25 +34,8 @@ LittlerootTown_PlayersHouse_1F_EventScript_MoveMomToDoor::
 @ The below SS Ticket script uses Mays house state by accident(?), but theyre both set identically after the intro
 LittlerootTown_PlayersHouse_1F_OnFrame:
 	map_script_2 VAR_INTRO_STATE, 3, LittlerootTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn
-	map_script_2 VAR_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock
-	map_script_2 VAR_INTRO_STATE, 6, LittlerootTown_PlayersHouse_1F_EventScript_GymReport
+	map_script_2 VAR_INTRO_STATE, 5, LittlerootTown_PlayersHouse_1F_EventScript_GymReport
 	.2byte 0
-
-LittlerootTown_PlayersHouse_1F_EventScript_GoUpstairsToSetClock::
-	lockall
-	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
-	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_PlayersHouse_1F_Movement_PushTowardStairs
-	applymovement LOCALID_MOM, LittlerootTown_PlayersHouse_1F_Movement_PushTowardStairs
-	waitmovement 0
-	warp MAP_LITTLEROOT_TOWN_PLAYERS_HOUSE_2F, 7, 1
-	waitstate
-	releaseall
-	end
-
-LittlerootTown_PlayersHouse_1F_Movement_PushTowardStairs:
-	walk_up
-	step_end
 
 LittlerootTown_PlayersHouse_1F_EventScript_EnterHouseMovingIn::
 	lockall

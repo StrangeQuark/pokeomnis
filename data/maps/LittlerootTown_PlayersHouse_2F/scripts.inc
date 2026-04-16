@@ -6,7 +6,7 @@ LittlerootTown_PlayersHouse_2F_MapScripts::
 	.byte 0
 
 LittlerootTown_PlayersHouse_2F_OnTransition:
-	call_if_eq VAR_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
+	call_if_eq VAR_INTRO_STATE, 4, PlayersHouse_2F_EventScript_RoomChecked
 	call SecretBase_EventScript_SetDecorationFlags
 	setvar VAR_SECRET_BASE_INITIALIZED, 0
 	end
@@ -56,10 +56,6 @@ PlayersHouse_2F_EventScript_Notebook::
 PlayersHouse_2F_EventScript_GameCube::
 	msgbox PlayersHouse_2F_Text_ItsAGameCube, MSGBOX_SIGN
 	end
-
-PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it!$"
 
 PlayersHouse_2F_Text_Notebook:
 	.string "{PLAYER} flipped open the notebook.\p"
