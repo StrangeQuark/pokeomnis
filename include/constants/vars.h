@@ -202,7 +202,7 @@
 #define VAR_TRICK_HOUSE_PUZZLE_7_STATE_2                 0x40B6 // Leftover from RS, never set
 #define VAR_SLATEPORT_FAN_CLUB_STATE                     0x40B7
 #define VAR_UNUSED_0x40B8                                0x40B8 // Unused Var
-#define VAR_MT_PYRE_STATE                                0x40B9
+#define VAR_UNUSED_0x40B9                                0x40B9
 #define VAR_NEW_MAUVILLE_STATE                           0x40BA
 #define VAR_PARENTS_HOUSE_STATE                          0x40BB
 #define VAR_BRAVO_TRAINER_BATTLE_TOWER_ON                0x40BC
@@ -233,7 +233,7 @@
 #define VAR_ROAMER_POKEMON                               0x40D5 // 0 = Latias, 1 = Latios
 #define VAR_TRAINER_HILL_IS_ACTIVE                       0x40D6
 #define VAR_SKY_PILLAR_RAYQUAZA_CRY_DONE                 0x40D7
-#define VAR_SOOTOPOLIS_WALLACE_STATE                     0x40D8
+#define VAR_UNUSED_0X40D8                                0x40D8
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE                         0x40DA
 #define VAR_UNUSED_0x40DB                                0x40DB // Unused Var
