@@ -2400,21 +2400,13 @@ MatchCall_Text_May8::
 	.string "with many GHOST-type POKéMON!$"
 
 MatchCall_Text_May9::
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "I was thinking of going to the hot\n"
-	.string "spring in LAVARIDGE.\p"
-	.string "But on the way, around JAGGED\n"
-	.string "PASS, I ran into some bad-looking\l"
-	.string "characters. The mood was ugly!$"
-
-MatchCall_Text_May10::
 	.string "MAY: Hi, {PLAYER}{KUN}!\n"
 	.string "Did you see the news?\p"
 	.string "They say CAPT. STERN discovered\n"
 	.string "the SEAFLOOR CAVERN while on his\l"
 	.string "submarine expedition.$"
 
-MatchCall_Text_May11::
+MatchCall_Text_May10::
 	.string "MAY: Hi, {PLAYER}{KUN}!\n"
 	.string "Don't you think it's neat?\p"
 	.string "Even if you don't have a boat,\n"
@@ -2424,7 +2416,7 @@ MatchCall_Text_May11::
 	.string "There's a POKéMON move that lets\n"
 	.string "you go to the bottom of the sea.$"
 
-MatchCall_Text_May12::
+MatchCall_Text_May11::
 	.string "MAY: Hi, {PLAYER}{KUN}!\n"
 	.string "Hope things are okay!\p"
 	.string "Have you been on the sea and\n"
@@ -2435,7 +2427,7 @@ MatchCall_Text_May12::
 	.string "When you get to the other side,\n"
 	.string "come up to the surface. Easy!$"
 
-MatchCall_Text_May13::
+MatchCall_Text_May12::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
 	.string "How's it going?\n"
 	.string "Are you filling your POKéDEX?\p"
@@ -2444,7 +2436,7 @@ MatchCall_Text_May13::
 	.string "And there are three of them!\p"
 	.string "I would love to see even one…$"
 
-MatchCall_Text_May14::
+MatchCall_Text_May13::
 	.string "MAY: {PLAYER}{KUN}!\n"
 	.string "I heard the rumors!\p"
 	.string "You beat the SOOTOPOLIS GYM\n"
@@ -2452,7 +2444,7 @@ MatchCall_Text_May14::
 	.string "That means you don't have far\n"
 	.string "to go, do you?$"
 
-MatchCall_Text_May15::
+MatchCall_Text_May14::
 	.string "MAY: There isn't a single TRAINER\n"
 	.string "left in HOENN who doesn't know who\l"
 	.string "you are, {PLAYER}{KUN}!\p"
@@ -2527,22 +2519,13 @@ MatchCall_Text_Brendan8::
 	.string "with many GHOST-type POKéMON!$"
 
 MatchCall_Text_Brendan9::
-	.string "BRENDAN: Hey there, {PLAYER}.\p"
-	.string "I was on my way back to the hot\n"
-	.string "spring in LAVARIDGE.\p"
-	.string "But around JAGGED PASS, I ran into\n"
-	.string "some nasty-looking characters.\p"
-	.string "Those creeps…\n"
-	.string "I think they were TEAM MAGMA.$"
-
-MatchCall_Text_Brendan10::
 	.string "BRENDAN: Hi, {PLAYER}!\n"
 	.string "Did you catch the news?\p"
 	.string "They say CAPT. STERN discovered\n"
 	.string "the SEAFLOOR CAVERN while on his\l"
 	.string "submarine expedition.$"
 
-MatchCall_Text_Brendan11::
+MatchCall_Text_Brendan10::
 	.string "BRENDAN: Hey there, {PLAYER}!\n"
 	.string "Don't you think it's awesome?\p"
 	.string "Even if you don't have a boat,\n"
@@ -2552,7 +2535,7 @@ MatchCall_Text_Brendan11::
 	.string "travel to the bottom of the sea.\p"
 	.string "Man, POKéMON can do anything!$"
 
-MatchCall_Text_Brendan12::
+MatchCall_Text_Brendan11::
 	.string "BRENDAN: Howdy, {PLAYER}!\n"
 	.string "How are you holding up?\p"
 	.string "Ever found your way to the other\n"
@@ -2562,7 +2545,7 @@ MatchCall_Text_Brendan12::
 	.string "When you get to the other side,\n"
 	.string "come up to the surface. Simple!$"
 
-MatchCall_Text_Brendan13::
+MatchCall_Text_Brendan12::
 	.string "BRENDAN: Hey there, {PLAYER}!\p"
 	.string "How's it going? Filling up your\n"
 	.string "POKéDEX successfully?\p"
@@ -2571,14 +2554,14 @@ MatchCall_Text_Brendan13::
 	.string "And not just one--three!\p"
 	.string "I'd love to catch even one…$"
 
-MatchCall_Text_Brendan14::
+MatchCall_Text_Brendan13::
 	.string "BRENDAN: {PLAYER}!\n"
 	.string "I heard the rumors!\p"
 	.string "You beat the SOOTOPOLIS GYM\n"
 	.string "LEADER? Awesome!\p"
 	.string "You're getting awful close now!$"
 
-MatchCall_Text_Brendan15::
+MatchCall_Text_Brendan14::
 	.string "BRENDAN: There isn't a TRAINER in\n"
 	.string "all of HOENN who doesn't know who\l"
 	.string "you are, {PLAYER}!\p"
@@ -2669,16 +2652,6 @@ MatchCall_Text_Scott3::
 	.string "should climb to the top of once.$"
 
 MatchCall_Text_Scott4::
-	.string "SCOTT: Hi, {PLAYER}{KUN}!\p"
-	.string "I've been hearing about these odd\n"
-	.string "gangs being a nuisance.\p"
-	.string "TEAM MAGMA and TEAM AQUA,\n"
-	.string "I think they were.\p"
-	.string "I would think there'd be some\n"
-	.string "skilled TRAINERS among them.\p"
-	.string "…But if they're thugs…$"
-
-MatchCall_Text_Scott5::
 	.string "SCOTT: Oh, hi, {PLAYER}{KUN}.\p"
 	.string "Might there be tough TRAINERS\n"
 	.string "at the bottom of the sea?\p"
@@ -2686,7 +2659,7 @@ MatchCall_Text_Scott5::
 	.string "I can't swim, for one.\l"
 	.string "And I don't raise POKéMON…$"
 
-MatchCall_Text_Scott6::
+MatchCall_Text_Scott5::
 	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
 	.string "You know that you can challenge\n"
 	.string "the POKéMON LEAGUE when you've\l"
@@ -2703,7 +2676,7 @@ MatchCall_Text_Scott6::
 	.string "the POKéMON LEAGUE into the HALL\l"
 	.string "OF FAME!$"
 
-MatchCall_Text_Scott7::
+MatchCall_Text_Scott6::
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "SCOTT appears to be out of\n"
@@ -2742,26 +2715,19 @@ MatchCall_Text_Norman4::
 	.string "and unforgiving!$"
 
 MatchCall_Text_Norman5::
-	.string "DAD: Oh, hi, {PLAYER}!\p"
-	.string "What's that? MAGMA EMBLEM?\n"
-	.string "I don't know what that's about.\p"
-	.string "But with a name like that, it may\n"
-	.string "be somehow linked to a volcano!$"
-
-MatchCall_Text_Norman6::
 	.string "DAD: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
 	.string "You caught me right in the middle\n"
 	.string "of a POKéMON training session!$"
 
-MatchCall_Text_Norman7::
+MatchCall_Text_Norman6::
 	.string "DAD: {PLAYER}!\p"
 	.string "Who would've thought you'd become\n"
 	.string "the POKéMON LEAGUE CHAMPION…\p"
 	.string "Okay!\n"
 	.string "I won't be left behind!$"
 
-MatchCall_Text_Norman8::
+MatchCall_Text_Norman7::
 	.string "DAD: Hm? {PLAYER}?\n"
 	.string "What good timing!\p"
 	.string "This time, I'm going to challenge\n"
@@ -2769,7 +2735,7 @@ MatchCall_Text_Norman8::
 	.string "I'm waiting in the PETALBURG GYM.\n"
 	.string "Accept my challenge anytime!$"
 
-MatchCall_Text_Norman9::
+MatchCall_Text_Norman8::
 	.string "DAD: …You amaze me, {PLAYER}.\n"
 	.string "How much higher will you soar?$"
 
@@ -2792,17 +2758,6 @@ MatchCall_Text_Steven2::
 	.string "You're not like anyone else.$"
 
 MatchCall_Text_Steven3::
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "When you're on an adventure with\n"
-	.string "your POKéMON, what do you think?\p"
-	.string "Do you consider them to be strong\n"
-	.string "partners?\p"
-	.string "Do you think of them as fun\n"
-	.string "companions?\p"
-	.string "Depending on how you think, your\n"
-	.string "adventure's significance changes.$"
-
-MatchCall_Text_Steven4::
 	.string "STEVEN: Hello?\n"
 	.string "{PLAYER}{KUN}?\p"
 	.string "I'm involved in a spot of trouble\n"
@@ -2810,7 +2765,7 @@ MatchCall_Text_Steven4::
 	.string "I'm sorry, but I can't talk now.\n"
 	.string "Bye!$"
 
-MatchCall_Text_Steven5::
+MatchCall_Text_Steven4::
 	.string "STEVEN: Oh!\n"
 	.string "{PLAYER}{KUN}!\p"
 	.string "There's no need to talk.\n"
@@ -2818,12 +2773,12 @@ MatchCall_Text_Steven5::
 	.string "You have to believe in yourself\n"
 	.string "and do what's right.$"
 
-MatchCall_Text_Steven6::
+MatchCall_Text_Steven5::
 	.string "… … … … … …\p"
 	.string "STEVEN appears not to be getting\n"
 	.string "the call…$"
 
-MatchCall_Text_Steven7::
+MatchCall_Text_Steven6::
 	.string "STEVEN: {PLAYER}{KUN}… Congratulations\n"
 	.string "for entering the HALL OF FAME.\p"
 	.string "… … … … … …\n"

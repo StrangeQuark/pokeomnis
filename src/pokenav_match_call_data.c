@@ -189,11 +189,10 @@ static const match_call_text_data_t sNormanTextScripts[] = {
     { MatchCall_Text_Norman2, FLAG_DEFEATED_DEWFORD_GYM,     0xFFFF },
     { MatchCall_Text_Norman3, FLAG_DEFEATED_LAVARIDGE_GYM,   0xFFFF },
     { MatchCall_Text_Norman4, FLAG_DEFEATED_PETALBURG_GYM,   0xFFFF },
-    { MatchCall_Text_Norman5, FLAG_RECEIVED_RED_OR_BLUE_ORB, 0xFFFF },
-    { MatchCall_Text_Norman6, 0xFFFE,                        0xFFFF },
+    { MatchCall_Text_Norman5, 0xFFFE,                        0xFFFF },
+    { MatchCall_Text_Norman6, FLAG_SYS_GAME_CLEAR,           0xFFFF },
     { MatchCall_Text_Norman7, FLAG_SYS_GAME_CLEAR,           0xFFFF },
     { MatchCall_Text_Norman8, FLAG_SYS_GAME_CLEAR,           0xFFFF },
-    { MatchCall_Text_Norman9, FLAG_SYS_GAME_CLEAR,           0xFFFF },
     { NULL,                   0xFFFF,                        0xFFFF }
 };
 
@@ -237,11 +236,10 @@ static const struct MatchCallStructNPC sMomMatchCallHeader =
 static const match_call_text_data_t sStevenTextScripts[] = {
     { MatchCall_Text_Steven1, 0xFFFF,                              0xFFFF },
     { MatchCall_Text_Steven2, FLAG_RUSTURF_TUNNEL_OPENED,          0xFFFF },
-    { MatchCall_Text_Steven3, FLAG_RECEIVED_RED_OR_BLUE_ORB,       0xFFFF },
-    { MatchCall_Text_Steven4, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
-    { MatchCall_Text_Steven5, FLAG_DEFEATED_MOSSDEEP_GYM,          0xFFFF },
-    { MatchCall_Text_Steven6, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
-    { MatchCall_Text_Steven7, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
+    { MatchCall_Text_Steven3, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
+    { MatchCall_Text_Steven4, FLAG_DEFEATED_MOSSDEEP_GYM,          0xFFFF },
+    { MatchCall_Text_Steven5, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
+    { MatchCall_Text_Steven6, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
     { NULL,                   0xFFFF,                              0xFFFF },
 };
 
@@ -264,13 +262,12 @@ static const match_call_text_data_t sMayTextScripts[] = {
     { MatchCall_Text_May6,  FLAG_DEFEATED_LAVARIDGE_GYM,         0xFFFF },
     { MatchCall_Text_May7,  FLAG_DEFEATED_PETALBURG_GYM,         0xFFFF },
     { MatchCall_Text_May8,  FLAG_RECEIVED_CASTFORM,              0xFFFF },
-    { MatchCall_Text_May9,  FLAG_RECEIVED_RED_OR_BLUE_ORB,       0xFFFF },
-    { MatchCall_Text_May10, FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
-    { MatchCall_Text_May11, FLAG_MET_TEAM_AQUA_HARBOR,           0xFFFF },
-    { MatchCall_Text_May12, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
-    { MatchCall_Text_May13, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
-    { MatchCall_Text_May14, FLAG_DEFEATED_SOOTOPOLIS_GYM,        0xFFFF },
-    { MatchCall_Text_May15, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
+    { MatchCall_Text_May9,  FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
+    { MatchCall_Text_May10, FLAG_MET_TEAM_AQUA_HARBOR,           0xFFFF },
+    { MatchCall_Text_May11, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
+    { MatchCall_Text_May12, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
+    { MatchCall_Text_May13, FLAG_DEFEATED_SOOTOPOLIS_GYM,        0xFFFF },
+    { MatchCall_Text_May14, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
     { NULL,                 0xFFFF,                              0xFFFF }
 };
 
@@ -293,13 +290,12 @@ static const match_call_text_data_t sBrendanTextScripts[] = {
     { MatchCall_Text_Brendan6,  FLAG_DEFEATED_LAVARIDGE_GYM,         0xFFFF },
     { MatchCall_Text_Brendan7,  FLAG_DEFEATED_PETALBURG_GYM,         0xFFFF },
     { MatchCall_Text_Brendan8,  FLAG_RECEIVED_CASTFORM,              0xFFFF },
-    { MatchCall_Text_Brendan9,  FLAG_RECEIVED_RED_OR_BLUE_ORB,       0xFFFF },
-    { MatchCall_Text_Brendan10, FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
-    { MatchCall_Text_Brendan11, FLAG_MET_TEAM_AQUA_HARBOR,           0xFFFF },
-    { MatchCall_Text_Brendan12, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
-    { MatchCall_Text_Brendan13, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
-    { MatchCall_Text_Brendan14, FLAG_DEFEATED_SOOTOPOLIS_GYM,        0xFFFF },
-    { MatchCall_Text_Brendan15, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
+    { MatchCall_Text_Brendan9,  FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
+    { MatchCall_Text_Brendan10, FLAG_MET_TEAM_AQUA_HARBOR,           0xFFFF },
+    { MatchCall_Text_Brendan11, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
+    { MatchCall_Text_Brendan12, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
+    { MatchCall_Text_Brendan13, FLAG_DEFEATED_SOOTOPOLIS_GYM,        0xFFFF },
+    { MatchCall_Text_Brendan14, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
     { NULL,                     0xFFFF,                              0xFFFF }
 };
 
@@ -346,10 +342,9 @@ static const match_call_text_data_t sScottTextScripts[] = {
     { MatchCall_Text_Scott1, 0xFFFF,                              0xFFFF },
     { MatchCall_Text_Scott2, FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY,  0xFFFF },
     { MatchCall_Text_Scott3, FLAG_RECEIVED_CASTFORM,              0xFFFF },
-    { MatchCall_Text_Scott4, FLAG_RECEIVED_RED_OR_BLUE_ORB,       0xFFFF },
-    { MatchCall_Text_Scott5, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
-    { MatchCall_Text_Scott6, FLAG_DEFEATED_SOOTOPOLIS_GYM,        0xFFFF },
-    { MatchCall_Text_Scott7, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
+    { MatchCall_Text_Scott4, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
+    { MatchCall_Text_Scott5, FLAG_DEFEATED_SOOTOPOLIS_GYM,        0xFFFF },
+    { MatchCall_Text_Scott6, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
     { NULL,                  0xFFFF,                              0xFFFF }
 };
 
