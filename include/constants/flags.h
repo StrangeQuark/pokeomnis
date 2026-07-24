@@ -897,7 +897,7 @@
 #define FLAG_HIDE_ROUTE_119_RIVAL                                   0x353
 #define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON                          0x355
-#define FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS                         0x356
+#define FLAG_UNUSED_0x356                                           0x356
 #define FLAG_HIDE_SKY_PILLAR_WALLACE                                0x357
 #define FLAG_UNUSED_0x358                                           0x358
 #define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359
