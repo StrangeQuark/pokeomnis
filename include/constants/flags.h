@@ -95,7 +95,7 @@
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL  0x50
 #define FLAG_UNUSED_0X51                         0x51 // Unused - was FLAG_SET_WALL_CLOCK
 #define FLAG_UNUSED_0x52                         0x52
-#define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
+#define FLAG_UNUSED_0x53                         0x53
 
 #define FLAG_UNUSED_0x054                    0x54  // Unused Flag
 #define FLAG_UNUSED_0x055                    0x55  // Unused Flag
@@ -329,7 +329,7 @@
 #define FLAG_ADDED_MATCH_CALL_TO_POKENAV     0x130
 #define FLAG_REGISTERED_STEVEN_POKENAV       0x131
 #define FLAG_ENABLE_NORMAN_MATCH_CALL        0x132
-#define FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN 0x133 // Set after you follow Steven to the entrance of the Cave of Origin.
+#define FLAG_UNUSED_0x133                    0x133 // Set after you follow Steven to the entrance of the Cave of Origin.
 #define FLAG_UNUSED_0x134                    0x134
 #define FLAG_UNUSED_0x135                    0x135
 #define FLAG_MET_SCOTT_RUSTBORO              0x136
@@ -1016,7 +1016,7 @@
 #define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE                          0x3CA
 #define FLAG_HIDE_LILYCOVE_CITY_RIVAL                               0x3CB
 #define FLAG_HIDE_ROUTE_120_STEVEN                                  0x3CC
-#define FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN                            0x3CD
+#define FLAG_UNUSED_0x3CD                                           0x3CD
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1                            0x3CE
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2                            0x3CF
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3                            0x3D0
