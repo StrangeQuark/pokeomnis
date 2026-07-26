@@ -167,16 +167,16 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
 	.string "When I was young, I traveled the world\n"
-	.string "as a POKéMON TRAINER.\p"
+	.string "as a pokémon trainer.\p"
 	.string "Now that I've become an old buzzard,\n"
 	.string "my only amusement is watching young\l"
-	.string "TRAINERS battle.$"
+	.string "trainers battle.$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
 	.string "The door appears to be locked.$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
-	.string "A TRAINER named {STR_VAR_1}\n"
+	.string "A trainer named {STR_VAR_1}\n"
 	.string "is visiting my home.\p"
 	.string "Would you like to challenge\n"
 	.string "{STR_VAR_1}?$"
@@ -198,10 +198,6 @@ SootopolisCity_MysteryEventsHouse_1F_Text_SaveProgressBeforeBattle:
 SootopolisCity_MysteryEventsHouse_1F_Text_HopeToSeeGoodMatch:
 	.string "I hope to see a good match!$"
 
-@ Unused
-SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie:
-	.string "{STR_VAR_1}$"
-
 SootopolisCity_MysteryEventsHouse_B1F_Text_MatchEndedUpDraw:
 	.string "The match ended up a draw.$"
 
@@ -210,21 +206,12 @@ SootopolisCity_MysteryEventsHouse_1F_Text_BrilliantStandoff:
 	.string "It was a brilliant match in which\n"
 	.string "neither side conceded a step!$"
 
-@ Unused
-SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Won:
-	.string "{STR_VAR_1}$"
-
 SootopolisCity_MysteryEventsHouse_1F_Text_ThatWasSuperlative:
 	.string "That was superlative!\p"
 	.string "Why, it was like seeing myself in\n"
 	.string "my youth again!$"
 
-@ Unused
-SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Lost:
-	.string "{STR_VAR_1}$"
-
 SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou:
 	.string "Ah, too bad for you!\p"
 	.string "But it was a good match.\n"
 	.string "I hope you can win next time.$"
-
