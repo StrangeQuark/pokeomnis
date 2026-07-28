@@ -123,7 +123,6 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	waitmovement 0
 	msgbox SeafloorCavern_Room9_Text_MaxieComeOnPlayer, MSGBOX_DEFAULT
 	setvar VAR_ROUTE128_STATE, 1
-	setvar VAR_SOOTOPOLIS_CITY_STATE, 1
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
 	clearflag FLAG_HIDE_ROUTE_128_ARCHIE
 	clearflag FLAG_HIDE_ROUTE_128_MAXIE
