@@ -73,7 +73,6 @@ Route104_MrBrineysHouse_EventScript_SailToDewford::
 	clearflag FLAG_HIDE_ROUTE_104_MR_BRINEY
 	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
-	setvar VAR_RUSTBORO_CITY_STATE, 8
 	warp MAP_ROUTE104, 13, 51
 	waitstate
 	releaseall

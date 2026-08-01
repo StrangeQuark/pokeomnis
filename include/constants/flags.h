@@ -162,7 +162,7 @@
 #define FLAG_DEFEATED_SEASHORE_HOUSE         0x8D
 #define FLAG_DEVON_GOODS_STOLEN              0x8E
 #define FLAG_RECOVERED_DEVON_GOODS           0x8F
-#define FLAG_RETURNED_DEVON_GOODS            0x90
+#define FLAG_UNUSED_0x90                     0x90
 #define FLAG_CAUGHT_LUGIA                    0x91
 #define FLAG_CAUGHT_HO_OH                    0x92
 #define FLAG_MR_BRINEY_SAILING_INTRO         0x93
@@ -177,7 +177,7 @@
 #define FLAG_BATTLE_FRONTIER_TRADE_DONE      0x9C
 #define FLAG_FORCE_MIRAGE_TOWER_VISIBLE      0x9D
 #define FLAG_UNUSED_0x9E                     0x9E
-#define FLAG_INTERACTED_WITH_DEVON_EMPLOYEE_GOODS_STOLEN 0x9F
+#define FLAG_UNUSED_0x9F                     0x9F
 #define FLAG_COOL_PAINTING_MADE              0xA0
 #define FLAG_BEAUTY_PAINTING_MADE            0xA1
 #define FLAG_CUTE_PAINTING_MADE              0xA2
@@ -774,8 +774,8 @@
 #define FLAG_HIDE_ROUTE_1_PROF_OAK                                  0x2D8
 #define FLAG_HIDE_OAKS_LAB_PROF_OAK                                 0x2D9
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
-#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
-#define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
+#define FLAG_UNUSED_0x2DB                                           0x2DB
+#define FLAG_UNUSED_0x2DC                                           0x2DC
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD
 #define FLAG_HIDE_ELMS_LAB_PROF_ELM                                 0x2DE
 #define FLAG_HIDE_ROUTE_29_ELM                                      0x2DF
@@ -887,7 +887,7 @@
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN               0x349
 #define FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO                         0x34A
 #define FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY                      0x34B
-#define FLAG_HIDE_RUSTBORO_CITY_SCIENTIST                           0x34C
+#define FLAG_UNUSED_0x34C                                           0x34C
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                  0x34D
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE                      0x34E
 #define FLAG_UNUSED_0x34F                                           0x34F
