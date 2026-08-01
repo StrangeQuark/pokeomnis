@@ -18,3 +18,10 @@ SkyPillar_Outside_EventScript_OpenDoor::
 
 SkyPillar_Outside_OnFrame:
 	.2byte 0
+
+SkyPillar_Outside_EventScript_ClosedDoor::
+	msgbox SkyPillar_Outside_Text_DoorIsClosed, MSGBOX_SIGN
+	end
+
+SkyPillar_Outside_Text_DoorIsClosed:
+	.string "The door is closed.$"

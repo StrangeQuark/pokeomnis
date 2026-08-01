@@ -1038,7 +1038,7 @@
 #define FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M                 0x3E0
 #define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0x3E1
 #define FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY                       0x3E2
-#define FLAG_HIDE_PETALBURG_CITY_SCOTT                              0x3E3
+#define FLAG_UNUSED_0x3E3                                           0x3E3
 #define FLAG_UNUSED_0x3E4                                           0x3E4
 #define FLAG_UNUSED_0x3E5                                           0x3E5
 #define FLAG_UNUSED_0x3E6                                           0x3E6
