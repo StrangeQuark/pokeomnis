@@ -218,7 +218,7 @@
 #define VAR_STEVENS_HOUSE_STATE                          0x40C6
 #define VAR_OLDALE_RIVAL_STATE                           0x40C7
 #define VAR_JAGGED_PASS_STATE                            0x40C8
-#define VAR_SCOTT_PETALBURG_ENCOUNTER                    0x40C9
+#define VAR_UNUSED_0x40C9                                0x40C9
 #define VAR_SKY_PILLAR_STATE                             0x40CA
 #define VAR_MIRAGE_TOWER_STATE                           0x40CB
 #define VAR_FOSSIL_MANIAC_STATE                          0x40CC
