@@ -2351,18 +2351,6 @@ MatchCall_Text_May2::
 	.string "When they finally build a GYM there,\n"
 	.string "I should apply to be the LEADER.$"
 
-MatchCall_Text_May3::
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "Do you remember a man named\n"
-	.string "the CUTTER in RUSTBORO?\l"
-	.string "He had a house there, remember?\p"
-	.string "Well, I found out his younger\n"
-	.string "brother lives in MAUVILLE.\p"
-	.string "Can you guess his name?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "The ROCK SMASH GUY!$"
-
 MatchCall_Text_May4::
 	.string "MAY: {PLAYER}{KUN}?\p"
 	.string "RUSTURF TUNNEL…\n"
@@ -2468,18 +2456,6 @@ MatchCall_Text_Brendan2::
 	.string "SLATEPORT doesn't have a GYM.\p"
 	.string "When they finally build a GYM there,\n"
 	.string "I should apply to be the LEADER.$"
-
-MatchCall_Text_Brendan3::
-	.string "BRENDAN: Yo, {PLAYER}!\p"
-	.string "Do you remember a guy named\n"
-	.string "the CUTTER in RUSTBORO?\l"
-	.string "He had a house there, right?\p"
-	.string "Well, it turns out his little\n"
-	.string "brother lives in MAUVILLE.\p"
-	.string "Can you guess his name?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "The ROCK SMASH GUY!$"
 
 MatchCall_Text_Brendan4::
 	.string "BRENDAN: This voice… {PLAYER}?\p"

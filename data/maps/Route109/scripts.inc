@@ -275,18 +275,10 @@ Route109_Movement_BrineyExitBoat:
 Route109_EventScript_MrBriney::
 	lock
 	faceplayer
-	goto_if_unset FLAG_DELIVERED_DEVON_GOODS, Route109_EventScript_HaveNotDeliveredDevonGood
-	goto Route109_EventScript_DeliveredDevonGoods
+	goto Route109_EventScript_WhereAreWeBound
 	end
 
-Route109_EventScript_HaveNotDeliveredDevonGood::
-	message Route109_Text_BrineySailToDewfordQuestion
-	msgbox Route109_Text_BrineySailToDewfordQuestion, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route109_EventScript_StayHere
-	goto Route109_EventScript_SailToDewford
-	end
-
-Route109_EventScript_DeliveredDevonGoods::
+Route109_EventScript_WhereAreWeBound::
 	message Route109_Text_BrineyWhereAreWeBound
 	waitmessage
 	multichoicedefault 21, 8, MULTI_BRINEY_OFF_DEWFORD, 1, FALSE
@@ -300,11 +292,6 @@ Route109_EventScript_SailToDewford::
 	msgbox Route109_Text_BrineyDewfordItIs, MSGBOX_DEFAULT
 	closemessage
 	goto Route109_EventScript_StartDepartForDewford
-	end
-
-Route109_EventScript_StayHere::
-	msgbox Route109_Text_BrineyDeliverDevonGoods, MSGBOX_DEFAULT
-	release
 	end
 
 Route109_EventScript_ChoseNotToSail::
@@ -476,20 +463,10 @@ Route109_EventScript_Elijah::
 	msgbox Route109_Text_ElijahPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route109_Text_BrineySailToDewfordQuestion:
-	.string "MR. BRINEY: I thought you're supposed\n"
-	.string "to deliver the DEVON GOODS.\p"
-	.string "Would you like to sail back to\n"
-	.string "DEWFORD, then?$"
-
 Route109_Text_BrineyDewfordItIs:
 	.string "MR. BRINEY: DEWFORD it is, then!\p"
 	.string "Anchors aweigh!\n"
 	.string "PEEKO, we're setting sail, my darling!$"
-
-Route109_Text_BrineyDeliverDevonGoods:
-	.string "MR. BRINEY: Then you go on and deliver\n"
-	.string "the DEVON GOODS. I'll be waiting.$"
 
 DewfordTown_Text_BrineyLandedInSlateport:
 	.string "MR. BRINEY: Ahoy! We've made land in\n"
