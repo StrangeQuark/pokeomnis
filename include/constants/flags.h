@@ -880,7 +880,7 @@
 #define FLAG_HIDE_ROUTE_128_STEVEN                                  0x342
 #define FLAG_UNUSED_0x343                                           0x343
 #define FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT              0x344
-#define FLAG_HIDE_ROUTE_110_BIRCH                                   0x345
+#define FLAG_UNUSED_0x345                                           0x345
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA     0x346
 #define FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1                             0x347
 #define FLAG_UNUSED_0x348                                           0x348
@@ -962,10 +962,10 @@
 #define FLAG_UNUSED_0X394                                           0x394
 #define FLAG_UNUSED_0X395                                           0x395
 #define FLAG_HIDE_BATTLE_TOWER_REPORTER                             0x396
-#define FLAG_HIDE_ROUTE_110_RIVAL                                   0x397
+#define FLAG_UNUSED_0X397                                           0x397
 #define FLAG_HIDE_CHAMPIONS_ROOM_RIVAL                              0x398
 #define FLAG_HIDE_CHAMPIONS_ROOM_BIRCH                              0x399
-#define FLAG_HIDE_ROUTE_110_RIVAL_ON_BIKE                           0x39A
+#define FLAG_UNUSED_0X39A                                           0x39A
 #define FLAG_HIDE_ROUTE_119_RIVAL_ON_BIKE                           0x39B
 #define FLAG_HIDE_AQUA_HIDEOUT_GRUNTS                               0x39C
 #define FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS                     0x39D
