@@ -7,17 +7,7 @@ SlateportCity_SternsShipyard_1F_EventScript_Dock::
 	lockall
 	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_SternsShipyard_1F_EventScript_FerryReady
 	goto_if_set FLAG_HOENN_BADGE05_GET, SlateportCity_SternsShipyard_1F_EventScript_BrineyJoined
-	goto_if_set FLAG_DELIVERED_DEVON_GOODS, SlateportCity_SternsShipyard_1F_EventScript_NeedVeteran
-	goto_if_set FLAG_DOCK_REJECTED_DEVON_GOODS, SlateportCity_SternsShipyard_1F_EventScript_GoFindStern
 	msgbox SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails, MSGBOX_DEFAULT
-	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_DOCK, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	setflag FLAG_DOCK_REJECTED_DEVON_GOODS
-	setflag FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA
 	releaseall
 	end
 
@@ -32,23 +22,6 @@ SlateportCity_SternsShipyard_1F_EventScript_BrineyJoined::
 	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs, MSGBOX_DEFAULT
-	releaseall
-	end
-
-SlateportCity_SternsShipyard_1F_EventScript_GoFindStern::
-	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_DOCK, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	releaseall
-	end
-
-SlateportCity_SternsShipyard_1F_EventScript_NeedVeteran::
-	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -71,33 +44,6 @@ SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails:
 	.string "And what about that doohickey?\p"
 	.string "Aaargh! I can't make heads or tails\n"
 	.string "of this!$"
-
-SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern:
-	.string "Hm?\n"
-	.string "Hi, I'm DOCK.\p"
-	.string "CAPT. STERN commissioned me to\n"
-	.string "design a ferry.\p"
-	.string "Oh! That there…\n"
-	.string "Are they DEVON GOODS?\p"
-	.string "But, hmm…\n"
-	.string "This won't do…\p"
-	.string "CAPT. STERN went off somewhere.\n"
-	.string "He said he had some work to do.\p"
-	.string "Could I get you to go find CAPT.\n"
-	.string "STERN and deliver that to him?$"
-
-SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern:
-	.string "DOCK: Where could CAPT. STERN have\n"
-	.string "gone off to?\p"
-	.string "Could you go find CAPT. STERN and\n"
-	.string "deliver that parcel to him?$"
-
-SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran:
-	.string "DOCK: Shipbuilding is an art.\p"
-	.string "A lot of things can't be figured out\n"
-	.string "just by calculating.\p"
-	.string "I really could use advice from a veteran\n"
-	.string "who knows the seas…$"
 
 SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
 	.string "DOCK: Hi! MR. BRINEY's joined us to\n"
@@ -140,4 +86,3 @@ SlateportCity_SternsShipyard_1F_Text_SeaIsLikeLivingThing:
 SlateportCity_SternsShipyard_1F_Text_GetSeasickEasily:
 	.string "I get seasick real easily.\n"
 	.string "So I get to help out here instead.$"
-
