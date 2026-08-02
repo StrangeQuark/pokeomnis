@@ -476,12 +476,6 @@ Route109_EventScript_Elijah::
 	msgbox Route109_Text_ElijahPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "We've made land in SLATEPORT!\p"
-	.string "I suppose you're going to visit CAPT.\n"
-	.string "STERN and deliver the DEVON GOODS?$"
-
 Route109_Text_BrineySailToDewfordQuestion:
 	.string "MR. BRINEY: I thought you're supposed\n"
 	.string "to deliver the DEVON GOODS.\p"

@@ -21,7 +21,6 @@ DewfordTown_OnTransition:
 DewfordTown_EventScript_Briney::
 	lock
 	faceplayer
-	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, DewfordTown_EventScript_ReturnToPetalburgPrompt
 	message DewfordTown_Text_WhereAreWeBound
 	waitmessage
 	multichoicedefault 21, 6, MULTI_BRINEY_ON_DEWFORD, 2, FALSE
@@ -50,19 +49,6 @@ DewfordTown_EventScript_CancelSailSelect::
 	msgbox DewfordTown_Text_JustTellMeWhenYouNeedToSetSail, MSGBOX_DEFAULT
 	closemessage
 	release
-	end
-
-DewfordTown_EventScript_ReturnToPetalburgPrompt::
-	msgbox DewfordTown_Text_SetSailBackToPetalburg, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, DewfordTown_EventScript_SailBackToPetalburg
-	msgbox DewfordTown_Text_GoDeliverIllBeWaiting, MSGBOX_DEFAULT
-	release
-	end
-
-DewfordTown_EventScript_SailBackToPetalburg::
-	msgbox DewfordTown_Text_PetalburgWereSettingSail2, MSGBOX_DEFAULT
-	closemessage
-	goto DewfordTown_EventScript_SailToPetalburg
 	end
 
 DewfordTown_EventScript_Woman::
@@ -141,8 +127,7 @@ DewfordTown_EventScript_SailToSlateport::
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
 	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
 	hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
-	call_if_unset FLAG_DELIVERED_DEVON_GOODS, DewfordTown_EventScript_LandedSlateportDeliverGoods
-	call_if_set FLAG_DELIVERED_DEVON_GOODS, DewfordTown_EventScript_LandedSlateport
+	call DewfordTown_EventScript_LandedSlateport
 	closemessage
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
 	resetobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
@@ -150,10 +135,6 @@ DewfordTown_EventScript_SailToSlateport::
 	copyobjectxytoperm LOCALID_BRINEY_R109
 	release
 	end
-
-DewfordTown_EventScript_LandedSlateportDeliverGoods::
-	msgbox DewfordTown_Text_BrineyLandedInSlateportDeliverGoods, MSGBOX_DEFAULT
-	return
 
 DewfordTown_EventScript_LandedSlateport::
 	msgbox DewfordTown_Text_BrineyLandedInSlateport, MSGBOX_DEFAULT
@@ -615,27 +596,6 @@ DewfordTown_Text_GymSign:
 DewfordTown_Text_HallSign:
 	.string "DEWFORD HALL\n"
 	.string "“Everyone's information exchange!”$"
-
-Route104_Text_LandedInDewfordDeliverLetter:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "We've hit land in DEWFORD.\p"
-	.string "I suppose you're off to deliver that\n"
-	.string "LETTER to, who was it now, STEVEN!$"
-
-DewfordTown_Text_SetSailBackToPetalburg:
-	.string "MR. BRINEY: Have you delivered your\n"
-	.string "LETTER?\p"
-	.string "Or were you meaning to sail back to\n"
-	.string "PETALBURG?$"
-
-DewfordTown_Text_PetalburgWereSettingSail2:
-	.string "MR. BRINEY: PETALBURG it is, then!\p"
-	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!$"
-
-DewfordTown_Text_GoDeliverIllBeWaiting:
-	.string "MR. BRINEY: Then you go on and deliver\n"
-	.string "the LETTER. I'll be waiting.$"
 
 DewfordTown_Text_BrineyLandedInDewford:
 	.string "MR. BRINEY: Ahoy!\n"

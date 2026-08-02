@@ -7,7 +7,7 @@ Route104_MrBrineysHouse_MapScripts::
 
 Route104_MrBrineysHouse_OnTransition:
 	setflag FLAG_LANDMARK_MR_BRINEY_HOUSE
-	call_if_eq VAR_BRINEY_HOUSE_STATE, 1, Route104_MrBrineysHouse_EventScript_SetBrineyPeekoPos
+	goto Route104_MrBrineysHouse_EventScript_SetBrineyPeekoPos
 	end
 
 Route104_MrBrineysHouse_EventScript_SetBrineyPeekoPos::
@@ -20,18 +20,7 @@ Route104_MrBrineysHouse_EventScript_SetBrineyPeekoPos::
 Route104_MrBrineysHouse_EventScript_Briney::
 	lock
 	faceplayer
-	call_if_unset FLAG_MR_BRINEY_SAILING_INTRO, Route104_MrBrineysHouse_EventScript_SailingIntro
-	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, Route104_MrBrineysHouse_EventScript_SailBothDeliveries
-	goto_if_unset FLAG_DELIVERED_DEVON_GOODS, Route104_MrBrineysHouse_EventScript_SailDeliverPackage
 	goto Route104_MrBrineysHouse_EventScript_WhereAreWeBound
-	end
-
-Route104_MrBrineysHouse_EventScript_SailingIntro::
-	setflag FLAG_MR_BRINEY_SAILING_INTRO
-	msgbox Route104_MrBrineysHouse_Text_WaitUpPeeko, MSGBOX_DEFAULT
-	msgbox Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route104_MrBrineysHouse_EventScript_DeclineDeliverySailing
-	goto Route104_MrBrineysHouse_EventScript_SailToDewford
 	end
 
 Route104_MrBrineysHouse_EventScript_WhereAreWeBound::
@@ -42,23 +31,6 @@ Route104_MrBrineysHouse_EventScript_WhereAreWeBound::
 	case 0, Route104_MrBrineysHouse_EventScript_SailToDewford
 	case 1, Route104_MrBrineysHouse_EventScript_DeclineSailing
 	case MULTI_B_PRESSED, Route104_MrBrineysHouse_EventScript_DeclineSailing
-	end
-
-Route104_MrBrineysHouse_EventScript_SailBothDeliveries::
-	msgbox Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route104_MrBrineysHouse_EventScript_DeclineDeliverySailing
-	goto Route104_MrBrineysHouse_EventScript_SailToDewford
-	end
-
-Route104_MrBrineysHouse_EventScript_SailDeliverPackage::
-	msgbox Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route104_MrBrineysHouse_EventScript_DeclineDeliverySailing
-	goto Route104_MrBrineysHouse_EventScript_SailToDewford
-	end
-
-Route104_MrBrineysHouse_EventScript_DeclineDeliverySailing::
-	msgbox Route104_MrBrineysHouse_Text_DeclineDeliverySail, MSGBOX_DEFAULT
-	release
 	end
 
 Route104_MrBrineysHouse_EventScript_DeclineSailing::
@@ -88,53 +60,10 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 	release
 	end
 
-Route104_MrBrineysHouse_Text_WaitUpPeeko:
-	.string "MR. BRINEY: Hold on, lass!\n"
-	.string "Wait up, PEEKO!$"
-
-Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-	.string "Hm? You're {PLAYER}{KUN}!\n"
-	.string "You saved my darling PEEKO!\l"
-	.string "We owe so much to you!\p"
-	.string "What's that?\n"
-	.string "You want to sail with me?\p"
-	.string "Hmhm…\p"
-	.string "You have a LETTER bound for DEWFORD\n"
-	.string "and a package for SLATEPORT, then?\p"
-	.string "Quite the busy life you must lead!\p"
-	.string "But, certainly, what you're asking is\n"
-	.string "no problem at all.\p"
-	.string "You've come to the right man!\n"
-	.string "We'll set sail for DEWFORD.$"
-
 Route104_MrBrineysHouse_Text_SetSailForDewford:
 	.string "MR. BRINEY: DEWFORD it is, then!\p"
 	.string "Anchors aweigh!\n"
 	.string "PEEKO, we're setting sail, my darling!$"
-
-Route104_MrBrineysHouse_Text_DeclineDeliverySail:
-	.string "MR. BRINEY: Is that so?\n"
-	.string "Your deliveries can wait?\p"
-	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail!$"
-
-Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a LETTER to DEWFORD\n"
-	.string "and a package to SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
-
-Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a package to\n"
-	.string "CAPT. STERN in SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
 	.string "MR. BRINEY: Ahoy!\n"
@@ -149,4 +78,3 @@ Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
 
 Route104_MrBrineysHouse_Text_Peeko:
 	.string "PEEKO: Pii piihyoro!$"
-
