@@ -2833,14 +2833,6 @@ MatchCall_Text_MrStone2::
 	.string "Now, since I am a busy PRESIDENT,\n"
 	.string "I have to go! Bye-bye!$"
 
-MatchCall_Text_MrStone3::
-	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
-	.string "Ah, so you've met STEVEN!\n"
-	.string "I'd better reward you, then!\p"
-	.string "When you visit RUSTBORO again,\n"
-	.string "come see me at my office.\p"
-	.string "I'll be waiting for you!$"
-
 MatchCall_Text_MrStone4::
 	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
 	.string "Did you know that DEVON was\n"

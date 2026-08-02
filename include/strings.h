@@ -2385,7 +2385,6 @@ extern const u8 MatchCall_BattlePyramidText13[];
 extern const u8 MatchCall_BattlePyramidText14[];
 extern const u8 MatchCall_Text_MrStone1[];
 extern const u8 MatchCall_Text_MrStone2[];
-extern const u8 MatchCall_Text_MrStone3[];
 extern const u8 MatchCall_Text_MrStone4[];
 extern const u8 MatchCall_Text_MrStone5[];
 extern const u8 MatchCall_Text_MrStone6[];
