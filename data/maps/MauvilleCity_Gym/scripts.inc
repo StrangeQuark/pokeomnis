@@ -71,8 +71,6 @@ MauvilleCity_Gym_EventScript_FlanneryDefeated::
 	msgbox MauvilleCity_Gym_Text_ExplainFireBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
 	setflag FLAG_HOENN_BADGE02_GET
-	addvar VAR_PETALBURG_GYM_STATE, 1
-	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 4
 	call Common_EventScript_SetGymTrainers
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
