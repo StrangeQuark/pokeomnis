@@ -2351,12 +2351,6 @@ MatchCall_Text_May2::
 	.string "When they finally build a GYM there,\n"
 	.string "I should apply to be the LEADER.$"
 
-MatchCall_Text_May4::
-	.string "MAY: {PLAYER}{KUN}?\p"
-	.string "RUSTURF TUNNEL…\n"
-	.string "They named it that because it\l"
-	.string "joins RUSTBORO and VERDANTURF.$"
-
 MatchCall_Text_May5::
 	.string "MAY: {PLAYER}{KUN}, how are you?\p"
 	.string "I'm out on ROUTE 111 now.\p"
@@ -2456,13 +2450,6 @@ MatchCall_Text_Brendan2::
 	.string "SLATEPORT doesn't have a GYM.\p"
 	.string "When they finally build a GYM there,\n"
 	.string "I should apply to be the LEADER.$"
-
-MatchCall_Text_Brendan4::
-	.string "BRENDAN: This voice… {PLAYER}?\p"
-	.string "They gave RUSTURF TUNNEL its name\n"
-	.string "because it joins RUSTBORO and\l"
-	.string "VERDANTURF.\p"
-	.string "Did you know that?$"
 
 MatchCall_Text_Brendan5::
 	.string "BRENDAN: {PLAYER}, what's up?\p"
