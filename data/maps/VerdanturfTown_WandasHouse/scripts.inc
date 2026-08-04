@@ -38,18 +38,6 @@ VerdanturfTown_WandasHouse_EventScript_WallysAunt::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande
-	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysAuntAnythingHappened
-	goto_if_set FLAG_RUSTURF_TUNNEL_OPENED, VerdanturfTown_WandasHouse_EventScript_WallysAuntTunnelOpen
-	msgbox VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven, MSGBOX_DEFAULT
-	release
-	end
-
-VerdanturfTown_WandasHouse_EventScript_WallysAuntTunnelOpen::
-	msgbox VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging, MSGBOX_DEFAULT
-	release
-	end
-
-VerdanturfTown_WandasHouse_EventScript_WallysAuntAnythingHappened::
 	msgbox VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally, MSGBOX_DEFAULT
 	release
 	end
@@ -99,19 +87,6 @@ VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
 	.string "Well, I have to give him credit--he is\n"
 	.string "my little brother's son.$"
 
-VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
-	.string "My daughter's boyfriend is a very\n"
-	.string "driven and passionate sort of person.\p"
-	.string "He's been digging a tunnel nonstop\n"
-	.string "just so he can see my daughter.\p"
-	.string "My daughter's a little concerned,\n"
-	.string "so she goes out to the tunnel a lot.$"
-
-VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
-	.string "It's amazing. My daughter's boyfriend\n"
-	.string "was digging the tunnel by hand!\p"
-	.string "It's so incredible!$"
-
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
 	.string "If anything were to happen to WALLY,\n"
 	.string "I would never be able to look his\l"
@@ -121,4 +96,3 @@ VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
 	.string "WALLY was in EVER GRANDE?\p"
 	.string "His parents in PETALBURG would be\n"
 	.string "astonished to hear that!$"
-
