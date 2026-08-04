@@ -67,7 +67,6 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	setflag FLAG_HOENN_BADGE02_GET
 	setvar VAR_0x8008, 4
 	call Common_EventScript_SetGymTrainers
-	setvar VAR_LAVARIDGE_TOWN_STATE, 1
 	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
 	closemessage
 	delay 30
