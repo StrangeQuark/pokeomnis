@@ -972,8 +972,8 @@
 #define FLAG_UNUSED_0X39E                                           0x39E
 #define FLAG_UNUSED_0X39F                                           0x39F
 #define FLAG_UNUSED_0X3A0                                           0x3A0
-#define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL                              0x3A1
-#define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL_ON_BIKE                      0x3A2
+#define FLAG_UNUSED_0X3A1                                           0x3A1
+#define FLAG_UNUSED_0X3A2                                           0x3A2
 #define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_1                             0x3A3
 #define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_2                             0x3A4
 #define FLAG_HIDE_FORTREE_CITY_HOUSE_4_WINGULL                      0x3A5
