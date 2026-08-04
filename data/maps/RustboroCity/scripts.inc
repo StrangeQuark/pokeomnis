@@ -46,13 +46,7 @@ RustboroCity_EventScript_MatchCallTutorial::
 RustboroCity_EventScript_FatMan::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEVON_GOODS_STOLEN, RustboroCity_EventScript_FatManSawGrunt
 	msgbox RustboroCity_Text_WeShortenItToDevon, MSGBOX_DEFAULT
-	release
-	end
-
-RustboroCity_EventScript_FatManSawGrunt::
-	msgbox RustboroCity_Text_SneakyLookingManWentAroundCorner, MSGBOX_DEFAULT
 	release
 	end
 
@@ -159,11 +153,6 @@ RustboroCity_Text_WeShortenItToDevon:
 	.string "We all just shorten it to DEVON.\p"
 	.string "That company makes all sorts of\n"
 	.string "convenient products.$"
-
-RustboroCity_Text_SneakyLookingManWentAroundCorner:
-	.string "Hm? A sneaky-looking man?\p"
-	.string "Come to think of it, yes, a shady-\n"
-	.string "looking guy went around the corner.$"
 
 RustboroCity_Text_HaveYouChallengedGym:
 	.string "Have you taken the POKéMON GYM\n"

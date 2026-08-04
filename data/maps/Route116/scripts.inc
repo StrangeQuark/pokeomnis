@@ -1,6 +1,3 @@
-.set LOCALID_BRINEY, 11
-.set LOCALID_WANDAS_BF_OUTSIDE, 21
-
 Route116_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route116_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, Route116_OnLoad
@@ -8,15 +5,10 @@ Route116_MapScripts::
 	.byte 0
 
 Route116_OnTransition:
-	call_if_set FLAG_RECOVERED_DEVON_GOODS, Route116_EventScript_SetWandasBoyfriendPos
 	call_if_eq VAR_SHOULD_END_ABNORMAL_WEATHER, 1, AbnormalWeather_EventScript_HideMapNamePopup
 	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_116_NORTH, AbnormalWeather_StartGroudonWeather
 	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_116_SOUTH, AbnormalWeather_StartGroudonWeather
 	end
-
-Route116_EventScript_SetWandasBoyfriendPos::
-	setobjectxyperm LOCALID_WANDAS_BF_OUTSIDE, 38, 10
-	return
 
 Route116_OnLoad:
 	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_116_NORTH, AbnormalWeather_EventScript_PlaceTilesRoute116North
@@ -26,25 +18,6 @@ Route116_OnLoad:
 Route116_OnFrame:
 	map_script_2 VAR_SHOULD_END_ABNORMAL_WEATHER, 1, AbnormalWeather_EventScript_EndEventAndCleanup_1
 	.2byte 0
-
-Route116_EventScript_WandasBoyfriend::
-	lock
-	faceplayer
-	goto_if_set FLAG_RECOVERED_DEVON_GOODS, Route116_EventScript_BoyfriendGruntLeftTunnel
-	goto_if_set FLAG_DEVON_GOODS_STOLEN, Route116_EventScript_BoyfriendGruntInTunnel
-	msgbox Route116_Text_WantToDigTunnel, MSGBOX_DEFAULT
-	release
-	end
-
-Route116_EventScript_BoyfriendGruntLeftTunnel::
-	msgbox Route116_Text_GoonHightailedItOutOfTunnel, MSGBOX_DEFAULT
-	release
-	end
-
-Route116_EventScript_BoyfriendGruntInTunnel::
-	msgbox Route116_Text_DiggingTunnelWhenGoonOrderedMeOut, MSGBOX_DEFAULT
-	release
-	end
 
 Route116_EventScript_RouteSignRustboro::
 	msgbox Route116_Text_RouteSignRustboro, MSGBOX_SIGN
@@ -64,24 +37,6 @@ Route116_EventScript_TrainerTipsBToStopEvolution::
 
 Route116_EventScript_TrainerTipsBagHasPockets::
 	msgbox Route116_Text_TrainerTipsBagHasPockets, MSGBOX_SIGN
-	end
-
-Route116_EventScript_Briney::
-	lock
-	faceplayer
-	msgbox Route116_Text_ScoundrelMadeOffWithPeeko, MSGBOX_DEFAULT
-	setvar VAR_ROUTE116_STATE, 2
-	release
-	end
-
-Route116_EventScript_BrineyTrigger::
-	lockall
-	applymovement LOCALID_BRINEY, Common_Movement_WalkInPlaceFasterRight
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	msgbox Route116_Text_ScoundrelMadeOffWithPeeko, MSGBOX_DEFAULT
-	setvar VAR_ROUTE116_STATE, 2
-	releaseall
 	end
 
 Route116_EventScript_GlassesMan::
@@ -282,37 +237,6 @@ Route116_EventScript_Johnson::
 	trainerbattle_single TRAINER_JOHNSON, Route116_Text_JohnsonIntro, Route116_Text_JohnsonDefeat
 	msgbox Route116_Text_JohnsonPostBattle, MSGBOX_AUTOCLOSE
 	end
-
-Route116_Text_ScoundrelMadeOffWithPeeko:
-	.string "Ohhh, what am I to do?\p"
-	.string "We were on our walk, PEEKO and I, when\n"
-	.string "we were jumped by an odd thug…\p"
-	.string "The scoundrel made off with my\n"
-	.string "darling PEEKO!\p"
-	.string "Wrrrooooooaaaar! PEEKO!$"
-
-Route116_Text_WantToDigTunnel:
-	.string "Nnn… Roar!\p"
-	.string "I want to dig that tunnel!$"
-
-Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
-	.string "Nnn… Roar!\n"
-	.string "What's going on?\p"
-	.string "I was digging the tunnel without any\n"
-	.string "tools when some goon ordered me out!\p"
-	.string "That tunnel's filled with POKéMON\n"
-	.string "that react badly to loud noises.\l"
-	.string "They could cause an uproar.\p"
-	.string "That's why we stopped using heavy\n"
-	.string "equipment for tunneling…\p"
-	.string "I'm worried that the goon will do\n"
-	.string "something stupid and startle the\l"
-	.string "POKéMON into an uproar.$"
-
-Route116_Text_GoonHightailedItOutOfTunnel:
-	.string "Nnn… Roar!\p"
-	.string "That goofy goon hightailed it out of\n"
-	.string "the tunnel! I can go back to digging!$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
 	.string "I dropped my glasses…\n"
