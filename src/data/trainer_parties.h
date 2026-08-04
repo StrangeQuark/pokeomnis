@@ -1922,14 +1922,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mark[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtChimney1[] = {
-    {
-    .iv = 0,
-    .lvl = 20,
-    .species = SPECIES_NUMEL,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Steve2[] = {
     {
     .iv = 10,
@@ -7912,14 +7904,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Harrison[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtChimney2[] = {
-    {
-    .iv = 0,
-    .lvl = 20,
-    .species = SPECIES_ZUBAT,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Clarence[] = {
     {
     .iv = 0,
@@ -8055,29 +8039,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMtChimney[] = {
-    {
-    .iv = 50,
-    .lvl = 18,
-    .species = SPECIES_NUMEL,
-    },
-    {
-    .iv = 50,
-    .lvl = 20,
-    .species = SPECIES_POOCHYENA,
-    },
-    {
-    .iv = 50,
-    .lvl = 22,
-    .species = SPECIES_NUMEL,
-    },
-    {
-    .iv = 50,
-    .lvl = 22,
-    .species = SPECIES_ZUBAT,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Jonathan[] = {
     {
     .iv = 0,
@@ -8105,24 +8066,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMagmaHideout[] = {
     {
     .iv = 150,
     .lvl = 39,
-    .species = SPECIES_CAMERUPT,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMtChimney[] = {
-    {
-    .iv = 150,
-    .lvl = 24,
-    .species = SPECIES_MIGHTYENA,
-    },
-    {
-    .iv = 150,
-    .lvl = 24,
-    .species = SPECIES_ZUBAT,
-    },
-    {
-    .iv = 150,
-    .lvl = 25,
     .species = SPECIES_CAMERUPT,
     }
 };

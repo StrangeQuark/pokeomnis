@@ -131,7 +131,7 @@
 #define FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE  0x70
 #define FLAG_UNUSED_RS_LEGENDARY_BATTLE_DONE 0x71 // Unused Flag. Used in R/S to indicate whether player defeated or caught Groudon/Kyogre in Cave of Origin.
 #define FLAG_SCOTT_CALL_BATTLE_FRONTIER      0x72 // Used in order to activate a phone call from Scott, inviting the player to the SS Tidal.
-#define FLAG_RECEIVED_METEORITE              0x73
+#define FLAG_UNUSED_0x73                     0x73
 #define FLAG_UNUSED_0x74                     0x74 
 #define FLAG_DEFEATED_MAGMA_SPACE_CENTER     0x75 // Set when Team Magma is defeated at Mossdeep's Space Center.
 #define FLAG_MET_HIDDEN_POWER_GIVER          0x76
@@ -157,7 +157,7 @@
 #define FLAG_UNUSED_0x88                     0x88
 #define FLAG_RECEIVED_HM_CUT                 0x89
 #define FLAG_SCOTT_CALL_FORTREE_GYM          0x8A // Triggers call from Scott after defeating Winona
-#define FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY   0x8B
+#define FLAG_UNUSED_0x8B                     0x8B
 #define FLAG_RECEIVED_6_SODA_POP             0x8C
 #define FLAG_DEFEATED_SEASHORE_HOUSE         0x8D
 #define FLAG_UNUSED_0x8E                     0x8E
@@ -237,7 +237,7 @@
 #define FLAG_ENABLE_MOM_MATCH_CALL           0xD8
 #define FLAG_MET_DIVING_TREASURE_HUNTER      0xD9
 #define FLAG_MET_WAILMER_TRAINER             0xDA
-#define FLAG_EVIL_LEADER_PLEASE_STOP         0xDB
+#define FLAG_UNUSED_0xDB                     0xDB
 
 #define FLAG_NEVER_SET_0x0DC                 0xDC // This flag is read, but never written to
 
@@ -266,7 +266,7 @@
 #define FLAG_USED_ROOM_2_KEY                 0xF1
 #define FLAG_USED_ROOM_4_KEY                 0xF2
 #define FLAG_USED_ROOM_6_KEY                 0xF3
-#define FLAG_MET_PROF_COZMO                  0xF4
+#define FLAG_UNUSED_0xF4                     0xF4
 #define FLAG_RECEIVED_WAILMER_DOLL           0xF5
 #define FLAG_RECEIVED_CHESTO_BERRY_ROUTE_104 0xF6
 #define FLAG_DEFEATED_SS_TIDAL_TRAINERS      0xF7
@@ -862,7 +862,7 @@
 #define FLAG_UNUSED_0x330                                           0x330
 #define FLAG_UNUSED_0x331                                           0x331
 #define FLAG_HIDE_LITTLEROOT_TOWN_RIVALS_HOUSE_2F_POKE_BALL         0x332
-#define FLAG_HIDE_ROUTE_112_TEAM_MAGMA                              0x333
+#define FLAG_UNUSED_0x333                                           0x333
 #define FLAG_UNUSED_0x334                                           0x334
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336
@@ -920,7 +920,7 @@
 #define FLAG_HIDE_DESERT_UNDERPASS_FOSSIL                           0x36A
 #define FLAG_HIDE_ROUTE_111_PLAYER_DESCENT                          0x36B
 #define FLAG_HIDE_ROUTE_111_DESERT_FOSSIL                           0x36C
-#define FLAG_HIDE_MT_CHIMNEY_TRAINERS                               0x36D
+#define FLAG_UNUSED_0x36D                                           0x36D
 #define FLAG_UNUSED_0x36E                                           0x36E
 #define FLAG_UNUSED_0x36F                                           0x36F
 #define FLAG_UNUSED_0x370                                           0x370
@@ -969,9 +969,9 @@
 #define FLAG_HIDE_ROUTE_119_RIVAL_ON_BIKE                           0x39B
 #define FLAG_HIDE_AQUA_HIDEOUT_GRUNTS                               0x39C
 #define FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS                     0x39D
-#define FLAG_HIDE_MT_CHIMNEY_TEAM_AQUA                              0x39E
-#define FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA                             0x39F
-#define FLAG_HIDE_FALLARBOR_HOUSE_PROF_COZMO                        0x3A0
+#define FLAG_UNUSED_0X39E                                           0x39E
+#define FLAG_UNUSED_0X39F                                           0x39F
+#define FLAG_UNUSED_0X3A0                                           0x3A0
 #define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL                              0x3A1
 #define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL_ON_BIKE                      0x3A2
 #define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_1                             0x3A3
@@ -985,7 +985,7 @@
 #define FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA                           0x3AB
 #define FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN                      0x3AC
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT               0x3AD
-#define FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO                          0x3AE
+#define FLAG_UNUSED_0x3AE                                           0x3AE
 #define FLAG_HIDE_AQUA_HIDEOUT_B2F_SUBMARINE_SHADOW                 0x3AF
 #define FLAG_HIDE_ROUTE_128_ARCHIE                                  0x3B0
 #define FLAG_HIDE_ROUTE_128_MAXIE                                   0x3B1
@@ -1037,7 +1037,7 @@
 #define FLAG_HIDE_ROUTE_101_BOY                                     0x3DF
 #define FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M                 0x3E0
 #define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0x3E1
-#define FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY                       0x3E2
+#define FLAG_UNUSED_0x3E2                                           0x3E2
 #define FLAG_UNUSED_0x3E3                                           0x3E3
 #define FLAG_UNUSED_0x3E4                                           0x3E4
 #define FLAG_UNUSED_0x3E5                                           0x3E5

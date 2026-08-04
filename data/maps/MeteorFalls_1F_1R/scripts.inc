@@ -89,7 +89,6 @@ MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
 	removeobject LOCALID_ARCHIE
 	removeobject LOCALID_AQUA_GRUNT_1
 	removeobject LOCALID_AQUA_GRUNT_2
-	setflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
 	setflag FLAG_MET_ARCHIE_METEOR_FALLS
 	setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
 	setvar VAR_METEOR_FALLS_STATE, 1
@@ -223,20 +222,6 @@ MeteorFalls_1F_1R_Movement_PushPlayerOutOfWay:
 	face_right
 	step_end
 
-MeteorFalls_1F_1R_EventScript_ProfCozmo::
-	lock
-	faceplayer
-	goto_if_set FLAG_MET_PROF_COZMO, MeteorFalls_1F_1R_EventScript_MetCozmo
-	setflag FLAG_MET_PROF_COZMO
-	msgbox MeteorFalls_1F_1R_Text_MeetProfCozmo, MSGBOX_DEFAULT
-	release
-	end
-
-MeteorFalls_1F_1R_EventScript_MetCozmo::
-	msgbox MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney, MSGBOX_DEFAULT
-	release
-	end
-
 MeteorFalls_1F_1R_Text_WithThisMeteorite:
 	.string "Hehehe!\p"
 	.string "With this METEORITE, that thing in\n"
@@ -293,23 +278,3 @@ MeteorFalls_1F_1R_Text_ArchieFarewell:
 	.string "ARCHIE: {PLAYER}, you should keep\n"
 	.string "an eye out for TEAM MAGMA, too.\p"
 	.string "Farewell!$"
-
-MeteorFalls_1F_1R_Text_MeetProfCozmo:
-	.string "I… I'm COZMO…\n"
-	.string "I'm a PROFESSOR…\p"
-	.string "TEAM MAGMA asked me to guide them\n"
-	.string "to METEOR FALLS…\p"
-	.string "But they tricked me.\n"
-	.string "They even took my METEORITE away…\p"
-	.string "And then another similar bunch,\n"
-	.string "TEAM AQUA showed up.\p"
-	.string "After that…\n"
-	.string "I don't understand any of it.\p"
-	.string "But that TEAM MAGMA…\p"
-	.string "What are they going to do with that\n"
-	.string "METEORITE at MT. CHIMNEY?$"
-
-MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
-	.string "PROF. COZMO: But that TEAM MAGMA…\p"
-	.string "What are they going to do with that\n"
-	.string "METEORITE at MT. CHIMNEY?$"

@@ -147,7 +147,7 @@
 #define TRAINER_STEVE_1                     143
 #define TRAINER_THALIA_1                    144
 #define TRAINER_MARK                        145
-#define TRAINER_GRUNT_MT_CHIMNEY_1          146
+#define TRAINER_UNUSED_0x146                146
 #define TRAINER_STEVE_2                     147
 #define TRAINER_STEVE_3                     148
 #define TRAINER_STEVE_4                     149
@@ -580,7 +580,7 @@
 #define TRAINER_LEONARDO                    576
 #define TRAINER_ATHENA                      577
 #define TRAINER_HARRISON                    578
-#define TRAINER_GRUNT_MT_CHIMNEY_2          579
+#define TRAINER_UNUSED_0X579                579
 #define TRAINER_CLARENCE                    580
 #define TRAINER_TERRY                       581
 #define TRAINER_NATE                        582
@@ -598,12 +598,12 @@
 #define TRAINER_PAXTON                      594
 #define TRAINER_ISABELLA                    595
 #define TRAINER_GRUNT_WEATHER_INST_5        596
-#define TRAINER_TABITHA_MT_CHIMNEY          597
+#define TRAINER_UNUSED_0x597                597
 #define TRAINER_JONATHAN                    598
 #define TRAINER_UNUSED_0x599                599
 #define TRAINER_UNUSED_0x600                600
 #define TRAINER_MAXIE_MAGMA_HIDEOUT         601
-#define TRAINER_MAXIE_MT_CHIMNEY            602
+#define TRAINER_UNUSED_0x602                602
 #define TRAINER_TIANA                       603
 #define TRAINER_HALEY_1                     604
 #define TRAINER_JANICE                      605

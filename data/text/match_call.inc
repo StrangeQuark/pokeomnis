@@ -2597,14 +2597,6 @@ MatchCall_Text_Scott1::
 	.string "As a result, I have to hurry\n"
 	.string "everywhere, too. Busy, busy!$"
 
-MatchCall_Text_Scott2::
-	.string "SCOTT: I'm on ROUTE 119 right now.\n"
-	.string "It's teeming with TRAINERS!\p"
-	.string "It's also overgrown with tall grass\n"
-	.string "everywhere, it seems.\p"
-	.string "Walking around in shorts here\n"
-	.string "makes me all ticklish!$"
-
 MatchCall_Text_Scott3::
 	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
 	.string "Have you had the chance to climb\n"
