@@ -1074,8 +1074,7 @@ static bool32 MapAllowsMatchCall(void)
         return FALSE;
 
     if (gMapHeader.regionMapSectionId == MAPSEC_MT_CHIMNEY
-     && FlagGet(FLAG_MET_ARCHIE_METEOR_FALLS) == TRUE
-     && FlagGet(FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY) == FALSE)
+     && FlagGet(FLAG_MET_ARCHIE_METEOR_FALLS) == TRUE)
         return FALSE;
 
     return TRUE;

@@ -11,12 +11,6 @@ FallarborTown_OnTransition:
 FallarborTown_EventScript_ExpertM::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, FallarborTown_EventScript_ExpertMNormal
-	msgbox FallarborTown_Text_ShadyCharactersCozmosHome, MSGBOX_DEFAULT
-	release
-	end
-
-FallarborTown_EventScript_ExpertMNormal::
 	msgbox FallarborTown_Text_RegionKnownForMeteors, MSGBOX_DEFAULT
 	release
 	end
@@ -50,12 +44,6 @@ FallarborTown_EventScript_TownSign::
 FallarborTown_EventScript_MoveTutorSign::
 	msgbox FallarborTown_Text_MoveTutorSign, MSGBOX_SIGN
 	end
-
-FallarborTown_Text_ShadyCharactersCozmosHome:
-	.string "Something's happening,\n"
-	.string "and I don't like it!\p"
-	.string "I've seen shady characters wandering\n"
-	.string "in and out of PROF. COZMO's home…$"
 
 FallarborTown_Text_RegionKnownForMeteors:
 	.string "This region's been known for meteors\n"
