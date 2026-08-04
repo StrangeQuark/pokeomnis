@@ -1409,10 +1409,6 @@ EventScript_HideMrBriney::
 	return
 
 RusturfTunnel_EventScript_SetRusturfTunnelOpen::
-	removeobject LOCALID_WANDAS_BF
-	removeobject LOCALID_WANDA
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDA
 	setvar VAR_RUSTURF_TUNNEL_STATE, 6
 	setflag FLAG_RUSTURF_TUNNEL_OPENED
 	return

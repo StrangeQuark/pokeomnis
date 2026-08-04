@@ -34,23 +34,6 @@ VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande::
 	release
 	end
 
-VerdanturfTown_WandasHouse_EventScript_WandasBoyfriend::
-	msgbox VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay, MSGBOX_NPC
-	end
-
-VerdanturfTown_WandasHouse_EventScript_Wanda::
-	lock
-	faceplayer
-	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WandaDontWorry
-	msgbox VerdanturfTown_WandasHouse_Text_DontWorryAboutWally, MSGBOX_DEFAULT
-	release
-	end
-
-VerdanturfTown_WandasHouse_EventScript_WandaDontWorry::
-	msgbox VerdanturfTown_WandasHouse_Text_DontWorryAboutWally, MSGBOX_DEFAULT
-	release
-	end
-
 VerdanturfTown_WandasHouse_EventScript_WallysAunt::
 	lock
 	faceplayer
@@ -115,17 +98,6 @@ VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
 	.string "himself…\p"
 	.string "Well, I have to give him credit--he is\n"
 	.string "my little brother's son.$"
-
-VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
-	.string "WANDA: Don't worry about WALLY.\n"
-	.string "He'll be just fine.\p"
-	.string "I know my little cousin, and he has\n"
-	.string "POKéMON with him, too.$"
-
-VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
-	.string "Thanks to you, I can see my girlfriend\n"
-	.string "every day.\l"
-	.string "Happy? You bet I am!$"
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
 	.string "My daughter's boyfriend is a very\n"

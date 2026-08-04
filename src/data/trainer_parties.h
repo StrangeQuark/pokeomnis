@@ -155,14 +155,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntRusturfTunnel[] = {
-    {
-    .iv = 0,
-    .lvl = 11,
-    .species = SPECIES_POOCHYENA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst1[] = {
     {
     .iv = 0,
