@@ -933,10 +933,10 @@
 #define FLAG_UNUSED_0x377                                           0x377
 #define FLAG_HIDE_BATTLE_TOWER_OPPONENT                             0x378
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL                  0x379
-#define FLAG_HIDE_ROUTE_119_TEAM_AQUA                               0x37A
+#define FLAG_UNUSED_0x37A                                           0x37A
 #define FLAG_UNUSED_0x37B                                           0x37B
-#define FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS                      0x37C
-#define FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS                      0x37D
+#define FLAG_UNUSED_0x37C                                           0x37C
+#define FLAG_UNUSED_0x37D                                           0x37D
 #define FLAG_UNUSED_0x37E                                           0x37E
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2         0x37F
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380          0x380
@@ -1035,7 +1035,7 @@
 #define FLAG_HIDE_ROUTE_119_KECLEON_1                               0x3DD
 #define FLAG_HIDE_ROUTE_119_KECLEON_2                               0x3DE
 #define FLAG_HIDE_ROUTE_101_BOY                                     0x3DF
-#define FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M                 0x3E0
+#define FLAG_UNUSED_0x3E0                                           0x3E0
 #define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0x3E1
 #define FLAG_UNUSED_0x3E2                                           0x3E2
 #define FLAG_UNUSED_0x3E3                                           0x3E3

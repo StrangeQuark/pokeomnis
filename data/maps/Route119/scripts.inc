@@ -20,15 +20,8 @@ Route119_EventScript_TryRemoveKecleon::
 Route119_OnTransition:
 	call Common_EventScript_SetupRivalGfxId
 	call Common_EventScript_SetupRivalOnBikeGfxId
-	call_if_eq VAR_WEATHER_INSTITUTE_STATE, 1, Route119_EventScript_MoveInstituteWorkersDownstairs
 	special SetRoute119Weather
 	end
-
-Route119_EventScript_MoveInstituteWorkersDownstairs::
-	setflag FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS
-	clearflag FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS
-	setvar VAR_WEATHER_INSTITUTE_STATE, 2
-	return
 
 Route119_EventScript_RivalTrigger1::
 	setvar VAR_TEMP_1, 1
@@ -438,26 +431,6 @@ Route119_EventScript_Rachel::
 	msgbox Route119_Text_RachelPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route119_EventScript_BridgeAquaGrunt1::
-	lock
-	faceplayer
-	msgbox Route119_Text_StayAwayFromWeatherInstitute, MSGBOX_DEFAULT
-	closemessage
-	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
-	end
-
-Route119_EventScript_BridgeAquaGrunt2::
-	lock
-	faceplayer
-	msgbox Route119_Text_DontGoNearWeatherInstitute, MSGBOX_DEFAULT
-	closemessage
-	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
-	end
-
 Route119_EventScript_Boy1::
 	msgbox Route119_Text_ThoughtFlyByCatchingBirdMons, MSGBOX_NPC
 	end
@@ -566,16 +539,6 @@ Route119_Text_ScottYouWonAtFortreeGym:
 	.string "Keep up the great work!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
-
-Route119_Text_StayAwayFromWeatherInstitute:
-	.string "We're standing lookout here.\p"
-	.string "Hey, you! Stay away from the WEATHER\n"
-	.string "INSTITUTE. It's not safe.$"
-
-Route119_Text_DontGoNearWeatherInstitute:
-	.string "Lookout duty is surprisingly boring.\p"
-	.string "Hey, you! Please don't go near the\n"
-	.string "WEATHER INSTITUTE.$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
 	.string "I thought you FLY by catching a whole\n"

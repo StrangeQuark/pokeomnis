@@ -155,63 +155,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst1[] = {
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_ZUBAT,
-    },
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst2[] = {
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
-    },
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst3[] = {
-    {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_POOCHYENA,
-    },
-    {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_ZUBAT,
-    },
-    {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter1[] = {
     {
     .iv = 0,
     .lvl = 32,
     .species = SPECIES_NUMEL,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst4[] = {
-    {
-    .iv = 0,
-    .lvl = 28,
-    .species = SPECIES_CARVANHA,
     }
 };
 
@@ -262,19 +210,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Zander[] = {
     .iv = 0,
     .lvl = 31,
     .species = SPECIES_HARIYAMA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_ShellyWeatherInstitute[] = {
-    {
-    .iv = 50,
-    .lvl = 28,
-    .species = SPECIES_CARVANHA,
-    },
-    {
-    .iv = 50,
-    .lvl = 28,
-    .species = SPECIES_MIGHTYENA,
     }
 };
 
@@ -8023,19 +7958,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isabella[] = {
     .iv = 0,
     .lvl = 34,
     .species = SPECIES_STARYU,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst5[] = {
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_ZUBAT,
-    },
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
     }
 };
 
