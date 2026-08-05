@@ -957,7 +957,7 @@
 #define FLAG_HIDE_SOUTHERN_ISLAND_UNCHOSEN_EON_DUO_MON              0x38F
 #define FLAG_UNUSED_0X390                                           0x390
 #define FLAG_UNUSED_0X391                                           0x391
-#define FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS                        0x392
+#define FLAG_UNUSED_0X392                                           0x392
 #define FLAG_UNKNOWN_0x393                                          0x393 // Set, however has no purpose.
 #define FLAG_UNUSED_0X394                                           0x394
 #define FLAG_UNUSED_0X395                                           0x395
