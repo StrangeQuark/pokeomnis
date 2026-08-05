@@ -16,16 +16,7 @@ FortreeCity_EventScript_Man::
 	end
 
 FortreeCity_EventScript_Woman::
-	lock
-	faceplayer
-	goto_if_set FLAG_KECLEON_FLED_FORTREE, FortreeCity_EventScript_WomanGymAccessible
-	msgbox FortreeCity_Text_SomethingBlockingGym, MSGBOX_DEFAULT
-	release
-	end
-
-FortreeCity_EventScript_WomanGymAccessible::
 	msgbox FortreeCity_Text_ThisTimeIllBeatWinona, MSGBOX_DEFAULT
-	release
 	end
 
 FortreeCity_EventScript_Girl::
@@ -52,41 +43,6 @@ FortreeCity_EventScript_GymSign::
 	msgbox FortreeCity_Text_GymSign, MSGBOX_SIGN
 	end
 
-FortreeCity_EventScript_Kecleon::
-	lock
-	faceplayer
-	checkitem ITEM_DEVON_SCOPE
-	goto_if_eq VAR_RESULT, TRUE, FortreeCity_EventScript_AskUseDevonScope
-	msgbox FortreeCity_Text_SomethingUnseeable, MSGBOX_DEFAULT
-	release
-	end
-
-FortreeCity_EventScript_AskUseDevonScope::
-	msgbox FortreeCity_Text_UnseeableUseDevonScope, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, FortreeCity_EventScript_UseDevonScope
-	release
-	end
-
-FortreeCity_EventScript_UseDevonScope::
-	msgbox FortreeCity_Text_UsedDevonScopePokemonFled, MSGBOX_DEFAULT
-	closemessage
-	applymovement VAR_LAST_TALKED, Movement_KecleonAppears
-	waitmovement 0
-	waitse
-	playmoncry SPECIES_KECLEON, CRY_MODE_ENCOUNTER
-	delay 40
-	waitmoncry
-	applymovement VAR_LAST_TALKED, FortreeCity_Movement_KecleonFlee
-	waitmovement 0
-	removeobject VAR_LAST_TALKED
-	setflag FLAG_KECLEON_FLED_FORTREE
-	release
-	end
-
-FortreeCity_Movement_KecleonFlee:
-	walk_right
-	step_end
-
 FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "No one believes me, but I saw this\n"
 	.string "gigantic POKéMON in the sky.\p"
@@ -95,12 +51,6 @@ FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "By the way… Sniff…\n"
 	.string "Um… You, uh…smell singed.\p"
 	.string "Were you at a volcano or something?$"
-
-FortreeCity_Text_SomethingBlockingGym:
-	.string "I want to go to the POKéMON GYM,\n"
-	.string "but something's blocking the way.\p"
-	.string "After all the bother I went through\n"
-	.string "training on ROUTE 120…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
 	.string "I've got my pride-and-joy POKéMON\n"
@@ -130,19 +80,6 @@ FortreeCity_Text_PokemonThatEvolveWhenTraded:
 	.string "There are POKéMON that evolve when\n"
 	.string "you trade them! That's what I heard.$"
 
-FortreeCity_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
-
-FortreeCity_Text_UnseeableUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
-
-FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON fled!$"
-
 FortreeCity_Text_CitySign:
 	.string "FORTREE CITY\n"
 	.string "“The treetop city that frolics with\l"
@@ -153,4 +90,3 @@ FortreeCity_Text_GymSign:
 	.string "LEADER: WINONA\p"
 	.string "“The bird user taking flight into\n"
 	.string "the world.”$"
-
