@@ -236,7 +236,7 @@
 #define FLAG_ENABLE_SCOTT_MATCH_CALL         0xD7
 #define FLAG_ENABLE_MOM_MATCH_CALL           0xD8
 #define FLAG_MET_DIVING_TREASURE_HUNTER      0xD9
-#define FLAG_MET_WAILMER_TRAINER             0xDA
+#define FLAG_UNUSED_0xDA                     0xDA
 #define FLAG_UNUSED_0xDB                     0xDB
 
 #define FLAG_NEVER_SET_0x0DC                 0xDC // This flag is read, but never written to
@@ -308,13 +308,13 @@
 #define FLAG_RECEIVED_FOCUS_BAND             0x11B
 #define FLAG_UNUSED_0x11C                    0x11C
 #define FLAG_RECEIVED_DEVON_SCOPE            0x11D
-#define FLAG_DECLINED_RIVAL_BATTLE_LILYCOVE  0x11E
+#define FLAG_UNUSED_0x11E                    0x11E
 #define FLAG_UNUSED_0x11F                    0x11F
 #define FLAG_UNUSED_0x120                    0x120
 #define FLAG_RECEIVED_SILK_SCARF             0x121
 #define FLAG_UNUSED_0x122                    0x122
 #define FLAG_RECEIVED_SS_TICKET              0x123
-#define FLAG_MET_RIVAL_LILYCOVE              0x124
+#define FLAG_UNUSED_0x124              0x124
 #define FLAG_MET_RIVAL_IN_HOUSE_AFTER_LILYCOVE 0x125
 #define FLAG_EXCHANGED_SCANNER               0x126
 #define PLAG_UNUSED_0x127                    0x127
@@ -892,10 +892,10 @@
 #define FLAG_UNUSED_0x34E                                           0x34E
 #define FLAG_UNUSED_0x34F                                           0x34F
 #define FLAG_UNUSED_0x350                                           0x350
-#define FLAG_HIDE_OLDALE_TOWN_MAYS_HOUSE_2F_PICHU_DOLL              0x351
+#define FLAG_UNUSED_0x351                                           0x351
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0x352
 #define FLAG_UNUSED_0x353                                           0x353
-#define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354
+#define FLAG_UNUSED_0x354                                           0x354
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON                          0x355
 #define FLAG_UNUSED_0x356                                           0x356
 #define FLAG_UNUSED_0x357                                           0x357
@@ -1014,7 +1014,7 @@
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL       0x3C8
 #define FLAG_UNUSED_0x3C9                                           0x3C9
 #define FLAG_UNUSED_0x3CA                                           0x3CA
-#define FLAG_HIDE_LILYCOVE_CITY_RIVAL                               0x3CB
+#define FLAG_UNUSED_0x3CB                                           0x3CB
 #define FLAG_UNUSED_0x3CC                                           0x3CC
 #define FLAG_UNUSED_0x3CD                                           0x3CD
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1                            0x3CE
