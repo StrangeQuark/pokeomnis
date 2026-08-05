@@ -238,21 +238,6 @@ FallarborTown_BattleTentLobby_EventScript_Lass::
 	msgbox FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite, MSGBOX_NPC
 	end
 
-FallarborTown_BattleTentLobby_EventScript_Scott::
-	lock
-	faceplayer
-	goto_if_set FLAG_MET_SCOTT_IN_FALLARBOR, FallarborTown_BattleTentLobby_EventScript_ScottAlreadySpokenTo
-	msgbox FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone, MSGBOX_DEFAULT
-	addvar VAR_SCOTT_STATE, 1
-	setflag FLAG_MET_SCOTT_IN_FALLARBOR
-	release
-	end
-
-FallarborTown_BattleTentLobby_EventScript_ScottAlreadySpokenTo::
-	msgbox FallarborTown_BattleTentLobby_Text_ScottMakeChallenge, MSGBOX_DEFAULT
-	release
-	end
-
 FallarborTown_BattleTentLobby_EventScript_RulesBoard::
 	lockall
 	msgbox BattleFrontier_BattleArenaLobby_Text_RulesAreListed, MSGBOX_DEFAULT
@@ -325,24 +310,3 @@ FallarborTown_BattleTentLobby_Text_CameToCampOut:
 	.string "are so luxurious!\p"
 	.string "Since I'm here, I may as well try\n"
 	.string "my hand at battling!$"
-
-FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone:
-	.string "SCOTT: Hi, {PLAYER}{KUN}!\n"
-	.string "So you came out to this BATTLE TENT!\p"
-	.string "The people in these parts tend to be\n"
-	.string "easygoing and laid-back.\p"
-	.string "But, you see, what I'm looking for are\n"
-	.string "people with…\p"
-	.string "How should I say this?\p"
-	.string "Someone bursting with the desire\n"
-	.string "and the drive to win.\p"
-	.string "If there were a TRAINER like that,\n"
-	.string "I'd immediately…\p"
-	.string "Whoops! Never mind!\n"
-	.string "Keep working at it!$"
-
-FallarborTown_BattleTentLobby_Text_ScottMakeChallenge:
-	.string "SCOTT: Instead of wasting your\n"
-	.string "time with the likes of me, why not\l"
-	.string "make a challenge?$"
-

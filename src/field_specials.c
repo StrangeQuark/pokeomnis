@@ -350,31 +350,6 @@ u8 GetSSTidalLocation(s8 *mapGroup, s8 *mapNum, s16 *x, s16 *y)
     return SS_TIDAL_LOCATION_CURRENTS;
 }
 
-bool32 ShouldDoScottFortreeCall(void)
-{
-    if (FlagGet(FLAG_SCOTT_CALL_FORTREE_GYM))
-    {
-        switch (gMapHeader.mapType)
-        {
-        case MAP_TYPE_TOWN:
-        case MAP_TYPE_CITY:
-        case MAP_TYPE_ROUTE:
-        case MAP_TYPE_OCEAN_ROUTE:
-            if (++(*GetVarPointer(VAR_SCOTT_FORTREE_CALL_STEP_COUNTER)) < 10)
-                return FALSE;
-            break;
-        default:
-            return FALSE;
-        }
-    }
-    else
-    {
-        return FALSE;
-    }
-
-    return TRUE;
-}
-
 bool32 ShouldDoScottBattleFrontierCall(void)
 {
     if (FlagGet(FLAG_SCOTT_CALL_BATTLE_FRONTIER))

@@ -156,7 +156,7 @@
 #define FLAG_THANKED_FOR_PLAYING_WITH_WALLY  0x87
 #define FLAG_UNUSED_0x88                     0x88
 #define FLAG_RECEIVED_HM_CUT                 0x89
-#define FLAG_SCOTT_CALL_FORTREE_GYM          0x8A // Triggers call from Scott after defeating Winona
+#define FLAG_UNUSED_0x8A                     0x8A
 #define FLAG_UNUSED_0x8B                     0x8B
 #define FLAG_RECEIVED_6_SODA_POP             0x8C
 #define FLAG_DEFEATED_SEASHORE_HOUSE         0x8D
@@ -225,7 +225,7 @@
 #define FLAG_RECEIVED_YELLOW_SCARF           0xCC
 #define FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER    0xCD
 #define FLAG_ENCOUNTERED_LATIAS_OR_LATIOS    0xCE
-#define FLAG_MET_ARCHIE_METEOR_FALLS         0xCF
+#define FLAG_UNUSED_0xCF                     0xCF
 #define FLAG_GOT_BASEMENT_KEY_FROM_WATTSON   0xD0
 #define FLAG_UNUSED_0xD1                     0xD1
 #define FLAG_FAN_CLUB_STRENGTH_SHARED        0xD2 // Set when you rate the strength of another trainer in Lilycove's Trainer Fan Club.
@@ -317,7 +317,7 @@
 #define FLAG_MET_RIVAL_LILYCOVE              0x124
 #define FLAG_MET_RIVAL_IN_HOUSE_AFTER_LILYCOVE 0x125
 #define FLAG_EXCHANGED_SCANNER               0x126
-#define FLAG_KECLEON_FLED_FORTREE            0x127
+#define PLAG_UNUSED_0x127                    0x127
 #define PLAG_UNUSED_0x128                    0x128
 #define FLAG_RECEIVED_MIRACLE_SEED           0x129
 #define FLAG_RECEIVED_BELDUM                 0x12A
@@ -491,8 +491,8 @@
 #define FLAG_CAUGHT_LATIAS_OR_LATIOS         0x1C9
 #define FLAG_CAUGHT_MEW                      0x1CA
 #define FLAG_MET_SCOTT_AFTER_OBTAINING_STONE_BADGE 0x1CB
-#define FLAG_MET_SCOTT_IN_VERDANTURF         0x1CC
-#define FLAG_MET_SCOTT_IN_FALLARBOR          0x1CD
+#define FLAG_UNUSED_0x1CC                    0x1CC
+#define FLAG_UNUSED_0x1CD                    0x1CD
 #define FLAG_MET_SCOTT_IN_LILYCOVE           0x1CE
 #define FLAG_MET_SCOTT_IN_EVERGRANDE         0x1CF
 #define FLAG_MET_SCOTT_ON_SS_TIDAL           0x1D0
@@ -809,8 +809,8 @@
 #define FLAG_HIDE_DEOXYS                                            0x2FB
 #define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC
 #define FLAG_UNUSED_0x2FD                                           0x2FD
-#define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE
-#define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF
+#define FLAG_UNUSED_0x2FE                                           0x2FE
+#define FLAG_UNUSED_0x2FF                                           0x2FF
 #define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300
 #define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301
 #define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302
@@ -829,7 +829,7 @@
 #define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
 #define FLAG_UNUSED_0x310                                           0x310
 #define FLAG_UNUSED_0x311                                           0x311
-#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312
+#define FLAG_UNUSED_0x312                                           0x312
 #define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313
 #define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314
 #define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315
@@ -894,7 +894,7 @@
 #define FLAG_UNUSED_0x350                                           0x350
 #define FLAG_HIDE_OLDALE_TOWN_MAYS_HOUSE_2F_PICHU_DOLL              0x351
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0x352
-#define FLAG_HIDE_ROUTE_119_RIVAL                                   0x353
+#define FLAG_UNUSED_0x353                                           0x353
 #define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON                          0x355
 #define FLAG_UNUSED_0x356                                           0x356
@@ -933,10 +933,10 @@
 #define FLAG_UNUSED_0x377                                           0x377
 #define FLAG_HIDE_BATTLE_TOWER_OPPONENT                             0x378
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL                  0x379
-#define FLAG_HIDE_ROUTE_119_TEAM_AQUA                               0x37A
+#define FLAG_UNUSED_0x37A                                           0x37A
 #define FLAG_UNUSED_0x37B                                           0x37B
-#define FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS                      0x37C
-#define FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS                      0x37D
+#define FLAG_UNUSED_0x37C                                           0x37C
+#define FLAG_UNUSED_0x37D                                           0x37D
 #define FLAG_UNUSED_0x37E                                           0x37E
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2         0x37F
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380          0x380
@@ -966,7 +966,7 @@
 #define FLAG_HIDE_CHAMPIONS_ROOM_RIVAL                              0x398
 #define FLAG_HIDE_CHAMPIONS_ROOM_BIRCH                              0x399
 #define FLAG_UNUSED_0X39A                                           0x39A
-#define FLAG_HIDE_ROUTE_119_RIVAL_ON_BIKE                           0x39B
+#define FLAG_UNUSED_0X39B                                           0x39B
 #define FLAG_HIDE_AQUA_HIDEOUT_GRUNTS                               0x39C
 #define FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS                     0x39D
 #define FLAG_UNUSED_0X39E                                           0x39E
@@ -981,8 +981,8 @@
 #define FLAG_HIDE_REGIROCK                                          0x3A7
 #define FLAG_HIDE_REGICE                                            0x3A8
 #define FLAG_HIDE_REGISTEEL                                         0x3A9
-#define FLAG_HIDE_METEOR_FALLS_TEAM_AQUA                            0x3AA
-#define FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA                           0x3AB
+#define FLAG_UNUSED_0x3AA                                           0x3AA
+#define FLAG_UNUSED_0x3AB                                           0x3AB
 #define FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN                      0x3AC
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT               0x3AD
 #define FLAG_UNUSED_0x3AE                                           0x3AE
@@ -1012,7 +1012,7 @@
 #define FLAG_HIDE_ROUTE_118_STEVEN                                  0x3C6
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN                0x3C7
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL       0x3C8
-#define FLAG_HIDE_FORTREE_CITY_KECLEON                              0x3C9
+#define FLAG_UNUSED_0x3C9                                           0x3C9
 #define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE                          0x3CA
 #define FLAG_HIDE_LILYCOVE_CITY_RIVAL                               0x3CB
 #define FLAG_HIDE_ROUTE_120_STEVEN                                  0x3CC
@@ -1035,7 +1035,7 @@
 #define FLAG_HIDE_ROUTE_119_KECLEON_1                               0x3DD
 #define FLAG_HIDE_ROUTE_119_KECLEON_2                               0x3DE
 #define FLAG_HIDE_ROUTE_101_BOY                                     0x3DF
-#define FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M                 0x3E0
+#define FLAG_UNUSED_0x3E0                                           0x3E0
 #define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0x3E1
 #define FLAG_UNUSED_0x3E2                                           0x3E2
 #define FLAG_UNUSED_0x3E3                                           0x3E3

@@ -155,63 +155,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst1[] = {
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_ZUBAT,
-    },
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst2[] = {
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
-    },
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst3[] = {
-    {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_POOCHYENA,
-    },
-    {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_ZUBAT,
-    },
-    {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter1[] = {
     {
     .iv = 0,
     .lvl = 32,
     .species = SPECIES_NUMEL,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst4[] = {
-    {
-    .iv = 0,
-    .lvl = 28,
-    .species = SPECIES_CARVANHA,
     }
 };
 
@@ -262,19 +210,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Zander[] = {
     .iv = 0,
     .lvl = 31,
     .species = SPECIES_HARIYAMA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_ShellyWeatherInstitute[] = {
-    {
-    .iv = 50,
-    .lvl = 28,
-    .species = SPECIES_CARVANHA,
-    },
-    {
-    .iv = 50,
-    .lvl = 28,
-    .species = SPECIES_MIGHTYENA,
     }
 };
 
@@ -7122,24 +7057,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalRoute29[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Mudkip[] = {
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_SLUGMA,
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 150,
-    .lvl = 31,
-    .species = SPECIES_GROVYLE,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103[] = {
     {
     .iv = 0,
@@ -7148,101 +7065,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Treecko[] = {
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_LOMBRE,
-    },
-    {
-    .iv = 150,
-    .lvl = 31,
-    .species = SPECIES_COMBUSKEN,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Torchic[] = {
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_LOMBRE,
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_SLUGMA,
-    },
-    {
-    .iv = 150,
-    .lvl = 31,
-    .species = SPECIES_MARSHTOMP,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Mudkip[] = {
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_SLUGMA,
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_LOMBRE,
-    },
-    {
-    .iv = 150,
-    .lvl = 31,
-    .species = SPECIES_GROVYLE,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103[] = {
     {
     .iv = 0,
     .lvl = 5,
     .species = SPECIES_EEVEE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Treecko[] = {
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_LOMBRE,
-    },
-    {
-    .iv = 150,
-    .lvl = 31,
-    .species = SPECIES_COMBUSKEN,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Torchic[] = {
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_LOMBRE,
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_SLUGMA,
-    },
-    {
-    .iv = 150,
-    .lvl = 31,
-    .species = SPECIES_MARSHTOMP,
     }
 };
 
@@ -8023,19 +7850,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isabella[] = {
     .iv = 0,
     .lvl = 34,
     .species = SPECIES_STARYU,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst5[] = {
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_ZUBAT,
-    },
-    {
-    .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
     }
 };
 
