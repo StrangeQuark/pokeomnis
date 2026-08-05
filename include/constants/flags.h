@@ -156,7 +156,7 @@
 #define FLAG_THANKED_FOR_PLAYING_WITH_WALLY  0x87
 #define FLAG_UNUSED_0x88                     0x88
 #define FLAG_RECEIVED_HM_CUT                 0x89
-#define FLAG_SCOTT_CALL_FORTREE_GYM          0x8A // Triggers call from Scott after defeating Winona
+#define FLAG_UNUSED_0x8A                     0x8A
 #define FLAG_UNUSED_0x8B                     0x8B
 #define FLAG_RECEIVED_6_SODA_POP             0x8C
 #define FLAG_DEFEATED_SEASHORE_HOUSE         0x8D
@@ -829,7 +829,7 @@
 #define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
 #define FLAG_UNUSED_0x310                                           0x310
 #define FLAG_UNUSED_0x311                                           0x311
-#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312
+#define FLAG_UNUSED_0x312                                           0x312
 #define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313
 #define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314
 #define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315
@@ -894,7 +894,7 @@
 #define FLAG_UNUSED_0x350                                           0x350
 #define FLAG_HIDE_OLDALE_TOWN_MAYS_HOUSE_2F_PICHU_DOLL              0x351
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0x352
-#define FLAG_HIDE_ROUTE_119_RIVAL                                   0x353
+#define FLAG_UNUSED_0x353                                           0x353
 #define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON                          0x355
 #define FLAG_UNUSED_0x356                                           0x356
@@ -966,7 +966,7 @@
 #define FLAG_HIDE_CHAMPIONS_ROOM_RIVAL                              0x398
 #define FLAG_HIDE_CHAMPIONS_ROOM_BIRCH                              0x399
 #define FLAG_UNUSED_0X39A                                           0x39A
-#define FLAG_HIDE_ROUTE_119_RIVAL_ON_BIKE                           0x39B
+#define FLAG_UNUSED_0X39B                                           0x39B
 #define FLAG_HIDE_AQUA_HIDEOUT_GRUNTS                               0x39C
 #define FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS                     0x39D
 #define FLAG_UNUSED_0X39E                                           0x39E
