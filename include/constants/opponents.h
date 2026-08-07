@@ -520,7 +520,7 @@
 #define TRAINER_EDWIN_3                     516
 #define TRAINER_EDWIN_4                     517
 #define TRAINER_EDWIN_5                     518
-#define TRAINER_WALLY_VR_1                  519
+#define TRAINER_UNUSED_0x519                519
 #define TRAINER_GOLD_ROUTE_29               520
 #define UNUSED_0X521                        521
 #define UNUSED_0X522                        522

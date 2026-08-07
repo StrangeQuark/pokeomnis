@@ -18,7 +18,6 @@ VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech::
 VerdanturfTown_WandasHouse_EventScript_WallysUncle::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande
 	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysUncleSlippedOff
 	msgbox VerdanturfTown_WandasHouse_Text_WallysNextDoor, MSGBOX_DEFAULT
 	release
@@ -29,21 +28,10 @@ VerdanturfTown_WandasHouse_EventScript_WallysUncleSlippedOff::
 	release
 	end
 
-VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande::
-	msgbox VerdanturfTown_WandasHouse_Text_WallyGoneThatFar, MSGBOX_DEFAULT
-	release
-	end
-
 VerdanturfTown_WandasHouse_EventScript_WallysAunt::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande
 	msgbox VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally, MSGBOX_DEFAULT
-	release
-	end
-
-VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
-	msgbox VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande, MSGBOX_DEFAULT
 	release
 	end
 
@@ -80,19 +68,7 @@ VerdanturfTown_WandasHouse_Text_WallySlippedOff:
 	.string "WALLY's gone away…\n"
 	.string "He slipped off on his own…$"
 
-VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
-	.string "UNCLE: Is that right?\n"
-	.string "WALLY's gone away that far all by\l"
-	.string "himself…\p"
-	.string "Well, I have to give him credit--he is\n"
-	.string "my little brother's son.$"
-
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
 	.string "If anything were to happen to WALLY,\n"
 	.string "I would never be able to look his\l"
 	.string "parents in PETALBURG in the eye…$"
-
-VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
-	.string "WALLY was in EVER GRANDE?\p"
-	.string "His parents in PETALBURG would be\n"
-	.string "astonished to hear that!$"

@@ -2438,7 +2438,6 @@ extern const u8 MatchCall_Text_Wally3[];
 extern const u8 MatchCall_Text_Wally4[];
 extern const u8 MatchCall_Text_Wally5[];
 extern const u8 MatchCall_Text_Wally6[];
-extern const u8 MatchCall_Text_Wally7[];
 extern const u8 MatchCall_Text_Scott1[];
 extern const u8 MatchCall_Text_Scott3[];
 extern const u8 MatchCall_Text_Scott4[];

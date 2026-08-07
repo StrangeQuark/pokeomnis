@@ -138,7 +138,7 @@
 #define FLAG_RECEIVED_HM_DIVE                0x7B
 #define FLAG_REGISTER_RIVAL_POKENAV          0x7C
 #define FLAG_UNUSED_0x7D                     0x7D
-#define FLAG_DEFEATED_WALLY_VICTORY_ROAD     0x7E
+#define FLAG_UNUSED_0x7E                     0x7E
 #define FLAG_MET_PRETTY_PETAL_SHOP_OWNER     0x7F
 #define FLAG_ENABLE_ROXANNE_FIRST_CALL       0x80 // Set after defeating Brawly. This will activate a call with Roxanne in order to register her.
 #define FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN  0x81
@@ -788,7 +788,7 @@
 #define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC
 #define FLAG_HIDE_SLATEPORT_CITY_SCOTT                              0x2ED
 #define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE
-#define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
+#define FLAG_UNUSED_0x2EF                                           0x2EF
 #define FLAG_HIDE_INTRO_MOM_OUTSIDE                                 0x2F0
 #define FLAG_UNUSED_0x2F1                                           0x2F1
 #define FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_1                          0x2F2
@@ -895,7 +895,7 @@
 #define FLAG_UNUSED_0x357                                           0x357
 #define FLAG_UNUSED_0x358                                           0x358
 #define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359
-#define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A
+#define FLAG_UNUSED_0x35A                                           0x35A
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                     0x35B
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C
 #define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D

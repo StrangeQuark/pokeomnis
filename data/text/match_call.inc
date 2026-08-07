@@ -2528,15 +2528,6 @@ MatchCall_Text_Wally6::
 	.string "WALLY appears to be out of\n"
 	.string "the POKéNAV's service area…$"
 
-MatchCall_Text_Wally7::
-	.string "WALLY: Oh, {PLAYER}!\p"
-	.string "Before I met you, I hardly ever\n"
-	.string "left my house…\p"
-	.string "But now, I'm on an adventure with\n"
-	.string "my very own POKéMON…\p"
-	.string "{PLAYER}…\n"
-	.string "Thank you…$"
-
 MatchCall_Text_Scott1::
 	.string "SCOTT: Howdy, {PLAYER}{KUN}!\p"
 	.string "You know how POKéMON can be found\n"
