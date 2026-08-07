@@ -155,14 +155,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter1[] = {
-    {
-    .iv = 0,
-    .lvl = 32,
-    .species = SPECIES_NUMEL,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout5[] = {
     {
     .iv = 0,
@@ -1491,24 +1483,6 @@ static const struct TrainerMonItemDefaultMoves sParty_Daphne[] = {
     .lvl = 70,
     .species = SPECIES_CLOYSTER,
     .heldItem = ITEM_SITRUS_BERRY
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter2[] = {
-    {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_MIGHTYENA,
-    },
-    {
-    .iv = 0,
-    .lvl = 28,
-    .species = SPECIES_MIGHTYENA,
-    },
-    {
-    .iv = 0,
-    .lvl = 30,
-    .species = SPECIES_NUMEL,
     }
 };
 
@@ -6946,24 +6920,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hector[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMossdeep[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_CAMERUPT,
-    },
-    {
-    .iv = 100,
-    .lvl = 38,
-    .species = SPECIES_MIGHTYENA,
-    },
-    {
-    .iv = 100,
-    .lvl = 40,
-    .species = SPECIES_GOLBAT,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Edwin2[] = {
     {
     .iv = 0,
@@ -7776,51 +7732,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicholas[] = {
     .iv = 0,
     .lvl = 36,
     .species = SPECIES_WOBBUFFET,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter3[] = {
-    {
-    .iv = 0,
-    .lvl = 31,
-    .species = SPECIES_ZUBAT,
-    },
-    {
-    .iv = 0,
-    .lvl = 31,
-    .species = SPECIES_POOCHYENA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter4[] = {
-    {
-    .iv = 0,
-    .lvl = 32,
-    .species = SPECIES_BALTOY,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter5[] = {
-    {
-    .iv = 0,
-    .lvl = 32,
-    .species = SPECIES_ZUBAT,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter6[] = {
-    {
-    .iv = 0,
-    .lvl = 32,
-    .species = SPECIES_MIGHTYENA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter7[] = {
-    {
-    .iv = 0,
-    .lvl = 32,
-    .species = SPECIES_BALTOY,
     }
 };
 
@@ -9600,24 +9511,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Darcy[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_CAMERUPT,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMossdeep[] = {
-    {
-    .iv = 150,
-    .lvl = 42,
-    .species = SPECIES_MIGHTYENA,
-    },
-    {
-    .iv = 150,
-    .lvl = 43,
-    .species = SPECIES_CROBAT,
-    },
-    {
-    .iv = 150,
-    .lvl = 44,
     .species = SPECIES_CAMERUPT,
     }
 };

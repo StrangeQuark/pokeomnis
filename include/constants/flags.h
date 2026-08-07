@@ -129,7 +129,7 @@
 #define FLAG_SCOTT_CALL_BATTLE_FRONTIER      0x72 // Used in order to activate a phone call from Scott, inviting the player to the SS Tidal.
 #define FLAG_UNUSED_0x73                     0x73
 #define FLAG_UNUSED_0x74                     0x74 
-#define FLAG_DEFEATED_MAGMA_SPACE_CENTER     0x75 // Set when Team Magma is defeated at Mossdeep's Space Center.
+#define FLAG_UNUSED_0x75                     0x75
 #define FLAG_MET_HIDDEN_POWER_GIVER          0x76
 #define FLAG_CANCEL_BATTLE_ROOM_CHALLENGE    0x77
 #define FLAG_LANDMARK_MIRAGE_TOWER           0x78
@@ -203,7 +203,7 @@
 #define FLAG_RECEIVED_POKENAV                0xBC
 #define FLAG_UNUSED_0xBD                     0xBD
 #define FLAG_UNUSED_0xBE                     0xBE
-#define FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F  0xBF
+#define FLAG_UNUSED_0xBF                     0xBF
 #define FLAG_RECEIVED_SUN_STONE_MOSSDEEP     0xC0
 #define FLAG_WALLY_SPEECH                    0xC1
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1   0xC2 // Leftover from the RS version of Puzzle Room 7, functionally unused
@@ -217,7 +217,7 @@
 #define FLAG_RECEIVED_PINK_SCARF             0xCA
 #define FLAG_RECEIVED_GREEN_SCARF            0xCB
 #define FLAG_RECEIVED_YELLOW_SCARF           0xCC
-#define FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER    0xCD
+#define FLAG_UNUSED_0xCD                     0xCD
 #define FLAG_ENCOUNTERED_LATIAS_OR_LATIOS    0xCE
 #define FLAG_UNUSED_0xCF                     0xCF
 #define FLAG_GOT_BASEMENT_KEY_FROM_WATTSON   0xD0
@@ -774,7 +774,7 @@
 #define FLAG_HIDE_ELMS_LAB_PROF_ELM                                 0x2DE
 #define FLAG_HIDE_ROUTE_29_ELM                                      0x2DF
 #define FLAG_HIDE_ROUTE_29_RIVAL                                    0x2E0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1
+#define FLAG_UNUSED_0x2E1                                           0x2E1
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2
 #define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3
 #define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0x2E4
@@ -790,10 +790,10 @@
 #define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE
 #define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
 #define FLAG_HIDE_INTRO_MOM_OUTSIDE                                 0x2F0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1
+#define FLAG_UNUSED_0x2F1                                           0x2F1
 #define FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_1                          0x2F2
 #define FLAG_HIDE_PLAYERS_HOUSE_VIGOROTH_2                          0x2F3
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4
+#define FLAG_UNUSED_0x2F4                                           0x2F4
 #define FLAG_UNUSED_0x2F5                                           0x2F5
 #define FLAG_HIDE_PLAYERS_HOUSE_MOM                                 0x2F6
 #define FLAG_UNUSED_0x2F7                                           0x2F7
@@ -899,8 +899,8 @@
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                     0x35B
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C
 #define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA          0x35E
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN              0x35F
+#define FLAG_UNUSED_0x35E                                           0x35E
+#define FLAG_UNUSED_0x35F                                           0x35F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1           0x360
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2           0x361
 #define FLAG_HIDE_PETALBURG_GYM_WALLY                               0x362

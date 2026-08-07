@@ -181,18 +181,6 @@ const struct Trainer gTrainers[] = {
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Declan),
     },
 
-    [TRAINER_GRUNT_SPACE_CENTER_1] =
-    {
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
-        .trainerName = _("GRUNT"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSpaceCenter1),
-    },
-
     [TRAINER_GRUNT_AQUA_HIDEOUT_5] =
     {
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
@@ -1247,18 +1235,6 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = ITEM_DEFAULT_MOVES(sParty_Daphne),
-    },
-
-    [TRAINER_GRUNT_SPACE_CENTER_2] =
-    {
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
-        .trainerName = _("GRUNT"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSpaceCenter2),
     },
 
     [TRAINER_CINDY_2] =
@@ -6013,18 +5989,6 @@ const struct Trainer gTrainers[] = {
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Hector),
     },
 
-    [TRAINER_TABITHA_MOSSDEEP] =
-    {
-        .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_ADMIN,
-        .trainerName = _("TABITHA"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_TabithaMossdeep),
-    },
-
     [TRAINER_EDWIN_2] =
     {
         .trainerClass = TRAINER_CLASS_COLLECTOR,
@@ -6671,66 +6635,6 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Nicholas),
-    },
-
-    [TRAINER_GRUNT_SPACE_CENTER_3] =
-    {
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
-        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_F,
-        .trainerName = _("GRUNT"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSpaceCenter3),
-    },
-
-    [TRAINER_GRUNT_SPACE_CENTER_4] =
-    {
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
-        .trainerName = _("GRUNT"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSpaceCenter4),
-    },
-
-    [TRAINER_GRUNT_SPACE_CENTER_5] =
-    {
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
-        .trainerName = _("GRUNT"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSpaceCenter5),
-    },
-
-    [TRAINER_GRUNT_SPACE_CENTER_6] =
-    {
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
-        .trainerName = _("GRUNT"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSpaceCenter6),
-    },
-
-    [TRAINER_GRUNT_SPACE_CENTER_7] =
-    {
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
-        .trainerName = _("GRUNT"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntSpaceCenter7),
     },
 
     [TRAINER_MACEY] =
@@ -8279,18 +8183,6 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Darcy),
-    },
-
-    [TRAINER_MAXIE_MOSSDEEP] =
-    {
-        .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .trainerPic = TRAINER_PIC_MAGMA_LEADER_MAXIE,
-        .trainerName = _("MAXIE"),
-        .items = {},
-        .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_MaxieMossdeep),
     },
 
     [TRAINER_PETE] =
