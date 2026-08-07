@@ -48,7 +48,6 @@ MossdeepCity_StevensHouse_EventScript_StevenGivesDive::
 	delay 20
 	applymovement LOCALID_STEVEN, MossdeepCity_StevensHouse_Movement_StevenReturn
 	waitmovement 0
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT
 	setvar VAR_STEVENS_HOUSE_STATE, 2
 	releaseall

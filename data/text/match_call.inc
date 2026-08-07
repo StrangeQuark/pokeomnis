@@ -2388,16 +2388,6 @@ MatchCall_Text_May9::
 	.string "the SEAFLOOR CAVERN while on his\l"
 	.string "submarine expedition.$"
 
-MatchCall_Text_May10::
-	.string "MAY: Hi, {PLAYER}{KUN}!\n"
-	.string "Don't you think it's neat?\p"
-	.string "Even if you don't have a boat,\n"
-	.string "you can cross the sea using\l"
-	.string "a POKéMON's move.\p"
-	.string "Did you know there's more?\p"
-	.string "There's a POKéMON move that lets\n"
-	.string "you go to the bottom of the sea.$"
-
 MatchCall_Text_May11::
 	.string "MAY: Hi, {PLAYER}{KUN}!\n"
 	.string "Hope things are okay!\p"
@@ -2487,16 +2477,6 @@ MatchCall_Text_Brendan9::
 	.string "They say CAPT. STERN discovered\n"
 	.string "the SEAFLOOR CAVERN while on his\l"
 	.string "submarine expedition.$"
-
-MatchCall_Text_Brendan10::
-	.string "BRENDAN: Hey there, {PLAYER}!\n"
-	.string "Don't you think it's awesome?\p"
-	.string "Even if you don't have a boat,\n"
-	.string "you can cross the sea using\l"
-	.string "a POKéMON's move.\p"
-	.string "And, there's a move that lets you\n"
-	.string "travel to the bottom of the sea.\p"
-	.string "Man, POKéMON can do anything!$"
 
 MatchCall_Text_Brendan11::
 	.string "BRENDAN: Howdy, {PLAYER}!\n"

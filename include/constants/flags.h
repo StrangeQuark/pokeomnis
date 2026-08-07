@@ -96,10 +96,8 @@
 #define FLAG_UNUSED_0X51                         0x51 // Unused - was FLAG_SET_WALL_CLOCK
 #define FLAG_UNUSED_0x52                         0x52
 #define FLAG_UNUSED_0x53                         0x53
-
-#define FLAG_UNUSED_0x054                    0x54  // Unused Flag
-#define FLAG_UNUSED_0x055                    0x55  // Unused Flag
-
+#define FLAG_UNUSED_0x54                     0x54  // Unused Flag
+#define FLAG_UNUSED_0x55                     0x55  // Unused Flag
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
 #define FLAG_MET_RIVAL_MOM                   0x57
 #define FLAG_BIRCH_AIDE_MET                  0x58
@@ -111,16 +109,14 @@
 #define FLAG_RECEIVED_WAILMER_PAIL           0x5E
 #define FLAG_RECEIVED_POKEBLOCK_CASE         0x5F
 #define FLAG_RECEIVED_SECRET_POWER           0x60
-#define FLAG_MET_TEAM_AQUA_HARBOR            0x61
+#define FLAG_UNUSED_0x61                    0x61
 #define FLAG_TV_EXPLAINED                    0x62
 #define FLAG_MAUVILLE_GYM_BARRIERS_STATE     0x63
 #define FLAG_MOSSDEEP_GYM_SWITCH_1           0x64 // Leftover from the RS version of Mossdeep Gym, functionally unused
 #define FLAG_MOSSDEEP_GYM_SWITCH_2           0x65 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
-
 #define FLAG_UNUSED_0x068                    0x68  // Unused Flag
-
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
 #define FLAG_RECEIVED_HM_STRENGTH            0x6A
 #define FLAG_RECEIVED_HM_ROCK_SMASH          0x6B
@@ -135,9 +131,7 @@
 #define FLAG_UNUSED_0x74                     0x74 
 #define FLAG_DEFEATED_MAGMA_SPACE_CENTER     0x75 // Set when Team Magma is defeated at Mossdeep's Space Center.
 #define FLAG_MET_HIDDEN_POWER_GIVER          0x76
-
 #define FLAG_CANCEL_BATTLE_ROOM_CHALLENGE    0x77
-
 #define FLAG_LANDMARK_MIRAGE_TOWER           0x78
 #define FLAG_RECEIVED_TM_BRICK_BREAK         0x79
 #define FLAG_RECEIVED_HM_SURF                0x7A
@@ -293,7 +287,7 @@
 #define FLAG_SECRET_BASE_REGISTRY_ENABLED    0x10C
 #define FLAG_RECEIVED_TM_THIEF               0x10D
 #define FLAG_CONTEST_SKETCH_CREATED          0x10E  // Set but never read
-#define FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE   0x10F
+#define FLAG_UNUSED_0x10F                    0x10F
 #define FLAG_RECEIVED_EXP_SHARE              0x110
 #define FLAG_POKERUS_EXPLAINED               0x111
 #define FLAG_UNUSED_0x112                    0x112
@@ -493,7 +487,7 @@
 #define FLAG_MET_SCOTT_AFTER_OBTAINING_STONE_BADGE 0x1CB
 #define FLAG_UNUSED_0x1CC                    0x1CC
 #define FLAG_UNUSED_0x1CD                    0x1CD
-#define FLAG_MET_SCOTT_IN_LILYCOVE           0x1CE
+#define FLAG_UNUSED_0x1CE                    0x1CE
 #define FLAG_MET_SCOTT_IN_EVERGRANDE         0x1CF
 #define FLAG_MET_SCOTT_ON_SS_TIDAL           0x1D0
 #define FLAG_SCOTT_GIVES_BATTLE_POINTS       0x1D1
@@ -830,8 +824,8 @@
 #define FLAG_UNUSED_0x310                                           0x310
 #define FLAG_UNUSED_0x311                                           0x311
 #define FLAG_UNUSED_0x312                                           0x312
-#define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313
-#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314
+#define FLAG_UNUSED_0x313                                           0x313
+#define FLAG_UNUSED_0x314                                           0x314
 #define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315
 #define FLAG_HIDE_FANCLUB_BOY                                       0x316
 #define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317
@@ -864,9 +858,9 @@
 #define FLAG_HIDE_LITTLEROOT_TOWN_RIVALS_HOUSE_2F_POKE_BALL         0x332
 #define FLAG_UNUSED_0x333                                           0x333
 #define FLAG_UNUSED_0x334                                           0x334
-#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335
-#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336
-#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337
+#define FLAG_UNUSED_0x335                                           0x335
+#define FLAG_UNUSED_0x336                                           0x336
+#define FLAG_UNUSED_0x337                                           0x337
 #define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338
 #define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0x339 // Unused, leftover from R/S
 #define FLAG_UNUSED_0x33A                                           0x33A
@@ -948,7 +942,7 @@
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389
+#define FLAG_UNUSED_0x389                                           0x389
 #define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0x38A
 #define FLAG_HIDE_FALLARBOR_AZURILL                                 0x38B
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT                   0x38C
