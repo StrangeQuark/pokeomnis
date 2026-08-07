@@ -2306,35 +2306,6 @@ MatchCall_Text_Wallace::
 	.string "But what is a rare stone exactly?\n"
 	.string "All I can think of is a METEORITE…$"
 
-MatchCall_Text_MayRayquazaCall:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "I was just in PACIFIDLOG a little\n"
-	.string "while ago.\p"
-	.string "I saw a giant green POKéMON\n"
-	.string "flying high in the sky.\p"
-	.string "I…\n"
-	.string "I've never seen anything like it.\p"
-	.string "I wonder what it was.\n"
-	.string "Is this maybe a major discovery?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
-
-MatchCall_Text_BrendanRayquazaCall:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "BRENDAN: Hey, {PLAYER}!\n"
-	.string "I was in PACIFIDLOG just now.\p"
-	.string "I saw this huge green POKéMON\n"
-	.string "flying across the sky.\p"
-	.string "I've never seen anything that\n"
-	.string "amazing before.\p"
-	.string "I wish you could've seen it,\n"
-	.string "{PLAYER}.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
-
 MatchCall_Text_May1::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
 	.string "MR. BRINEY retired as a SAILOR,\n"
@@ -2387,16 +2358,6 @@ MatchCall_Text_May9::
 	.string "They say CAPT. STERN discovered\n"
 	.string "the SEAFLOOR CAVERN while on his\l"
 	.string "submarine expedition.$"
-
-MatchCall_Text_May10::
-	.string "MAY: Hi, {PLAYER}{KUN}!\n"
-	.string "Don't you think it's neat?\p"
-	.string "Even if you don't have a boat,\n"
-	.string "you can cross the sea using\l"
-	.string "a POKéMON's move.\p"
-	.string "Did you know there's more?\p"
-	.string "There's a POKéMON move that lets\n"
-	.string "you go to the bottom of the sea.$"
 
 MatchCall_Text_May11::
 	.string "MAY: Hi, {PLAYER}{KUN}!\n"
@@ -2488,16 +2449,6 @@ MatchCall_Text_Brendan9::
 	.string "the SEAFLOOR CAVERN while on his\l"
 	.string "submarine expedition.$"
 
-MatchCall_Text_Brendan10::
-	.string "BRENDAN: Hey there, {PLAYER}!\n"
-	.string "Don't you think it's awesome?\p"
-	.string "Even if you don't have a boat,\n"
-	.string "you can cross the sea using\l"
-	.string "a POKéMON's move.\p"
-	.string "And, there's a move that lets you\n"
-	.string "travel to the bottom of the sea.\p"
-	.string "Man, POKéMON can do anything!$"
-
 MatchCall_Text_Brendan11::
 	.string "BRENDAN: Howdy, {PLAYER}!\n"
 	.string "How are you holding up?\p"
@@ -2576,15 +2527,6 @@ MatchCall_Text_Wally6::
 	.string "… … … … … …\p"
 	.string "WALLY appears to be out of\n"
 	.string "the POKéNAV's service area…$"
-
-MatchCall_Text_Wally7::
-	.string "WALLY: Oh, {PLAYER}!\p"
-	.string "Before I met you, I hardly ever\n"
-	.string "left my house…\p"
-	.string "But now, I'm on an adventure with\n"
-	.string "my very own POKéMON…\p"
-	.string "{PLAYER}…\n"
-	.string "Thank you…$"
 
 MatchCall_Text_Scott1::
 	.string "SCOTT: Howdy, {PLAYER}{KUN}!\p"

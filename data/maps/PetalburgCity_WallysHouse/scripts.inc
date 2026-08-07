@@ -31,7 +31,6 @@ PetalburgCity_WallysHouse_EventScript_GiveHMSurf::
 PetalburgCity_WallysHouse_EventScript_WallysDad::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, PetalburgCity_WallysHouse_EventScript_DefeatedWallyInVictoryRoad
 	goto_if_set FLAG_RECEIVED_HM_SURF, PetalburgCity_WallysHouse_EventScript_ReceievedHMSurf
 	goto_if_set FLAG_THANKED_FOR_PLAYING_WITH_WALLY, PetalburgCity_WallysHouse_EventScript_PlayedWithWally
 	msgbox PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally, MSGBOX_DEFAULT
@@ -41,11 +40,6 @@ PetalburgCity_WallysHouse_EventScript_WallysDad::
 
 PetalburgCity_WallysHouse_EventScript_ReceievedHMSurf::
 	msgbox PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon, MSGBOX_DEFAULT
-	release
-	end
-
-PetalburgCity_WallysHouse_EventScript_DefeatedWallyInVictoryRoad::
-	msgbox PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity, MSGBOX_DEFAULT
 	release
 	end
 
@@ -109,14 +103,6 @@ PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces:
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
 	.string "Wally's coming home soon.\n"
 	.string "I'm looking forward to that.$"
-
-PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
-	.string "Oh? You met Wally in\n"
-	.string "Ever Grande City?\p"
-	.string "Oh, {PLAYER}{KUN}, don't be silly.\p"
-	.string "He may have gotten healthy, but he\n"
-	.string "can't go somewhere far away like\l"
-	.string "that all by himself.$"
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
 	.string "Wally was really happy when he told\n"
