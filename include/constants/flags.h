@@ -894,7 +894,7 @@
 #define FLAG_UNUSED_0x356                                           0x356
 #define FLAG_UNUSED_0x357                                           0x357
 #define FLAG_UNUSED_0x358                                           0x358
-#define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359
+#define FLAG_UNUSED_0x359                                           0x359
 #define FLAG_UNUSED_0x35A                                           0x35A
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                     0x35B
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C
