@@ -865,18 +865,18 @@
 #define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0x339 // Unused, leftover from R/S
 #define FLAG_UNUSED_0x33A                                           0x33A
 #define FLAG_UNUSED_0x33B                                           0x33B // Unused
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D
+#define FLAG_UNUSED_0x33C                                           0x33C
+#define FLAG_UNUSED_0x33D                                           0x33D
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0x33F
+#define FLAG_UNUSED_0x33F                                           0x33F
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0x340
 #define FLAG_UNUSED_0x341                                           0x341
-#define FLAG_HIDE_ROUTE_128_STEVEN                                  0x342
+#define FLAG_UNUSED_0x342                                           0x342
 #define FLAG_UNUSED_0x343                                           0x343
 #define FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT              0x344
 #define FLAG_UNUSED_0x345                                           0x345
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA     0x346
-#define FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1                             0x347
+#define FLAG_UNUSED_0x347                                           0x347
 #define FLAG_UNUSED_0x348                                           0x348
 #define FLAG_UNUSED_0x349                                           0x349
 #define FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO                         0x34A
@@ -978,12 +978,12 @@
 #define FLAG_UNUSED_0x3AA                                           0x3AA
 #define FLAG_UNUSED_0x3AB                                           0x3AB
 #define FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN                      0x3AC
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT               0x3AD
+#define FLAG_UNUSED_0x3AD                                           0x3AD
 #define FLAG_UNUSED_0x3AE                                           0x3AE
 #define FLAG_UNUSED_0x3AF                                           0x3AF
-#define FLAG_HIDE_ROUTE_128_ARCHIE                                  0x3B0
-#define FLAG_HIDE_ROUTE_128_MAXIE                                   0x3B1
-#define FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS                       0x3B2
+#define FLAG_UNUSED_0x3B0                                           0x3B0
+#define FLAG_UNUSED_0x3B1                                           0x3B1
+#define FLAG_UNUSED_0x3B2                                           0x3B2
 #define FLAG_UNUSED_0x3B3                                           0x3B3
 #define FLAG_HIDE_SLATEPORT_CITY_TM_SALESMAN                        0x3B4
 #define FLAG_UNUSED_0x3B5                                           0x3B5
