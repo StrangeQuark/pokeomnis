@@ -2359,17 +2359,6 @@ MatchCall_Text_May9::
 	.string "the SEAFLOOR CAVERN while on his\l"
 	.string "submarine expedition.$"
 
-MatchCall_Text_May11::
-	.string "MAY: Hi, {PLAYER}{KUN}!\n"
-	.string "Hope things are okay!\p"
-	.string "Have you been on the sea and\n"
-	.string "found your way to the other side\l"
-	.string "blocked?\p"
-	.string "Try diving deep underwater and\n"
-	.string "following trenches.\p"
-	.string "When you get to the other side,\n"
-	.string "come up to the surface. Easy!$"
-
 MatchCall_Text_May12::
 	.string "MAY: Hi, {PLAYER}{KUN}!\p"
 	.string "How's it going?\n"
@@ -2448,16 +2437,6 @@ MatchCall_Text_Brendan9::
 	.string "They say CAPT. STERN discovered\n"
 	.string "the SEAFLOOR CAVERN while on his\l"
 	.string "submarine expedition.$"
-
-MatchCall_Text_Brendan11::
-	.string "BRENDAN: Howdy, {PLAYER}!\n"
-	.string "How are you holding up?\p"
-	.string "Ever found your way to the other\n"
-	.string "side blocked while on the sea?\p"
-	.string "Try diving deep underwater and\n"
-	.string "following trenches at the bottom.\p"
-	.string "When you get to the other side,\n"
-	.string "come up to the surface. Simple!$"
 
 MatchCall_Text_Brendan12::
 	.string "BRENDAN: Hey there, {PLAYER}!\p"
@@ -2547,14 +2526,6 @@ MatchCall_Text_Scott3::
 	.string "that have passed away.\p"
 	.string "It's somewhere every TRAINER\n"
 	.string "should climb to the top of once.$"
-
-MatchCall_Text_Scott4::
-	.string "SCOTT: Oh, hi, {PLAYER}{KUN}.\p"
-	.string "Might there be tough TRAINERS\n"
-	.string "at the bottom of the sea?\p"
-	.string "I can't go check for myself.\n"
-	.string "I can't swim, for one.\l"
-	.string "And I don't raise POKéMON…$"
 
 MatchCall_Text_Scott5::
 	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
@@ -2653,14 +2624,6 @@ MatchCall_Text_Steven2::
 	.string "TRAINERS so far.\p"
 	.string "But you're one of a kind.\n"
 	.string "You're not like anyone else.$"
-
-MatchCall_Text_Steven3::
-	.string "STEVEN: Hello?\n"
-	.string "{PLAYER}{KUN}?\p"
-	.string "I'm involved in a spot of trouble\n"
-	.string "at the SPACE CENTER.\p"
-	.string "I'm sorry, but I can't talk now.\n"
-	.string "Bye!$"
 
 MatchCall_Text_Steven4::
 	.string "STEVEN: Oh!\n"
@@ -2768,13 +2731,6 @@ MatchCall_Text_MrStone7::
 MatchCall_Text_MrStone8::
 	.string "…Huh? …What's that?\p"
 	.string "GROU… Yes? …DON?\p"
-	.string "You're breaking up…\n"
-	.string "…can't hear…\p"
-	.string "BZZZZ…$"
-
-MatchCall_Text_MrStone9::
-	.string "…Huh? …What's that?\p"
-	.string "Seaflo… Yes? …Caver…?\p"
 	.string "You're breaking up…\n"
 	.string "…can't hear…\p"
 	.string "BZZZZ…$"
