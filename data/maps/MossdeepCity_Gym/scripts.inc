@@ -69,7 +69,6 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	setflag FLAG_DEFEATED_MOSSDEEP_GYM
 	setflag FLAG_HOENN_BADGE05_GET
 	clearflag FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY
-	clearflag FLAG_UNKNOWN_0x393
 	setvar VAR_0x8008, 7
 	call Common_EventScript_SetGymTrainers
 	setvar VAR_MOSSDEEP_CITY_STATE, 1
