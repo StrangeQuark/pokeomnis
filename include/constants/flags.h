@@ -109,14 +109,14 @@
 #define FLAG_RECEIVED_WAILMER_PAIL           0x5E
 #define FLAG_RECEIVED_POKEBLOCK_CASE         0x5F
 #define FLAG_RECEIVED_SECRET_POWER           0x60
-#define FLAG_UNUSED_0x61                    0x61
+#define FLAG_UNUSED_0x61                     0x61
 #define FLAG_TV_EXPLAINED                    0x62
 #define FLAG_MAUVILLE_GYM_BARRIERS_STATE     0x63
 #define FLAG_MOSSDEEP_GYM_SWITCH_1           0x64 // Leftover from the RS version of Mossdeep Gym, functionally unused
 #define FLAG_MOSSDEEP_GYM_SWITCH_2           0x65 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
-#define FLAG_UNUSED_0x068                    0x68  // Unused Flag
+#define FLAG_UNUSED_0x68                     0x68  // Unused Flag
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
 #define FLAG_RECEIVED_HM_STRENGTH            0x6A
 #define FLAG_RECEIVED_HM_ROCK_SMASH          0x6B
@@ -126,7 +126,7 @@
 #define FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT  0x6F
 #define FLAG_UNUSED_0x70                     0x70
 #define FLAG_UNUSED_RS_LEGENDARY_BATTLE_DONE 0x71 // Unused Flag. Used in R/S to indicate whether player defeated or caught Groudon/Kyogre in Cave of Origin.
-#define FLAG_SCOTT_CALL_BATTLE_FRONTIER      0x72 // Used in order to activate a phone call from Scott, inviting the player to the SS Tidal.
+#define FLAG_UNUSED_0x72                     0x72
 #define FLAG_UNUSED_0x73                     0x73
 #define FLAG_UNUSED_0x74                     0x74 
 #define FLAG_UNUSED_0x75                     0x75

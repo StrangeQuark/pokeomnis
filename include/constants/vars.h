@@ -262,7 +262,7 @@
 #define VAR_UNUSED_0x40F2                                0x40F2
 #define VAR_UNUSED_0x40F3                                0x40F3
 #define VAR_ROXANNE_CALL_STEP_COUNTER                    0x40F4
-#define VAR_SCOTT_BF_CALL_STEP_COUNTER                   0x40F5
+#define VAR_UNUSED_0x40F5                                0x40F5
 #define VAR_UNUSED_0x40F6                                0x40F6
 #define VAR_UNUSED_0x40F7                                0x40F7 // Unused Var
 #define VAR_UNUSED_0x40F8                                0x40F8 // Unused Var
